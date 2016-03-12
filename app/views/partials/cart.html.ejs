@@ -1,0 +1,28 @@
+	<div id="cart" class="hidden">
+		<h5 id="cart-messages"></h5>
+		<!--<a href="" class="btn btn-default btn-sm">Continue Shopping <span class="glyphicon glyphicon-book" aria-hidden="true"></span></a>-->
+		<a href="/marketplace/checkout" class="btn btn-success btn-block">Checkout <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></a>
+		<hr>
+		<div id="cart-content" class="list-group">
+	    <%
+	    var total = 0;
+	    if (user.cart != "") {
+		  user.cart.forEach(function(item){ %>
+			    <a href="/marketplace/<%= item.id %>" class="list-group-item">
+				    <h4 class="list-group-item-heading"><%= item.name %></h4>
+				    <p class="list-group-item-text">$<%= item.price %></p>
+				    <span class="glyphicon glyphicon-remove-circle addr-remove" onclick=""></span>
+				</a>
+		<%  total += item.price });
+		} else { %>
+			 <p>Your cart is empty.</p>
+		<% } %>
+		</div>
+
+		<div id="cart-buttons">
+			<hr>
+			<h3>Total: <span class="text-primary">$<span id="cart-total"><%= total %></span></span></h3>
+			<!--<a href="" class="btn btn-default btn-sm">Continue Shopping <span class="glyphicon glyphicon-book" aria-hidden="true"></span></a>-->
+			<a href="/marketplace/checkout" class="btn btn-success btn-block">Checkout <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></a>
+		</div>
+	</div>

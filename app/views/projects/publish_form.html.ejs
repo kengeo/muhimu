@@ -1,0 +1,179 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+
+	<h1>Publish Project</h1>
+	<hr class="divider">
+
+	<form class="form" role="form" method="post">
+		<div class="row">
+
+			<div id="cover-wrapper" class="col-md-6" style="background-image: url();">
+				<img id="cover-image" src="/assets/images/kk-cover.png" class="img-responsive" />
+				<div id="cover-content">
+					<div class="inner">
+						<!--<h1 name="name" id="title" contenteditable="true"><%= results.projects.name %></h1>
+						<h4 id="subtitle" contenteditable="true">Your space for creative expression and connections</h4>-->
+						<br>
+						<p class="author"><%= results.authors %></p>
+						<!--
+						<p class="author">Keara Wright</p>
+						<p class="author">Brandon Solotoff</p>
+						-->
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+
+
+				<div class="form-group">
+				  <label for="name" class="control-label">Name</label>
+				  <input name="name" id="name" type="text" class="form-control" value="<%= results.projects.name %>">
+				</div>
+
+				<div class="form-group">
+					<label>Category</label>
+					<select class="form-control" name="category" id="category">
+						<option value="antiques">Antiques &amp; Collectibles</option>
+						<option value="architecture">Architecture</option>
+						<option value="art">Art</option>
+						<option value="biography-autobiography">Biography &amp; Autobiography</option>
+						<option value="body-mind-spirit">Body, Mind &amp; Spirit</option>
+						<option value="business-economics">Business &amp; Economics</option>
+						<option value="comics-graphic-novels">Comics &amp; Graphic Novels</option>
+						<option value="computers">Computers</option>
+						<option value="cooking">Cooking</option>
+						<option value="crafts-hobbies">Crafts &amp; Hobbies</option>
+						<option value="design">Design</option>
+						<option value="drama">Drama</option>
+						<option value="education">Education</option>
+						<option value="family-relationships">Family &amp; Relationships</option>
+						<option value="fiction">Fiction</option>
+						<option value="foreign-language-study">Foreign Language Study</option>
+						<option value="games">Games</option>
+						<option value="gardening">Gardening</option>
+						<option value="health-fitness">Health &amp; Fitness</option>
+						<option value="history">History</option>
+						<option value="house-home">House &amp; Home</option>
+						<option value="humor">Humor</option>
+						<option value="juvenile-fiction">Juvenile Fiction</option>
+						<option value="juvenile-nonfiction">Juvenile Nonfiction</option>
+						<option value="language-arts-disciplines">Language Arts &amp; Disciplines</option>
+						<option value="law">Law</option>
+						<option value="literary-collections">Literary Collections</option>
+						<option value="literary-criticism">Literary Criticism</option>
+						<option value="mathematics">Mathematics</option>
+						<option value="medical">Medical</option>
+						<option value="music">Music</option>
+						<option value="nature">Nature</option>
+						<option value="performing-arts">Performing Arts</option>
+						<option value="pets">Pets</option>
+						<option value="philosophy">Philosophy</option>
+						<option value="photography">Photography</option>
+						<option value="poetry">Poetry</option>
+						<option value="political-science">Political Science</option>
+						<option value="psychology">Psychology</option>
+						<option value="reference">Reference</option>
+						<option value="religion">Religion</option>
+						<option value="science">Science</option>
+						<option value="self-help">Self-Help</option>
+						<option value="social-science">Social Science</option>
+						<option value="sports-recreation">Sports &amp; Recreation</option>
+						<option value="study-aids">Study Aids</option>
+						<option value="technology-engineering">Technology &amp; Engineering</option>
+						<option value="transportation">Transportation</option>
+						<option value="travel">Travel</option>
+						<option value="true-crime">True Crime</option>
+					</select>
+				</div>
+
+				<div class="form-group">
+					<label>Description</label>
+					<textarea class="form-control" name="description" id="description" rows="5"></textarea>
+				</div>
+
+				<hr class="divider">
+
+
+				<div class="input-group">
+				  <span class="input-group-addon">Price</span>
+				  <input name="price" id="price" type="text" class="form-control">
+				</div>
+
+				<br>
+
+				<!--
+				<label>Author(s) &amp; Revenue Share</label>
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="checkbox">
+			              <label>
+			                <input type="checkbox" name="author" value="" checked> Kenroy George
+			              </label>
+			            </div>
+					</div>
+
+					<div class="col-md-6">
+						<input class="form-control" type="range" name="points" min="1" max="100" value="33">
+					</div>
+
+				</div>
+
+
+	            <div class="row">
+
+					<div class="col-md-6">
+						<div class="checkbox">
+			              <label>
+			                <input type="checkbox" name="author" value="" checked> Keara Wright
+			              </label>
+			            </div>
+					</div>
+
+					<div class="col-md-6">
+						<input class="form-control" type="range" name="points" min="1" max="100" value="33">
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="checkbox">
+			              <label>
+			                <input type="checkbox" name="author" value="" checked> Brandon Solotoff
+			              </label>
+			            </div>
+					</div>
+
+					<div class="col-md-6">
+						<input class="form-control" type="range" name="points" min="1" max="100" value="33">
+					</div>
+
+				</div>
+				-->
+
+			</div>
+		</div>
+
+		<br>
+
+		<div class="row">
+
+			<div class="col-md-4 col-md-offset-4">
+				<input class="btn btn-default pull-right" type="submit" value="Cancel" />
+			</div>
+
+			<div class="col-md-4">
+				<input class="btn btn-primary form-control" type="submit" value="Publish" />
+			</div>
+		</div>
+
+	</form>
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

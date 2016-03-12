@@ -1,0 +1,41 @@
+{
+  "name": "kreateve",
+  "version": "0.0.1",
+  "homepage": "https://github.com/GARAKAMI/bookkloud",
+  "authors": [
+    {
+      "name": "kenroy george",
+      "email": "<kenroy@kreateve.com>"
+    },
+    {
+      "name": "chris kim",
+      "email": "<sasya8080@gmail.com>"
+    }
+  ],
+  "description": "kreateve application",
+  "main": "",
+  "keywords": [
+    "kreateve",
+    "bower"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "bootstrap-datepicker": "latest",
+    "autocomplete": "latest",
+    "handlebars": "latest",
+    "typeahead.js": "latest",
+    "bootstrap-tagsinput": "latest",
+    "eonasdan-bootstrap-datetimepicker": "~4.7.14"
+  }
+}

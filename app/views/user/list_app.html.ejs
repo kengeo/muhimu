@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+     my apps:
+<hr/>
+     <ul>
+<% for ( var i = 0; i < apps.length; i++){
+     app = apps[i];
+%>
+         <li>
+             <hr>
+             <p> name: <a href="/account/edit_app/<%=app.id%>"><%=app.name%></a>       <a href="/account/remove_app/<%=app.id%>">[X]</a></p>
+             <p> callback: <%=app.callback_uri%></p>
+         </li>
+<%}%>
+     </ul>
+</body>
+</html>

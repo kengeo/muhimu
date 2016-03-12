@@ -1,0 +1,1200 @@
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d1" }, "name" : "Substance Abuse/Addiction Counseling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d2" }, "name" : "Child Abuse Pediatrics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d3" }, "name" : "Accounting" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d4" }, "name" : "Accounting and Finance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d5" }, "name" : "Accounting and Business/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d6" }, "name" : "Actuarial Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d7" }, "name" : "Acting" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d8" }, "name" : "Accounting and Computer Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21d9" }, "name" : "Acupuncture and Oriental Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21da" }, "name" : "Purchasing,  Procurement/Acquisitions and Contracts Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21db" }, "name" : "Accounting Technology/Technician and Bookkeeping" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21dc" }, "name" : "Acoustics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21dd" }, "name" : "Accounting and Related Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21de" }, "name" : "Leisure and Recreational Activities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21df" }, "name" : "Citizenship Activities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e0" }, "name" : "Vehicle and Vehicle Parts and Accessories Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e1" }, "name" : "Apparel and Accessories Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e2" }, "name" : "Military Engineering Acoustics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e3" }, "name" : "Business Administration and Management,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e4" }, "name" : "Human Resources Management/Personnel Administration,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e5" }, "name" : "Advertising" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e6" }, "name" : "Public Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e7" }, "name" : "Hospitality Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e8" }, "name" : "Health/Health Care Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21e9" }, "name" : "Computer/Information Technology Administration and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ea" }, "name" : "Educational Leadership and Administration,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21eb" }, "name" : "Sport and Fitness Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ec" }, "name" : "Hotel/Motel Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ed" }, "name" : "Business Administration,  Management and Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ee" }, "name" : "Higher Education/Higher Education Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ef" }, "name" : "Adult and Continuing Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f0" }, "name" : "Network and System Administration/Administrator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f1" }, "name" : "Commercial and Advertising Art" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f2" }, "name" : "Health Services Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f3" }, "name" : "Administrative Assistant and Secretarial Science,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f4" }, "name" : "Small Business Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f5" }, "name" : "Legal Administrative Assistant/Secretary" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f6" }, "name" : "Nursing Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f7" }, "name" : "Aerospace,  Aeronautical and Astronautical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f8" }, "name" : "Aerospace,  Aeronautical and Astronautical/Space Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21f9" }, "name" : "Aeronautics/Aviation/Aerospace Science and Technology,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21fa" }, "name" : "Aesthetician/Esthetician and Skin Care Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21fb" }, "name" : "Aeronautical/Aerospace Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21fc" }, "name" : "Aerospace Physiology and Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21fd" }, "name" : "Aerospace Ground Equipment Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21fe" }, "name" : "Master Aesthetician/Esthetician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d21ff" }, "name" : "Aerospace Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2200" }, "name" : "International Relations and Affairs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2201" }, "name" : "Urban Studies/Affairs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2202" }, "name" : "African Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2203" }, "name" : "African-American/Black Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2204" }, "name" : "Pharmacy Administration and Pharmacy Policy and Regulatory Affairs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2205" }, "name" : "African Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2206" }, "name" : "Agriculture,  Agriculture Operations,  and Related Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2207" }, "name" : "Agricultural Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2208" }, "name" : "Agronomy and Crop Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2209" }, "name" : "Agricultural Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220a" }, "name" : "Agricultural Business and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220b" }, "name" : "Agribusiness/Agricultural Business Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220c" }, "name" : "Agricultural Communication/Journalism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220d" }, "name" : "Agriculture,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220e" }, "name" : "Agroecology and Sustainable Agriculture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d220f" }, "name" : "Agricultural Mechanization" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2210" }, "name" : "Adult Development and Aging" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2211" }, "name" : "Soil Science and Agronomy,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2212" }, "name" : "International Agriculture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2213" }, "name" : "Agricultural and Horticultural Plant Breeding" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2214" }, "name" : "Agricultural Animal Breeding" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2215" }, "name" : "Agricultural Mechanics and Equipment/Machine Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2216" }, "name" : "Agricultural and Food Products Processing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2217" }, "name" : "Agricultural Business Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2218" }, "name" : "Agricultural Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2219" }, "name" : "Agricultural and Extension Education Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221a" }, "name" : "Aviation/Airway Management and Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221b" }, "name" : "Airline/Commercial/Professional Pilot and Flight Crew" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221c" }, "name" : "Air Traffic Controller" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221d" }, "name" : "Airframe Mechanics and Aircraft Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221e" }, "name" : "Air Transportation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d221f" }, "name" : "Heating,  Ventilation,  Air Conditioning and Refrigeration Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2220" }, "name" : "Air and Space Operations Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2221" }, "name" : "Aircraft Armament Systems Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2222" }, "name" : "Air Force JROTC/ROTC" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2223" }, "name" : "Teacher Assistant/Aide" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2224" }, "name" : "Teaching Assistants/Aides" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2225" }, "name" : "Air Science/Airpower Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2226" }, "name" : "Home Health Aide/Home Attendant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2227" }, "name" : "Aircraft Powerplant Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2228" }, "name" : "Air Force ROTC,  Air Science and Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2229" }, "name" : "Heating,  Air Conditioning,  Ventilation and Refrigeration Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222a" }, "name" : "Medication Aide" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222b" }, "name" : "Health Aide" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222c" }, "name" : "Nursing Assistant/Aide and Patient Care Assistant/Aide" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222d" }, "name" : "Rehabilitation Aide" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222e" }, "name" : "Health Services/Allied Health/Health Sciences,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d222f" }, "name" : "Clinical/Medical Laboratory Science/Research and Allied Professions" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2230" }, "name" : "Alternative and Complementary Medicine and Medical Systems" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2231" }, "name" : "Algebra and Number Theory" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2232" }, "name" : "Mental and Social Health Services and Allied Professions" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2233" }, "name" : "Albanian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2234" }, "name" : "Ural-Altaic and Central Asian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2235" }, "name" : "Allergy and Immunology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2236" }, "name" : "Alternative and Complementary Medical Support Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2237" }, "name" : "Ophthalmic and Optometric Support Services and Allied Professions" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2238" }, "name" : "Allied Health Diagnostic,  Intervention,  and Treatment Professions" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2239" }, "name" : "Allied Health and Medical Assisting Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223a" }, "name" : "Dental Support Services and Allied Professions" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223b" }, "name" : "Alternative Fuel Vehicle Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223c" }, "name" : "Turkic,  Uralic-Altaic,  Caucasian,  and Central Asian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223d" }, "name" : "Slavic,  Baltic and Albanian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223e" }, "name" : "American/United States Studies/Civilization" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d223f" }, "name" : "American History (United States)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2240" }, "name" : "Latin American Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2241" }, "name" : "American Government and Politics (United States)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2242" }, "name" : "American Sign Language" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2243" }, "name" : "Hispanic and Latin American Languages,  Literatures,  and Linguistics,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2244" }, "name" : "Asian-American Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2245" }, "name" : "American/U.S. Law/Legal Studies/Jurisprudence" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2246" }, "name" : "American Indian/Native American Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2247" }, "name" : "Latin American and Caribbean Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2248" }, "name" : "Hispanic-American,  Puerto Rican,  and Mexican-American/Chicano Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2249" }, "name" : "American Sign Language (ASL)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224a" }, "name" : "American Indian/Native American Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224b" }, "name" : "Indian/Native American Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224c" }, "name" : "Emergency Care Attendant (EMT Ambulance)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224d" }, "name" : "American Citizenship Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224e" }, "name" : "American Literature (Canadian)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d224f" }, "name" : "American Literature (United States)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2250" }, "name" : "Electrical and Electronics Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2251" }, "name" : "English Language and Literature/Letters" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2252" }, "name" : "Political Science and Government" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2253" }, "name" : "Computer and Information Sciences and Support Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2254" }, "name" : "Communication and Media Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2255" }, "name" : "Electrical,  Electronics and Communications Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2256" }, "name" : "Liberal Arts and Sciences/Liberal Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2257" }, "name" : "Computer Systems Networking and Telecommunications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2258" }, "name" : "Criminal Justice and Corrections" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2259" }, "name" : "Business,  Management,  Marketing,  and Related Support Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225a" }, "name" : "English Literature (British and Commonwealth)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225b" }, "name" : "Human Resources Management and Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225c" }, "name" : "Mathematics and Computer Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225d" }, "name" : "Finance and Financial Management Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225e" }, "name" : "Industrial and Product Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d225f" }, "name" : "Elementary Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2260" }, "name" : "Computer Programming,  Specific Applications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2261" }, "name" : "Design and Applied Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2262" }, "name" : "Fashion/Apparel Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2263" }, "name" : "Applied Mathematics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2264" }, "name" : "Engineering Physics/Applied Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2265" }, "name" : "Applied Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2266" }, "name" : "Apparel and Textiles" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2267" }, "name" : "Computer Software and Media Applications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2268" }, "name" : "Applied Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2269" }, "name" : "Applied Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226a" }, "name" : "Public/Applied History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226b" }, "name" : "Computational and Applied Mathematics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226c" }, "name" : "Public Relations,  Advertising,  and Applied Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226d" }, "name" : "Applied Behavior Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226e" }, "name" : "Data Entry/Microcomputer Applications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d226f" }, "name" : "Apparel and Textile Manufacture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2270" }, "name" : "Applied and Professional Ethics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2271" }, "name" : "Apparel and Textile Marketing Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2272" }, "name" : "Military Technologies and Applied Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2273" }, "name" : "Clinical,  Counseling and Applied Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2274" }, "name" : "Aquatic Biology/Limnology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2275" }, "name" : "Aquaculture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2276" }, "name" : "Architecture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2277" }, "name" : "Art/Art Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2278" }, "name" : "Fine/Studio Arts,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2279" }, "name" : "Art History,  Criticism and Conservation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227a" }, "name" : "Landscape Architecture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227b" }, "name" : "Culinary Arts/Chef Training" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227c" }, "name" : "Drama and Dramatics/Theatre Arts,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227d" }, "name" : "Classical,  Ancient Mediterranean and Near Eastern Studies and Archaeology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227e" }, "name" : "Architectural Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d227f" }, "name" : "Naval Architecture and Marine Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2280" }, "name" : "Architectural and Building Sciences/Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2281" }, "name" : "Arts,  Entertainment,  and Media Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2282" }, "name" : "Interior Architecture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2283" }, "name" : "Artificial Intelligence" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2284" }, "name" : "Military Operational Art and Science/Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2285" }, "name" : "Visual and Performing Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2286" }, "name" : "Art Therapy/Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2287" }, "name" : "Legal Assistant/Paralegal" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2288" }, "name" : "Computer and Information Systems Security/Information Assurance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2289" }, "name" : "Medical/Clinical Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228a" }, "name" : "Physician Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228b" }, "name" : "Teaching English as a Second or Foreign Language/ESL Language Instructor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228c" }, "name" : "Asian Studies/Civilization" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228d" }, "name" : "Astrophysics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228e" }, "name" : "Astronomy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d228f" }, "name" : "East Asian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2290" }, "name" : "Veterinary/Animal Health Technology/Technician and Veterinary Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2291" }, "name" : "Medical/Health Management and Clinical Assistant/Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2292" }, "name" : "Dental Assisting/Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2293" }, "name" : "Executive Assistant/Executive Secretary" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2294" }, "name" : "Medical Administrative/Executive Assistant and Medical Secretary" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2295" }, "name" : "Pharmacy Technician/Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2296" }, "name" : "Medical Office Assistant/Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2297" }, "name" : "Athletic Training/Trainer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2298" }, "name" : "Atmospheric Sciences and Meteorology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2299" }, "name" : "Atmospheric Physics and Dynamics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229a" }, "name" : "Atomic/Molecular Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229b" }, "name" : "Atmospheric Chemistry and Climatology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229c" }, "name" : "Health Aides/Attendants/Orderlies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229d" }, "name" : "Airline Flight Attendant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229e" }, "name" : "Audiology/Audiologist and Speech-Language Pathology/Pathologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d229f" }, "name" : "Business/Office Automation/Technology/Data Entry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a0" }, "name" : "Mechatronics,  Robotics,  and Automation Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a1" }, "name" : "Auditing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a2" }, "name" : "Automotive Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a3" }, "name" : "Auctioneering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a4" }, "name" : "Automobile/Automotive Mechanics Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a5" }, "name" : "Assistive/Augmentative Technology and Rehabilitation Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a6" }, "name" : "Autobody/Collision and Repair Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a7" }, "name" : "Audiology/Audiologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a8" }, "name" : "Australian/Oceanic/Pacific Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22a9" }, "name" : "Automation Engineer Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22aa" }, "name" : "Audiovisual Communications Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ab" }, "name" : "Southeast Asian and Australasian/Pacific Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ac" }, "name" : "Education/Teaching of Individuals with Autism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ad" }, "name" : "Avionics Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ae" }, "name" : "Personal Awareness and Self-Improvement" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22af" }, "name" : "Self-Awareness and Personal Assessment" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b0" }, "name" : "Career Exploration/Awareness Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b1" }, "name" : "Community Awareness" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b2" }, "name" : "Ayurvedic Medicine/Ayurveda" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b3" }, "name" : "Banking and Financial Support Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b4" }, "name" : "Banking,  Corporate,  Finance,  and Securities Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b5" }, "name" : "Cosmetology,  Barber/Styling,  and Nail Instructor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b6" }, "name" : "Medical Microbiology and Bacteriology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b7" }, "name" : "Baking and Pastry Arts/Baker/Pastry Chef" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b8" }, "name" : "Ballet" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22b9" }, "name" : "Bartending/Bartender" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ba" }, "name" : "Barbering/Barber" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22bb" }, "name" : "Basic Skills and Developmental/Remedial Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22bc" }, "name" : "Balkans Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22bd" }, "name" : "Basic Computer Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22be" }, "name" : "Baltic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22bf" }, "name" : "Baltic Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c0" }, "name" : "Blood Banking/Transfusion Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c1" }, "name" : "Energy and Biologically Based Therapies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c2" }, "name" : "Blood Bank Technology Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c3" }, "name" : "Behavioral Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c4" }, "name" : "Organizational Behavior Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c5" }, "name" : "Neurobiology and Behavior" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c6" }, "name" : "Behavioral Aspects of Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c7" }, "name" : "Animal Behavior and Ethology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c8" }, "name" : "Bengali Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22c9" }, "name" : "Salon/Beauty Salon Management/Manager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ca" }, "name" : "Developmental-Behavioral Pediatrics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22cb" }, "name" : "Veterinary Behaviorist Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22cc" }, "name" : "Biology,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22cd" }, "name" : "Biochemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ce" }, "name" : "Biotechnology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22cf" }, "name" : "Biomedical/Medical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b8" }, "name" : "Public Health Education and Promotion" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b9" }, "name" : "Dental Public Health and Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ba" }, "name" : "Punjabi Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25bb" }, "name" : "Pulmonary Disease Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25bc" }, "name" : "Pediatric Pulmonology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25bd" }, "name" : "Management Sciences and Quantitative Methods" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25be" }, "name" : "Research Methodology and Quantitative Methods" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25bf" }, "name" : "Quality Control Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c0" }, "name" : "Water Quality and Wastewater Treatment Management and Recycling Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c1" }, "name" : "Psychometrics and Quantitative Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c2" }, "name" : "Quality Control and Safety Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c3" }, "name" : "Radio and Television" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c4" }, "name" : "Radiologic Technology/Science - Radiographer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c5" }, "name" : "Rabbinical Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c6" }, "name" : "Range Science and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c7" }, "name" : "Radiation Biology/Radiobiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c8" }, "name" : "Radiation Protection/Health Physics Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25c9" }, "name" : "Railroad and Railway Transportation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ca" }, "name" : "Radar Communications and Systems Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25cb" }, "name" : "Medical Radiologic Technology/Science - Radiation Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25cc" }, "name" : "Radiologist Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25cd" }, "name" : "Vascular and Interventional Radiology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ce" }, "name" : "Therapeutic Radiologic Physics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25cf" }, "name" : "Radioisotopic Pathology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d0" }, "name" : "Pediatric Radiology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d1" }, "name" : "Nuclear Radiology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d2" }, "name" : "Diagnostic Radiologic Physics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d3" }, "name" : "Radiologic Physics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d4" }, "name" : "Religion/Religious Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d5" }, "name" : "Retail Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d6" }, "name" : "Speech Communication and Rhetoric" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d7" }, "name" : "Rhetoric and Composition" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d8" }, "name" : "Rhetoric and Composition/Writing Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25d9" }, "name" : "Rheumatology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25da" }, "name" : "Pediatric Rheumatology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25db" }, "name" : "Pacific Area/Pacific Rim Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25dc" }, "name" : "Romance Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25dd" }, "name" : "Robotics Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25de" }, "name" : "Romanian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25df" }, "name" : "Perioperative/Operating Room and Surgical Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e0" }, "name" : "Roofer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e1" }, "name" : "Navy/Marine ROTC,  Naval Science and Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e2" }, "name" : "Army ROTC,  Military Science and Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e3" }, "name" : "Russian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e4" }, "name" : "Rural Sociology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e5" }, "name" : "Recreation Vehicle (RV) Service Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e6" }, "name" : "Fire Prevention and Safety Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e7" }, "name" : "Industrial Safety Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e8" }, "name" : "Sanskrit and Classical Indian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25e9" }, "name" : "Selling Skills and Sales Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ea" }, "name" : "Sales,  Distribution,  and Marketing Operations,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25eb" }, "name" : "Sales and Marketing Operations/Marketing and Distribution Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ec" }, "name" : "Social Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ed" }, "name" : "Materials Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ee" }, "name" : "Management Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ef" }, "name" : "Tourism and Travel Services Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f0" }, "name" : "Geophysics and Seismology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f1" }, "name" : "Investments and Securities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f2" }, "name" : "Machine Shop Technology/Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f3" }, "name" : "Sheet Metal Technology/Sheetworking" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f4" }, "name" : "Marine Maintenance/Fitter and Ship Repair Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f5" }, "name" : "Sign Language Interpretation and Translation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f6" }, "name" : "Building/Construction Site Management/Manager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f7" }, "name" : "Military Signal/Geospatial Intelligence" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f8" }, "name" : "Business and Social Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25f9" }, "name" : "Stress Management and Coping Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25fa" }, "name" : "Interpersonal and Social Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25fb" }, "name" : "Personal Decision-Making Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25fc" }, "name" : "Interpersonal Relationships Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25fd" }, "name" : "Slavic Languages,  Literatures,  and Linguistics,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25fe" }, "name" : "Slavic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ff" }, "name" : "Slovak Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2600" }, "name" : "Sleep Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2601" }, "name" : "Small/Companion Animal Surgery and Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2602" }, "name" : "Entrepreneurial and Small Business Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2603" }, "name" : "Small Engine Mechanics and Repair Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2604" }, "name" : "Sociology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2605" }, "name" : "Social Work" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2606" }, "name" : "Sociology and Anthropology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2607" }, "name" : "Soil Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2608" }, "name" : "Science,  Technology and Society" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2609" }, "name" : "Wine Steward/Sommelier" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260a" }, "name" : "Southeast Asian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260b" }, "name" : "Computer Software Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260c" }, "name" : "South Asian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260d" }, "name" : "Soil Chemistry and Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260e" }, "name" : "Sports Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d260f" }, "name" : "Computer Support Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2610" }, "name" : "Sports Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2611" }, "name" : "Make-Up Artist/Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2612" }, "name" : "Statistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2613" }, "name" : "Theology/Theological Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2614" }, "name" : "Entrepreneurship/Entrepreneurial Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2615" }, "name" : "Environmental Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2616" }, "name" : "German Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2617" }, "name" : "Surveying Technology/Surveying" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2618" }, "name" : "Surgical Technology/Technologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2619" }, "name" : "Sustainability Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261a" }, "name" : "Surveying Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261b" }, "name" : "Superintendency and Educational System Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261c" }, "name" : "Swedish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261d" }, "name" : "Computer Technology/Computer Systems Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261e" }, "name" : "Systems Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d261f" }, "name" : "Energy Management and Systems Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2620" }, "name" : "Systems Science and Theory" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2621" }, "name" : "Management Information Systems and Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2622" }, "name" : "Computer Systems Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2623" }, "name" : "Computer Systems Analysis/Analyst" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2624" }, "name" : "Missile and Space Systems Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2625" }, "name" : "Taxation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2626" }, "name" : "Talmudic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2627" }, "name" : "Tamil Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2628" }, "name" : "Taxidermy/Taxidermist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2629" }, "name" : "Filipino/Tagalog Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262a" }, "name" : "Industrial Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262b" }, "name" : "Theatre/Theater" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262c" }, "name" : "Massage Therapy/Therapeutic Massage" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262d" }, "name" : "Therapeutic Recreation/Recreational Therapy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262e" }, "name" : "Technical Theatre/Theatre Design and Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d262f" }, "name" : "Theoretical Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2630" }, "name" : "Tibetan Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2631" }, "name" : "Tibetan Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2632" }, "name" : "Toxicology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2633" }, "name" : "Pharmacology and Toxicology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2634" }, "name" : "Machine Tool Technology/Machinist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2635" }, "name" : "Environmental Toxicology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2636" }, "name" : "Veterinary Toxicology and Pharmacology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d0" }, "name" : "Biology/Biological Sciences,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d1" }, "name" : "Zoology/Animal Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d2" }, "name" : "Molecular Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d3" }, "name" : "Bioengineering and Biomedical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d4" }, "name" : "Botany/Plant Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d5" }, "name" : "Bible/Biblical Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d6" }, "name" : "Biochemistry and Molecular Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d7" }, "name" : "Bioinformatics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d8" }, "name" : "Biomedical Sciences,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22d9" }, "name" : "Marine Biology and Biological Oceanography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22da" }, "name" : "Human Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22db" }, "name" : "Biophysics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22dc" }, "name" : "Biostatistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22dd" }, "name" : "Cell Biology and Anatomy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22de" }, "name" : "Environmental Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22df" }, "name" : "Biochemical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e0" }, "name" : "Blasting/Blaster" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e1" }, "name" : "Education/Teaching of Individuals with Vision Impairments Including Blindness" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e2" }, "name" : "Bosnian,  Serbian,  and Croatian Languages and Literatures" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e3" }, "name" : "Boilermaking/Boilermaker" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e4" }, "name" : "Asian Bodywork Therapy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e5" }, "name" : "Movement and Mind-Body Therapies and Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e6" }, "name" : "Explosive Ordinance/Bomb Disposal" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e7" }, "name" : "Somatic Bodywork" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e8" }, "name" : "Somatic Bodywork and Related Therapeutic Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22e9" }, "name" : "Shoe,  Boot and Leather Repair" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ea" }, "name" : "Board,  Card and Role-Playing Games" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22eb" }, "name" : "Broadcast Journalism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ec" }, "name" : "Brass Instruments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ed" }, "name" : "Radio and Television Broadcasting Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ee" }, "name" : "Education/Teaching of Individuals with Traumatic Brain Injuries" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ef" }, "name" : "Business/Commerce,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f0" }, "name" : "International Business" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f1" }, "name" : "Business/Managerial Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f2" }, "name" : "International Business/Trade/Commerce" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f3" }, "name" : "Business/Corporate Communications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f4" }, "name" : "International Business,  Trade,  and Tax Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f5" }, "name" : "Building Construction Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f6" }, "name" : "Business Family and Consumer Sciences/Human Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f7" }, "name" : "Building/Home/Construction Inspection/Inspector" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f8" }, "name" : "Business Statistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22f9" }, "name" : "Building/Construction Finishing,  Management,  and Inspection" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22fa" }, "name" : "Geographic Information Science and Cartography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22fb" }, "name" : "CAD/CADD Drafting and/or Design Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22fc" }, "name" : "Canadian Law/Legal Studies/Jurisprudence" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22fd" }, "name" : "Architectural Drafting and Architectural CAD/CADD" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22fe" }, "name" : "Oncology and Cancer Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d22ff" }, "name" : "Clinical,  Hospital,  and Managed Care Pharmacy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2300" }, "name" : "Carpentry/Carpenter" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2301" }, "name" : "Restaurant,  Culinary,  and Catering Management/Manager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2302" }, "name" : "Mechanical Drafting and Mechanical Drafting CAD/CADD" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2303" }, "name" : "Critical Care Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2304" }, "name" : "Geography and Cartography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2305" }, "name" : "Canadian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2306" }, "name" : "Cardiovascular Technology/Technologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2307" }, "name" : "Carpenters" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2308" }, "name" : "Long Term Care Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2309" }, "name" : "Canadian History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230a" }, "name" : "Cabinetmaking and Millwork" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230b" }, "name" : "Russian,  Central European,  East European and Eurasian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230c" }, "name" : "Ceramic Sciences and Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230d" }, "name" : "Ceramic Arts and Ceramics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230e" }, "name" : "High School/Secondary Diplomas and Certificates" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d230f" }, "name" : "Cell/Cellular and Molecular Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2310" }, "name" : "Cell/Cellular Biology and Histology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2311" }, "name" : "Cell/Cellular Biology and Anatomical Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2312" }, "name" : "Cell Physiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2313" }, "name" : "Celtic Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2314" }, "name" : "Customer Service Support/Call Center/Teleservice Operation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2315" }, "name" : "Computer Programming,  Vendor/Product Certification" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2316" }, "name" : "Medical Residency Programs - Subspecialty Certificates" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2317" }, "name" : "Medical Residency Programs - General Certificates" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2318" }, "name" : "Certificate of IEP Completion Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2319" }, "name" : "High School Certificate of Competence Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231a" }, "name" : "High School Equivalence Certificate Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231b" }, "name" : "High School/Secondary Certificate Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231c" }, "name" : "Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231d" }, "name" : "Chemical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231e" }, "name" : "Logistics,  Materials,  and Supply Chain Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d231f" }, "name" : "Organic Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2320" }, "name" : "Early Childhood Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2321" }, "name" : "Physical Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2322" }, "name" : "Analytical Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2323" }, "name" : "Chiropractic" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2324" }, "name" : "Chinese Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2325" }, "name" : "Medicinal and Pharmaceutical Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2326" }, "name" : "Chinese Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2327" }, "name" : "Child Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2328" }, "name" : "Chemical Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2329" }, "name" : "Oceanography,  Chemical and Physical" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232a" }, "name" : "Inorganic Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232b" }, "name" : "Polymer Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232c" }, "name" : "Chemical Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232d" }, "name" : "Environmental Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232e" }, "name" : "Chemical and Biomolecular Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d232f" }, "name" : "Civil Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2330" }, "name" : "Film/Cinema/Video Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2331" }, "name" : "City/Urban,  Community and Regional Planning" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2332" }, "name" : "Cinematography and Film/Video Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2333" }, "name" : "European Studies/Civilization" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2334" }, "name" : "Civil Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2335" }, "name" : "Ancient Studies/Civilization" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2336" }, "name" : "Integrated Circuit Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2337" }, "name" : "Civil Drafting and Civil Engineering CAD/CADD" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2338" }, "name" : "Canadian Citizenship Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2339" }, "name" : "Civil Engineering Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233a" }, "name" : "Clinical Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233b" }, "name" : "Clinical Laboratory Science/Medical Technology/Technologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233c" }, "name" : "Clinical/Medical Social Work" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233d" }, "name" : "Veterinary Sciences/Veterinary Clinical Sciences,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233e" }, "name" : "Clinical Nutrition/Nutritionist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d233f" }, "name" : "Registered Nursing,  Nursing Administration,  Nursing Research and Clinical Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2340" }, "name" : "Classics and Classical Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2341" }, "name" : "Health Professions and Related Clinical Sciences,  Other" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2342" }, "name" : "Clinical/Medical Laboratory Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2343" }, "name" : "Clinical Research Coordinator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2344" }, "name" : "Clinical Child Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2345" }, "name" : "General Office Occupations and Clerical Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2346" }, "name" : "Health Unit Coordinator/Ward Clerk" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2347" }, "name" : "Clinical Nurse Specialist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2348" }, "name" : "Computer Numerically Controlled (CNC) Machinist Technology/CNC Machinist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2349" }, "name" : "Computer Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234a" }, "name" : "Computer Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234b" }, "name" : "Mass Communication/Media Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234c" }, "name" : "Computer Software Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234d" }, "name" : "Counseling Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234e" }, "name" : "Construction Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d234f" }, "name" : "Communication,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2637" }, "name" : "Tourism and Travel Services Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2638" }, "name" : "Medical Toxicology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2639" }, "name" : "Veterinary Toxicology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263a" }, "name" : "Tourism Promotion Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263b" }, "name" : "Medical Transcription/Transcriptionist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263c" }, "name" : "Marine Transportation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263d" }, "name" : "Language Interpretation and Translation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263e" }, "name" : "Yoga Teacher Training/Yoga Therapy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d263f" }, "name" : "Workforce Development and Training" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2640" }, "name" : "Turf and Turfgrass Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2641" }, "name" : "Turkish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2642" }, "name" : "Adult Literacy Tutor/Instructor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2643" }, "name" : "Ukrainian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2644" }, "name" : "Ukraine Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2645" }, "name" : "Health Unit Manager/Ward Supervisor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2646" }, "name" : "Undersea Warfare" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2647" }, "name" : "College/University Preparatory and Advanced High School/Secondary Diploma Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2648" }, "name" : "Upholstery/Upholsterer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2649" }, "name" : "Leatherworking and Upholstery" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264a" }, "name" : "Urban Forestry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264b" }, "name" : "Urdu Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264c" }, "name" : "Uralic Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264d" }, "name" : "Pediatric Urology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264e" }, "name" : "Urology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d264f" }, "name" : "Vascular Surgery Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2650" }, "name" : "Pre-Veterinary Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2651" }, "name" : "Vehicle Maintenance and Repair Technologies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2652" }, "name" : "Veterinary Physiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2653" }, "name" : "Veterinary Biomedical and Clinical Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2654" }, "name" : "Veterinary Anatomy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2655" }, "name" : "Medium/Heavy Vehicle and Truck Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2656" }, "name" : "Veterinary Clinical Pharmacology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2657" }, "name" : "Poultry Veterinarian Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2658" }, "name" : "Virology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2659" }, "name" : "Viticulture and Enology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265a" }, "name" : "Photographic and Film/Video Technology/Technician and Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265b" }, "name" : "Film/Video and Photographic Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265c" }, "name" : "Vietnamese Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265d" }, "name" : "Vocational Rehabilitation Counseling/Counselor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265e" }, "name" : "Practical Nursing,  Vocational Nursing and Nursing Assistants" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d265f" }, "name" : "Licensed Practical/Vocational Nurse Training" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2660" }, "name" : "Theology and Religious Vocations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2661" }, "name" : "Water Resources Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2662" }, "name" : "Water,  Wetlands,  and Marine Resources Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2663" }, "name" : "Painting/Painter and Wall Coverer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2664" }, "name" : "Parts and Warehousing Operations and Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2665" }, "name" : "Parts,  Warehousing,  and Inventory Management Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2666" }, "name" : "Waldorf/Steiner Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2667" }, "name" : "Information/Psychological Warfare and Military Media Relations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2668" }, "name" : "Welding Technology/Welder" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2669" }, "name" : "Fiber,  Textile and Weaving Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266a" }, "name" : "Welding Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266b" }, "name" : "Education/Teaching of Individuals Who are Developmentally Delayed" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266c" }, "name" : "Agricultural/Farm Supplies Retailing and Wholesaling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266d" }, "name" : "Wildlife Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266e" }, "name" : "Wildland/Forest Firefighting and Investigation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d266f" }, "name" : "Education/Teaching of Individuals with Specific Learning Disabilities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2670" }, "name" : "Education/Teaching of Individuals with Multiple Disabilities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2671" }, "name" : "Education/Teaching of Individuals with Mental Retardation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2672" }, "name" : "Wildlife and Wildlands Science and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2673" }, "name" : "Women&#39;s Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2674" }, "name" : "Woodwind Instruments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2675" }, "name" : "Word Processing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2676" }, "name" : "Woodworking" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2677" }, "name" : "Women&#39;s Health Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2678" }, "name" : "Developmental Services Worker" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2679" }, "name" : "Women&#39;s Ministry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267a" }, "name" : "Precision Metal Working" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267b" }, "name" : "Institutional Food Workers" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267c" }, "name" : "Writing,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267d" }, "name" : "Professional,  Technical,  Business,  and Scientific Writing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267e" }, "name" : "Youth Services/Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d267f" }, "name" : "Children and Youth Library Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2680" }, "name" : "Zoological Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2350" }, "name" : "Criminology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2351" }, "name" : "Creative Writing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2352" }, "name" : "Cultural Studies/Critical Theory and Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2353" }, "name" : "Criminal Justice/Police Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2354" }, "name" : "Crisis/Emergency/Disaster Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2355" }, "name" : "Criminal Justice/Safety Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2356" }, "name" : "Credit Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2357" }, "name" : "Architectural History and Criticism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2358" }, "name" : "Theatre Literature,  History and Criticism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2359" }, "name" : "Criminal Justice/Law Enforcement Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235a" }, "name" : "Criminalistics and Criminal Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235b" }, "name" : "Crafts/Craft Design,  Folk Art and Artisanry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235c" }, "name" : "Crop Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235d" }, "name" : "Mobil Crane Operation/Operator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235e" }, "name" : "Curriculum and Instruction" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d235f" }, "name" : "Cultural Anthropology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2360" }, "name" : "Ethnic,  Cultural Minority,  Gender,  and Group Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2361" }, "name" : "Cooking and Related Culinary Arts,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2362" }, "name" : "Cultural Resource Management and Policy Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2363" }, "name" : "Educational,  Instructional,  and Curriculum Supervision" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2364" }, "name" : "Customer Service Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2365" }, "name" : "Culinary Science/Culinology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2366" }, "name" : "Personal and Culinary Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2367" }, "name" : "Traffic,  Customs,  and Transportation Clerk/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2368" }, "name" : "Meat Cutting/Meat Cutter" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2369" }, "name" : "High Performance and Custom Engine Technician/Mechanic" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236a" }, "name" : "Cultural/Archaelogical Resources Protection" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236b" }, "name" : "Culinary Arts and Related Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236c" }, "name" : "Area,  Ethnic,  Cultural,  Gender,  and Group Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236d" }, "name" : "Cyber/Computer Forensics and Counterterrorism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236e" }, "name" : "Cytotechnology/Cytotechnologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d236f" }, "name" : "Cyber/Electronic Operations and Warfare" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2370" }, "name" : "Cytogenetics/Genetics/Clinical Genetics Technology/Technologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2371" }, "name" : "Cytopathology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2372" }, "name" : "Clinical Cytogenetics Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2373" }, "name" : "Czech Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2374" }, "name" : "Data Processing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2375" }, "name" : "Dance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2376" }, "name" : "Data Modeling/Warehousing and Database Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2377" }, "name" : "Data Processing and Data Processing Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2378" }, "name" : "Dairy Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2379" }, "name" : "Danish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237a" }, "name" : "Dance Therapy/Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237b" }, "name" : "Dairy Husbandry and Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237c" }, "name" : "Drama and Dance Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237d" }, "name" : "Graphic Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237e" }, "name" : "Interior Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d237f" }, "name" : "Design and Visual Communications,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2380" }, "name" : "Dentistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2381" }, "name" : "Development Economics and International Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2382" }, "name" : "Human Development and Family Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2383" }, "name" : "Human Resources Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2384" }, "name" : "Pharmaceutics and Drug Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2385" }, "name" : "Dental Hygiene/Hygienist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2386" }, "name" : "Web Page,  Digital/Multimedia and Information Resources Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2387" }, "name" : "Game and Interactive Media Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2388" }, "name" : "Environmental Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2389" }, "name" : "Research and Development Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238a" }, "name" : "Engineering Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238b" }, "name" : "Real Estate Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238c" }, "name" : "Communication Sciences and Disorders,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238d" }, "name" : "Digital Communication and Media/Multimedia" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238e" }, "name" : "Dietetics/Dietitian" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d238f" }, "name" : "Divinity/Ministry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2390" }, "name" : "Digital Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2391" }, "name" : "Directing and Theatrical Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2392" }, "name" : "Prepress/Desktop Publishing and Digital Imaging Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2393" }, "name" : "Intercultural/Multicultural and Diversity Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2394" }, "name" : "Dispute Resolution" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2395" }, "name" : "Radio,  Television,  and Digital Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2396" }, "name" : "Diagnostic Medical Sonography/Sonographer and Ultrasound Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2397" }, "name" : "Funeral Direction/Service" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2398" }, "name" : "Disability Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2399" }, "name" : "Tool and Die Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239a" }, "name" : "Dietetic Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239b" }, "name" : "Food Service,  Waiter/Waitress,  and Dining Room Management/Manager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239c" }, "name" : "Renal/Dialysis Technologist/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239d" }, "name" : "Documentary Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239e" }, "name" : "Dog/Pet/Animal Grooming" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d239f" }, "name" : "Cooking and Other Domestic Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a0" }, "name" : "Agricultural and Domestic Animal Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a1" }, "name" : "Drafting and Design Technology/Technician,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a2" }, "name" : "Drawing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a3" }, "name" : "Drafting/Design Engineering Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a4" }, "name" : "Clinical and Industrial Drug Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a5" }, "name" : "Electrical/Electronics Drafting and Electrical/Electronics CAD/CADD" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a6" }, "name" : "Driver and Safety Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a7" }, "name" : "Truck and Bus Driver/Commercial Vehicle Operator and Instructor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a8" }, "name" : "Drama/Theatre Arts and Stagecraft" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23a9" }, "name" : "Well Drilling/Driller" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23aa" }, "name" : "Drywall Installation/Drywaller" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ab" }, "name" : "Dutch/Flemish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ac" }, "name" : "Geology/Earth Science,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ad" }, "name" : "Geological and Earth Sciences/Geosciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ae" }, "name" : "Near and Middle Eastern Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23af" }, "name" : "Ancient Near Eastern and Biblical Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b0" }, "name" : "Construction/Heavy Equipment/Earthmoving Equipment Operation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b1" }, "name" : "Middle/Near Eastern and Semitic Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b2" }, "name" : "East Asian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b3" }, "name" : "Earth Science Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b4" }, "name" : "Education/Teaching of Individuals in Early Childhood Special Education Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b5" }, "name" : "Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b6" }, "name" : "International Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b7" }, "name" : "Econometrics and Quantitative Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b8" }, "name" : "Political Economy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23b9" }, "name" : "Ecology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ba" }, "name" : "Ecology and Evolutionary Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23bb" }, "name" : "Ecology,  Evolution,  Systematics,  and Population Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23bc" }, "name" : "Consumer Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23bd" }, "name" : "Natural Resource Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23be" }, "name" : "Pharmacoeconomics/Pharmaceutical Economics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23bf" }, "name" : "Military Economics and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c0" }, "name" : "Family and Consumer Economics and Related Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c1" }, "name" : "Family and Consumer Sciences/Home Economics Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c2" }, "name" : "Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c3" }, "name" : "Special Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c4" }, "name" : "Health and Physical Education/Fitness" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c5" }, "name" : "Educational/Instructional Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c6" }, "name" : "Secondary Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c7" }, "name" : "Educational Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c8" }, "name" : "Counselor Education/School Counseling and Guidance Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23c9" }, "name" : "Nursing Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ca" }, "name" : "Teacher Education and Professional Development,  Specific Subject Areas" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23cb" }, "name" : "International and Comparative Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23cc" }, "name" : "Religious Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23cd" }, "name" : "Environmental Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ce" }, "name" : "Urban Education and Leadership" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23cf" }, "name" : "Educational Administration and Supervision" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d0" }, "name" : "Educational Evaluation and Research" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d1" }, "name" : "Animation,  Interactive Technology,  Video Graphics and Special Effects" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d2" }, "name" : "Electrical,  Electronic and Communications Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d3" }, "name" : "E-Commerce/Electronic Commerce" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d4" }, "name" : "Electromechanical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d5" }, "name" : "Electrician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d6" }, "name" : "Industrial Electronics Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d7" }, "name" : "Electromechanical Technology/Electromechanical Engineering Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d8" }, "name" : "Electrical/Electronics Maintenance and Repair Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23d9" }, "name" : "Elementary Particle Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23da" }, "name" : "Electrolysis/Electrology and Electrolysis Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23db" }, "name" : "Electromechanical Instrumentation and Maintenance Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23dc" }, "name" : "Elementary and Middle School Administration/Principalship" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23dd" }, "name" : "Electroneurodiagnostic/Electroencephalographic Technology/Technologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23de" }, "name" : "Electrical/Electronics Equipment Installation and Repair,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23df" }, "name" : "Electrocardiograph Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e0" }, "name" : "Clinical Cardiac Electrophysiology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e1" }, "name" : "Mortuary Science and Embalming/Embalmer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e2" }, "name" : "Developmental Biology and Embryology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e3" }, "name" : "Emergency Room/Trauma Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e4" }, "name" : "Emergency Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e5" }, "name" : "Pediatric Emergency Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e6" }, "name" : "Veterinary Emergency and Critical Care Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e7" }, "name" : "Emergency Medical Technology/Technician (EMT Paramedic)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e8" }, "name" : "Vehicle Emissions Inspection and Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23e9" }, "name" : "Education/Teaching of Individuals with Emotional Disturbances" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ea" }, "name" : "Mechanical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23eb" }, "name" : "Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ec" }, "name" : "Industrial Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ed" }, "name" : "Engineering/Industrial Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ee" }, "name" : "English Language and Literature,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ef" }, "name" : "Telecommunications Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f0" }, "name" : "Environmental/Environmental Health Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f1" }, "name" : "Environmental Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f2" }, "name" : "Materials Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f3" }, "name" : "Epidemiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f4" }, "name" : "Veterinary Preventive Medicine,  Epidemiology,  and Public Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f5" }, "name" : "Graphic and Printing Equipment Operator,  General Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f6" }, "name" : "Horse Husbandry/Equine Science and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f7" }, "name" : "Equestrian/Equine Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f8" }, "name" : "Large Animal/Food Animal and Equine Surgery and Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23f9" }, "name" : "Home Furnishings and Equipment Installers" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23fa" }, "name" : "Heavy Equipment Maintenance Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23fb" }, "name" : "Heavy/Industrial Equipment Maintenance Technologies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23fc" }, "name" : "Computer Typography and Composition Equipment Operator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23fd" }, "name" : "Real Estate" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23fe" }, "name" : "Self-Esteem and Values Clarification" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d23ff" }, "name" : "Musicology and Ethnomusicology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2400" }, "name" : "Bioethics/Medical Ethics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2401" }, "name" : "Ethnic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2402" }, "name" : "Ethics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2403" }, "name" : "European History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2404" }, "name" : "Microbial and Eukaryotic Genetics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2405" }, "name" : "Western European Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2406" }, "name" : "Meeting and Event Planning" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2407" }, "name" : "Evolutionary Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2408" }, "name" : "Educational Assessment,  Evaluation,  and Research" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2409" }, "name" : "Law Enforcement Record-Keeping and Evidence Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240a" }, "name" : "Kinesiology and Exercise Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240b" }, "name" : "Exercise Physiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240c" }, "name" : "Experimental Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240d" }, "name" : "Pathology/Experimental Pathology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240e" }, "name" : "Travel and Exploration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d240f" }, "name" : "Sports and Exercise" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2410" }, "name" : "Health/Medical Claims Examiner" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2411" }, "name" : "Research and Experimental Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2412" }, "name" : "Fashion Merchandising" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2413" }, "name" : "Facilities Planning and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2414" }, "name" : "Family Practice Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2415" }, "name" : "Family and Consumer Sciences/Human Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2416" }, "name" : "Family and Consumer Sciences/Human Sciences Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2417" }, "name" : "Marriage and Family Therapy/Counseling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2418" }, "name" : "Family and Community Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2419" }, "name" : "Family Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241a" }, "name" : "Farm/Farm and Ranch Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241b" }, "name" : "Work and Family Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241c" }, "name" : "Family Resource Management Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241d" }, "name" : "Parks,  Recreation and Leisure Facilities Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241e" }, "name" : "Metal Fabricator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d241f" }, "name" : "Family Systems" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2420" }, "name" : "Hospital and Health Care Facilities Administration/Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2421" }, "name" : "Fashion Modeling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2422" }, "name" : "Maternal and Fetal Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2423" }, "name" : "Finance,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2424" }, "name" : "Financial Planning and Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2425" }, "name" : "International Finance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2426" }, "name" : "Financial Mathematics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2427" }, "name" : "Homeland Security,  Law Enforcement,  Firefighting and Related Protective Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2428" }, "name" : "Fire Science/Fire-fighting" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2429" }, "name" : "Wildlife,  Fish and Wildlands Science and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242a" }, "name" : "Public Finance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242b" }, "name" : "Parks,  Recreation,  Leisure,  and Fitness Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242c" }, "name" : "Fishing and Fisheries Sciences and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242d" }, "name" : "Physical Fitness Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242e" }, "name" : "Hydraulics and Fluid Power Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d242f" }, "name" : "Flight Instructor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2430" }, "name" : "Flagging and Traffic Control" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2431" }, "name" : "Carpet,  Floor,  and Tile Worker" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2432" }, "name" : "Floriculture/Floristry Operations and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2433" }, "name" : "Foods,  Nutrition,  and Wellness Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2434" }, "name" : "Food Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2435" }, "name" : "Foreign Languages and Literatures,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2436" }, "name" : "Food Technology and Processing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2437" }, "name" : "Forestry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2438" }, "name" : "Food Science and Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2439" }, "name" : "Forensic Science and Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243a" }, "name" : "Forensic Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243b" }, "name" : "Forest Management/Forest Resources Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243c" }, "name" : "Restaurant/Food Services Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243d" }, "name" : "Topology and Foundations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243e" }, "name" : "Forest Sciences and Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d243f" }, "name" : "Forest Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2440" }, "name" : "Folklore Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2441" }, "name" : "Forest Resources Production and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2442" }, "name" : "Foods,  Nutrition,  and Related Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2443" }, "name" : "Financial Forensics and Fraud Investigation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2444" }, "name" : "Forensic Chemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2445" }, "name" : "French Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2446" }, "name" : "French Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2447" }, "name" : "Teaching French as a Second or Foreign Language" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2448" }, "name" : "Franchising and Franchise Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2449" }, "name" : "Teaching English or French as a Second or Foreign Language" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244a" }, "name" : "French Language Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244b" }, "name" : "Furniture Design and Manufacturing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244c" }, "name" : "Analysis and Functional Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244d" }, "name" : "Funeral Service and Mortuary Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244e" }, "name" : "Computer Games and Programming Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d244f" }, "name" : "Gay/Lesbian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2450" }, "name" : "Pediatric Gastroenterology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2451" }, "name" : "Gastroenterology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2452" }, "name" : "General Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2453" }, "name" : "Marketing/Marketing Management,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2454" }, "name" : "Management Information Systems,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2455" }, "name" : "Geography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2456" }, "name" : "Microbiology,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2457" }, "name" : "Computer and Information Sciences,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2458" }, "name" : "Education/Teaching of the Gifted and Talented" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2459" }, "name" : "International/Global Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245a" }, "name" : "Glazier" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245b" }, "name" : "Canadian Government and Politics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245c" }, "name" : "Golf Course Operation and Grounds Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245d" }, "name" : "Graphic Communications" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245e" }, "name" : "Computer Graphics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d245f" }, "name" : "Landscaping and Groundskeeping" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2460" }, "name" : "Modern Greek Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2461" }, "name" : "Medical Clinical Sciences/Graduate Medical Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2462" }, "name" : "Advanced/Graduate Dentistry and Oral Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2463" }, "name" : "Ancient/Classical Greek Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2464" }, "name" : "Greenhouse Operations and Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2465" }, "name" : "Ground Transportation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2466" }, "name" : "Cosmetology and Related Personal Grooming Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2467" }, "name" : "Gunsmithing/Gunsmith" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2468" }, "name" : "Gynecologic Oncology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2469" }, "name" : "Obstetrics and Gynecology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246a" }, "name" : "Computer Hardware Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246b" }, "name" : "Hair Styling/Stylist and Hair Design" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246c" }, "name" : "Computer Hardware Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246d" }, "name" : "Handicrafts and Model-Making" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246e" }, "name" : "Hazardous Materials Management and Waste Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d246f" }, "name" : "Surgery of the Hand Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2470" }, "name" : "Heating,  Air Conditioning,  Ventilation and Refrigeration Maintenance Technology/Technician (HAC,  HACR,  HVAC,  HVACR)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2471" }, "name" : "Hazardous Materials Information Systems Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2472" }, "name" : "Public Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2473" }, "name" : "Health and Wellness,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2474" }, "name" : "Mental Health Counseling/Counselor" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2475" }, "name" : "Environmental Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2476" }, "name" : "Health/Medical Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2477" }, "name" : "International Public Health/International Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2478" }, "name" : "Health Information/Medical Records Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2479" }, "name" : "Community Health and Preventive Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247a" }, "name" : "Community Health Services/Liaison/Counseling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247b" }, "name" : "Occupational Health and Industrial Hygiene" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247c" }, "name" : "Health Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247d" }, "name" : "Traditional Chinese Medicine and Chinese Herbology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247e" }, "name" : "Health Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d247f" }, "name" : "History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2480" }, "name" : "Transportation and Highway Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2481" }, "name" : "Historic Preservation and Conservation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2482" }, "name" : "Music History,  Literature,  and Theory" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2483" }, "name" : "History and Philosophy of Science and Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2484" }, "name" : "Military History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2485" }, "name" : "Plasma and High-Temperature Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2486" }, "name" : "Asian History" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2487" }, "name" : "Junior High/Intermediate/Middle School Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2488" }, "name" : "Hotel,  Motel,  and Restaurant Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2489" }, "name" : "Homeland Security" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248a" }, "name" : "Homeopathic Medicine/Homeopathy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248b" }, "name" : "Ornamental Horticulture" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248c" }, "name" : "Holistic Health" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248d" }, "name" : "Horticultural Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248e" }, "name" : "Housing and Human Environments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d248f" }, "name" : "Holocaust and Related Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2490" }, "name" : "Home Maintenance and Improvement" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2491" }, "name" : "Humanities/Humanistic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2492" }, "name" : "Human Services,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2493" }, "name" : "Human Computer Interaction" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2494" }, "name" : "Human Nutrition" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2495" }, "name" : "Human/Medical Genetics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2496" }, "name" : "Animal/Livestock Husbandry and Production" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2497" }, "name" : "Hungarian/Magyar Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2498" }, "name" : "Liberal Arts and Sciences,  General Studies and Humanities" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2499" }, "name" : "Hydrology and Water Resources Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249a" }, "name" : "Hypnotherapy/Hypnotherapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249b" }, "name" : "Undersea and Hyperbaric Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249c" }, "name" : "Spanish and Iberian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249d" }, "name" : "Illustration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249e" }, "name" : "Medical Illustration/Medical Illustrator" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d249f" }, "name" : "Medical Illustration and Informatics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a0" }, "name" : "Public Relations/Image Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a1" }, "name" : "Immunology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a2" }, "name" : "Microbiology and Immunology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a3" }, "name" : "Platemaker/Imager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a4" }, "name" : "Veterinary Microbiology and Immunobiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a5" }, "name" : "Microbiological Sciences and Immunology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a6" }, "name" : "Immunopathology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a7" }, "name" : "Magnetic Resonance Imaging (MRI) Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a8" }, "name" : "Personal Health Improvement and Maintenance" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24a9" }, "name" : "Education/Teaching of Individuals with Speech or Language Impairments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24aa" }, "name" : "Education/Teaching of Individuals with Orthopedic and Other Physical Health Impairments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ab" }, "name" : "Education/Teaching of Individuals with Hearing Impairments Including Deafness" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ac" }, "name" : "Information Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ad" }, "name" : "Informatics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ae" }, "name" : "Information Technology Project Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24af" }, "name" : "International Marketing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b0" }, "name" : "Library and Information Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b1" }, "name" : "Information Resources Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b2" }, "name" : "Industrial and Organizational Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b3" }, "name" : "Irish Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b4" }, "name" : "Iranian/Persian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b5" }, "name" : "Special,  Irregular and Counterterrorist Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b6" }, "name" : "Ironworking/Ironworker" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b7" }, "name" : "Iranian Languages,  Literatures,  and Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b8" }, "name" : "Islamic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24b9" }, "name" : "Italian Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ba" }, "name" : "Italian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24bb" }, "name" : "Japanese Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24bc" }, "name" : "Japanese Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24bd" }, "name" : "Jazz/Jazz Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24be" }, "name" : "Jewish/Judaic Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24bf" }, "name" : "Watchmaking and Jewelrymaking" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c0" }, "name" : "Metal and Jewelry Arts" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c1" }, "name" : "Journalism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c2" }, "name" : "Job-Seeking/Changing Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c3" }, "name" : "Military Joint Operations Planning and Strategy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c4" }, "name" : "Joint Command/Task Force (C3,  C4I) Systems" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c5" }, "name" : "Military Information Operations/Joint Information Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c6" }, "name" : "Communication,  Journalism,  and Related Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c7" }, "name" : "Army JROTC/ROTC" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c8" }, "name" : "Navy/Marine Corps JROTC/ROTC" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24c9" }, "name" : "Juvenile Corrections" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ca" }, "name" : "Education/Teaching of Individuals in Junior High/Middle School Special Education Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24cb" }, "name" : "Keyboard Instruments" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24cc" }, "name" : "Khmer/Cambodian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24cd" }, "name" : "Food Preparation/Professional Cooking/Kitchen Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ce" }, "name" : "Kindergarten/Preschool Education and Teaching" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24cf" }, "name" : "Kinesiotherapy/Kinesiotherapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d0" }, "name" : "Knowledge Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d1" }, "name" : "Birthing and Parenting Knowledge and Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d2" }, "name" : "Health-Related Knowledge and Skills" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d3" }, "name" : "Korean Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d4" }, "name" : "Korean Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d5" }, "name" : "Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d6" }, "name" : "Labor and Industrial Relations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d7" }, "name" : "International Law and Legal Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d8" }, "name" : "Speech-Language Pathology/Pathologist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24d9" }, "name" : "System,  Networking,  and LAN/WAN Management/Manager" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24da" }, "name" : "German Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24db" }, "name" : "Tax Law/Taxation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24dc" }, "name" : "Spanish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24dd" }, "name" : "Organizational Leadership" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24de" }, "name" : "Legal Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24df" }, "name" : "Parks,  Recreation and Leisure Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e0" }, "name" : "Military and Strategic Leadership" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e1" }, "name" : "Second Language Learning" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e2" }, "name" : "Legal Professions and Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e3" }, "name" : "Learning Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e4" }, "name" : "Clinical Nurse Leader" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e5" }, "name" : "Legal Research and Advanced Professional Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e6" }, "name" : "Advanced Legal Research/Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e7" }, "name" : "Linguistics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e8" }, "name" : "Library Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24e9" }, "name" : "Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ea" }, "name" : "Comparative Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24eb" }, "name" : "Russian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ec" }, "name" : "Logic" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ed" }, "name" : "Locksmithing and Safe Repair" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ee" }, "name" : "Security and Loss Prevention Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ef" }, "name" : "Military Low-Observables and Stealth Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f0" }, "name" : "Marketing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f1" }, "name" : "Mathematics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f2" }, "name" : "Project Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f3" }, "name" : "Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f4" }, "name" : "General Sales,  Merchandising and Related Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f5" }, "name" : "Veterinary Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f6" }, "name" : "Mechanics and Repairers,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f7" }, "name" : "Mechanical Engineering Related Technologies/Technicians" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f8" }, "name" : "Metallurgical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24f9" }, "name" : "Specialized Sales,  Merchandising and  Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24fa" }, "name" : "Mining and Mineral Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24fb" }, "name" : "Youth Ministry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24fc" }, "name" : "Missions/Missionary Studies and Missiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24fd" }, "name" : "Theological and Ministerial Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24fe" }, "name" : "Nurse Midwife/Nursing Midwifery" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d24ff" }, "name" : "Urban Ministry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2500" }, "name" : "Transportation and Materials Moving" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2501" }, "name" : "Molecular Genetics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2502" }, "name" : "Transportation/Mobility Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2503" }, "name" : "Molecular Medicine" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2504" }, "name" : "Plant Molecular Biology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2505" }, "name" : "Molecular Pharmacology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2506" }, "name" : "Molecular Biophysics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2507" }, "name" : "Modeling,  Virtual Environments and Simulation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2508" }, "name" : "Molecular Toxicology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2509" }, "name" : "Motorcycle Maintenance and Repair Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250a" }, "name" : "Molecular Biochemistry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250b" }, "name" : "Music" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250c" }, "name" : "Music Pedagogy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250d" }, "name" : "Intermedia/Multimedia" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250e" }, "name" : "Music Theory and Composition" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d250f" }, "name" : "Multi-/Interdisciplinary Studies,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2510" }, "name" : "Web/Multimedia Management and Webmaster" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2511" }, "name" : "Music Performance,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2512" }, "name" : "Museology/Museum Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2513" }, "name" : "Musical Theatre" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2514" }, "name" : "Music Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2515" }, "name" : "Music Therapy/Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2516" }, "name" : "Music Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2517" }, "name" : "Bilingual and Multilingual Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2518" }, "name" : "Multicultural Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2519" }, "name" : "Religious/Sacred Music" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251a" }, "name" : "Mycology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251b" }, "name" : "Natural Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251c" }, "name" : "National Security Policy Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251d" }, "name" : "Energy,  Environment,  and Natural Resources Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251e" }, "name" : "Natural Resources Management and Policy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d251f" }, "name" : "Natural Resources/Conservation,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2520" }, "name" : "Naturopathic Medicine/Naturopathy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2521" }, "name" : "Nanotechnology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2522" }, "name" : "Natural Products Chemistry and Pharmacognosy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2523" }, "name" : "Naval Science and Operational Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2524" }, "name" : "Natural Resource Recreation and Tourism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2525" }, "name" : "Natural Resources and Conservation" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2526" }, "name" : "Nail Technician/Specialist and Manicurist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2527" }, "name" : "International Relations and National Security Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2528" }, "name" : "Natural Resources Law Enforcement and Protective Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2529" }, "name" : "Neuroscience" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252a" }, "name" : "Neuropharmacology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252b" }, "name" : "Maternal/Child Health and Neonatal Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252c" }, "name" : "Neurobiology and Anatomy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252d" }, "name" : "Neuroanatomy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252e" }, "name" : "Neurobiology and Neurosciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d252f" }, "name" : "Vascular Neurology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2530" }, "name" : "Plastic Surgery Within the Head and Neck Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2531" }, "name" : "Pediatric Nephrology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2532" }, "name" : "Neurotology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2533" }, "name" : "Neuroradiology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2534" }, "name" : "Neuropathology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2535" }, "name" : "Non-Profit/Public/Organizational Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2536" }, "name" : "Norwegian Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2537" }, "name" : "Non-Professional General Legal Studies (Undergraduate)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2538" }, "name" : "Registered Nursing/Registered Nurse" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2539" }, "name" : "Nuclear Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253a" }, "name" : "Nutrition Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253b" }, "name" : "Nuclear Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253c" }, "name" : "Pre-Nursing Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253d" }, "name" : "Nursing Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253e" }, "name" : "Nuclear Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d253f" }, "name" : "Animal Nutrition" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2540" }, "name" : "Pediatric Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2541" }, "name" : "Adult Health Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2542" }, "name" : "Nuclear/Nuclear Power Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2543" }, "name" : "Psychiatric/Mental Health Nurse/Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2544" }, "name" : "Occupational Therapy/Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2545" }, "name" : "Ocean Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2546" }, "name" : "Pre-Occupational Therapy Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2547" }, "name" : "Occupational Safety and Health Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2548" }, "name" : "Occupational Therapist Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2549" }, "name" : "Occupational and Environmental Health Nursing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254a" }, "name" : "Occupational Medicine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254b" }, "name" : "Vocational High School and Secondary Business/Vocational-Industrial/Occupational Diploma Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254c" }, "name" : "Military Operational Oceanography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254d" }, "name" : "Health Occupations Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254e" }, "name" : "Office Management and Supervision" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d254f" }, "name" : "Medical Office Management/Administration" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2550" }, "name" : "Social and Philosophical Foundations of Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2551" }, "name" : "Marine Science/Merchant Marine Officer" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2552" }, "name" : "Weapons of Mass Destruction" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2553" }, "name" : "Linguistics of ASL and Other Sign Languages" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2554" }, "name" : "Medical Office Computer Specialist/Assistant" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2555" }, "name" : "Orthopedic Surgery of the Spine Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2556" }, "name" : "Education/Teaching of Individuals in Secondary Special Education Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2557" }, "name" : "Education/Teaching of Individuals in Elementary Special Education Programs" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2558" }, "name" : "Pediatric Hematology-Oncology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2559" }, "name" : "Musculoskeletal Oncology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255a" }, "name" : "Medical Oncology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255b" }, "name" : "Radiation Oncology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255c" }, "name" : "Operations Management and Supervision" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255d" }, "name" : "Operations Research" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255e" }, "name" : "Optometry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d255f" }, "name" : "Optics/Optical Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2560" }, "name" : "Voice and Opera" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2561" }, "name" : "Laser and Optical Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2562" }, "name" : "Vision Science/Physiological Optics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2563" }, "name" : "Retailing and Retail Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2564" }, "name" : "Military Science and Operational Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2565" }, "name" : "Organizational Communication,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2566" }, "name" : "Orthodontics/Orthodontology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2567" }, "name" : "Oral/Maxillofacial Surgery" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2568" }, "name" : "Community Organization and Advocacy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2569" }, "name" : "Oral Biology and Oral and Maxillofacial Pathology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256a" }, "name" : "Orthoptics/Orthoptist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256b" }, "name" : "Munitions Systems/Ordinance Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256c" }, "name" : "Orthopedic Surgery Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256d" }, "name" : "Osteopathic Medicine/Osteopathy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256e" }, "name" : "Engineering Technologies/Technicians,  Other" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d256f" }, "name" : "Pediatric Otolaryngology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2570" }, "name" : "Otolaryngology Residency Program" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2571" }, "name" : "Outdoor Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2572" }, "name" : "Pet Ownership and Care" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2573" }, "name" : "Painting" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2574" }, "name" : "Pastoral Studies/Counseling" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2575" }, "name" : "Plant Pathology/Phytopathology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2576" }, "name" : "Paper Science and Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2577" }, "name" : "Packaging Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2578" }, "name" : "Wood Science and Wood Products/Pulp and Paper Technology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2579" }, "name" : "Veterinary Pathology and Pathobiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257a" }, "name" : "Parasitology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257b" }, "name" : "Paleontology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257c" }, "name" : "Petroleum Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257d" }, "name" : "Peace Studies and Conflict Resolution" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257e" }, "name" : "Petroleum Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d257f" }, "name" : "Periodontics/Periodontology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2580" }, "name" : "Pediatric Dentistry/Pedodontics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2581" }, "name" : "Student Counseling and Personnel Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2582" }, "name" : "Plant Protection and Integrated Pest Management" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2583" }, "name" : "College Student Counseling and Personnel Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2584" }, "name" : "Business and Personal/Financial Services Marketing Operations" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2585" }, "name" : "Perfusion Technology/Perfusionist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2586" }, "name" : "Personality Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2587" }, "name" : "Geochemistry and Petrology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2588" }, "name" : "Permanent Cosmetics/Makeup and Tattooing" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2589" }, "name" : "Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258a" }, "name" : "Physical Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258b" }, "name" : "Pharmacy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258c" }, "name" : "Philosophy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258d" }, "name" : "Photography" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258e" }, "name" : "Theoretical and Mathematical Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d258f" }, "name" : "Physical Therapy/Therapist" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2590" }, "name" : "Engineering Physics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2591" }, "name" : "Pharmacology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2592" }, "name" : "Pharmaceutical Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2593" }, "name" : "Physiology,  General" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2594" }, "name" : "Photojournalism" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2595" }, "name" : "Pipefitting/Pipefitter and Sprinkler Fitter" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2596" }, "name" : "Aircraft Pilot (Private)" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2597" }, "name" : "Playwriting and Screenwriting" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2598" }, "name" : "Polymer/Plastics Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d2599" }, "name" : "Plant Sciences" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259a" }, "name" : "Plant Physiology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259b" }, "name" : "Plumbing and Related Water Supply Services" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259c" }, "name" : "Plastics and Polymer Engineering Technology/Technician" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259d" }, "name" : "Land Use Planning and Management/Development" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259e" }, "name" : "Plant Genetics" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d259f" }, "name" : "Planetary Astronomy and Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a0" }, "name" : "Plumbing Technology/Plumber" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a1" }, "name" : "Public Policy Analysis" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a2" }, "name" : "Political Communication" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a3" }, "name" : "Podiatric Medicine/Podiatry" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a4" }, "name" : "Demography and Population Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a5" }, "name" : "Poultry Science" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a6" }, "name" : "Polish Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a7" }, "name" : "Polish Language and Literature" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a8" }, "name" : "Computer Programming" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25a9" }, "name" : "Pre-Engineering" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25aa" }, "name" : "Pre-Law Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ab" }, "name" : "Pre-Medicine/Pre-Medical Studies" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ac" }, "name" : "Intellectual Property Law" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ad" }, "name" : "Printmaking" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25ae" }, "name" : "Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25af" }, "name" : "Social Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b0" }, "name" : "School Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b1" }, "name" : "Psychoanalysis and Psychotherapy" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b2" }, "name" : "Community Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b3" }, "name" : "Environmental Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b4" }, "name" : "Psychopharmacology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b5" }, "name" : "Developmental and Child Psychology" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b6" }, "name" : "Psychology Teacher Education" }
+{ "_id" : { "$oid" : "5577d67bd7b4a3393e1d25b7" }, "name" : "Publishing" }

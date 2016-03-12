@@ -1,0 +1,45 @@
+<% include ../partials/header-no-menu.html.ejs %>
+
+	<div id="content" class="container">
+
+		<h1>Edit Screen</h1>
+		<hr class="divider">
+
+		<form class="form-horizontal" role="form" action="post">
+		  <div class="form-group form-group-lg">
+		    <label for="name" class="col-sm-2 control-label label-lg">Project Name</label>
+		    <div class="col-sm-10">
+		      <input type="text" class="form-control input-lg" name="name" placeholder="Psychology" value="<%= project.name %>">
+		      <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+		    </div>
+
+		  </div>
+		  <div class="form-group ">
+		    <label for="type" class="col-sm-2 control-label">Type</label>
+		    <div class="col-sm-4">
+		      <select name="type" class="form-control">
+			      <option value="<%= project.type %>"><%= project.type %></option>
+		      </select>
+		    </div>
+		    <label for="category" class="col-sm-2 control-label">Category</label>
+		    <div class="col-sm-4">
+		      <select name="category" class="form-control">
+			      <option value="<%= project.category %>"><%= project.category %></option>
+		      </select>
+		    </div>
+		  </div>
+
+		  <br><br>
+		  <div class="form-group">
+		    <div class="col-sm-offset-8 col-sm-4">
+		      <button type="submit" class="btn btn-primary form-control input-lg">Get Started <span class="glyphicon glyphicon-chevron-right"></span></button>
+		    </div>
+		  </div>
+		</form>
+
+
+	</div><!-- container -->
+
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

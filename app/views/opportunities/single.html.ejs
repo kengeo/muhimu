@@ -1,0 +1,124 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+	<input type="hidden" id="opportunity_id" value="<%= opportunity._id %>">
+	<div class="row">
+		<div class="col-md-10">
+			<h1 class="rs"><%= opportunity.title %></h1>
+			<ul class="list-inline">
+				<li>
+					<label for="category" class="control-label">Type</label>
+					<p class="text-muted"><%= opportunity.type %></p>
+				</li>
+				<li></li>
+				<li>
+					<label for="category" class="control-label">Category</label>
+					<p class="text-muted"><%= opportunity.category %></p>
+				</li>
+				<li></li>
+				<li>
+					<label for="category" class="control-label">Level</label>
+					<p class="text-muted"><%= opportunity.level %></p>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-2 text-right">
+			<% var applied = null;
+			if (typeof user === "undefined") { %>
+				<p id="options"><a class="btn btn-primary" href="/account/login/"><strong>Log in to apply</strong></a></p>
+			<% } else if (user.usertype === "Company") { %>
+			<% } else if (user.usertype === "Individual") {
+
+				//console.log(user._id);
+				opportunity.applications.forEach(function(item){
+					//console.log(item.user);
+
+					if (item.user.toString() === user._id.toString()) {
+						applied = true;
+					}
+
+					//console.log(applied);
+				});
+
+				if (applied == true) { %>
+					<p id="options"><a id="apply" class="btn btn-success disabled" role="button"><strong>Applied</strong></a></p>
+				<% }  else { %>
+					<p id="options"><a id="apply" class="btn btn-primary" href="/opportunities/apply/<%= opportunity._id %>"><strong>Apply</strong></a></p>
+				<% 	}
+			} %>
+		</div>
+	</div>
+
+
+
+
+
+
+	<hr class="divider">
+
+	<div class="row">
+		<div class="col-md-8">
+
+			<h3 class="text-muted rs">Description</h3>
+			<%- opportunity.description %>
+			<br>
+
+			<% if (opportunity.moredetails) { %>
+				<h3 class="text-muted">More Details</h3>
+				<%-  opportunity.moredetails %>
+			<% } %>
+
+		</div>
+
+		<div class="col-md-3 col-md-offset-1">
+			<div class="row">
+				<div class="col-md-12 col-sm-4 col-xs-4">
+					<% if (opportunity.createdBy.photo) { %><img src="<%= opportunity.createdBy.photo+'?dim=600x600' %>" class="img-responsive img-thumbnail"><%} else {%><img src="/assets/images/kk-cover.png?dim=600x600" class="img-responsive" /><% } %>
+					<br><br>
+				</div>
+				<div class="col-md-12 col-sm-8 col-xs-8">
+					<div class="text-muted"><%- opportunity.createdBy.description %></div>
+
+					<% if (opportunity.createdBy.website) { %>
+						<a href="<%= opportunity.createdBy.website %>" target="_blank" class="btn btn-default">Website</a>
+						<a href="mailtp:<%= opportunity.createdBy.email %>" target="_blank" class="btn btn-default	">Email</a>
+					<% } %>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+
+<script>
+	$('#apply').click(function(event){
+		event.preventDefault();
+		var opportunity_id = $('#opportunity_id').val();
+		$.post('/ajax/apply', { 'opportunity_id': opportunity_id}).success(function(data){
+			data = JSON.parse(data);
+			var messages = $('#options');
+			if (data.warning) {
+				messages.addClass('text-success').html(data.warning).fadeIn();
+				setTimeout(function(){
+					messages.fadeOut();
+				}, 3000);
+			} else if (data.error) {
+				messages.addClass('text-danger').html(data.error).fadeIn();
+				setTimeout(function(){
+					messages.fadeOut();
+				}, 3000);
+			} else {
+				messages.html('<a id="apply" class="btn btn-success disabled" role="button"><strong>Applied</strong></a>');
+				setTimeout(function(){  }, 3000);
+			}
+		});
+	});
+</script>
+
+<% include ../partials/footer.html.ejs %>

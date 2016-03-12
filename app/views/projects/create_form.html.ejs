@@ -1,0 +1,110 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+
+	<h1>New Project</h1>
+	<hr class="divider">
+
+	<form class="form" role="form" method="post">
+		<div class="form-group">
+		    <label for="project" class="control-label">Project Name</label>
+		      <input type="text" class="form-control" name="project" placeholder="Project Name">
+		      <span class="help-block">Be creative and descriptive with your project names.</span>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+				    <label for="product-type" class="control-label">Type</label>
+					<select name="type" class="form-control">
+					  <option value="written" selected>Text</option>
+					  <option value="product" disabled>Product (coming soon)</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="form-group">
+				      <label for="product-category" class="control-label">Category</label>
+				      <select name="category" class="form-control">
+					      <option value="book">Book</option>
+					      <option value="magazine" disabled>Magazine (coming soon)</option>
+						  <option value="playwright" disabled>Playwright (coming soon)</option>
+						  <option value="research" disabled>Research Paper (coming soon)</option>
+						  <option value="screenplays" disabled>Screenplays (coming soon)</option>
+				      </select>
+				</div>
+			</div>
+		</div>
+
+		<h3>Services Needed <small>We will make recommendations as you work on your project</small></h3>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="2"> Attorney
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="6"> Engineer
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="4"> Designer
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="7"> Investor
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="5"> Editor
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="9"> Prototyping Facility
+						</label>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" name="services" value="8"> Manufacturer
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr class="divider">
+
+		<div class="row">
+			<div class="form-group">
+				<div class="col-sm-offset-8 col-sm-4">
+				  <button type="submit" class="btn btn-primary form-control input-lg">Get Started <span class="glyphicon glyphicon-chevron-right"></span></button>
+				</div>
+			</div>
+		</div>
+
+	</form>
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

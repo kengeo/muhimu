@@ -1,0 +1,22 @@
+<div class="footer">
+	<div class="container">
+		<p id="copyright" class="pull-left">a <a href="http://www.garakami.com/" target="_blank">GARAKAMI</a> company.</p>
+		<p class="pull-right">
+		<a href="/contact">Contact</a> &middot;
+		<a href="//blog.muhimu.net">Blog</a> &middot;
+		<a href="/developers">Developers</a> &middot;
+		<a href="/terms">Terms</a> <span class="amp">&amp;</span> <a href="/privacy">Privacy</a></p>
+	</div>
+</div>
+
+<script src="/assets/components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+	$(function() {
+		$(".setup .close").click(function(){
+			$.post(window.location.protocol+'//'+window.location.host+'/ajax/usercomplete');
+		});
+	});
+
+
+</script>

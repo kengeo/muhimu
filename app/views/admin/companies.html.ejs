@@ -1,0 +1,42 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container solutions">
+
+		<p><%= list.length %> users</p>
+		<% list.forEach(function(opportunity){ %>
+		    <div class="item thumbnail">
+			    <div class="row">
+					<div class="col-md-1 col-sm-2 col-xs-4">
+						<a href="/profile/<%= opportunity._id %>"><% if (opportunity.photo) { %><img src="<%= opportunity.photo+'?dim=200x200' %>" class="img-responsive"><%} else {%><img src="/assets/images/kk-cover.png?dim=200x200" class="img-responsive" /><% } %></a>
+					</div>
+					<div class="col-md-11 col-sm-10 col-xs-8">
+						<h2 class="rs"><a href="/profile/<%= opportunity._id %>"><%= opportunity.name %></a></h2>
+						<% if (opportunity.locations.length > 0) { %>
+							<%= opportunity.locations[0].city %>, <%= opportunity.locations[0].country %> &middot; <% } %><strong>Created</strong> <%= moment(opportunity.createDate).fromNow() %></p>
+
+						<p><strong>Personal Profile</strong>
+						<% if ((opportunity.firstname !== "") && (opportunity.lastname !== "") && (opportunity.email !== "") && (opportunity.number !== "") && (opportunity.locations.length !== 0)) { %>
+							Yes
+						<% } else { %>
+							No
+						<% } %>
+						&middot;
+						<strong>R&eacute;sum&eacute;</strong>
+						<% if (opportunity.resume) {
+							if ((opportunity.resume.work.length > 0) && (opportunity.resume.education.length > 0) && (opportunity.resume.skills.length > 0) && (opportunity.resume.language.length > 0)) { %>
+							Yes
+						<% } else { %>
+							No
+						<% }
+						} %>
+
+					</div>
+				</div>
+			</div>
+		<%});%>
+
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

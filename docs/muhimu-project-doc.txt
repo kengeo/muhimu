@@ -1,0 +1,303 @@
+muhimu
+
+individual
+	signup
+	Percentage Complete
+		Signup 33%
+		Account Settings 33%
+		Resume 33%
+			
+	fill out resume OR upload resume
+		modify fields to make filling in simpler
+		check to see the minimum amount of details is filled
+	
+	apply for jobs
+		if not logged in take them to page where they can (do redirect after login with redirect_to url parameters
+
+	view resume (need to combine the views)
+
+company
+	signup
+	fill out profile
+		Short Description
+		Detailed Description
+		Company Size
+	post jobs (payments - stripe and mpesa)
+		post should have company logo
+	job stats - impressions (line graph), views (line graph), applications (bar graph)
+	
+	filter applicants
+		All Applicants
+		For Review
+		Scheduled Interview
+		Offer Sent
+		Offer Declined
+	review applicants with short survey at the end of each job post
+
+automatic translation based on location
+
+company@muhimu.net
+c5h#3-8NeYYZxTW
+
+individual@muhimu.net
+56byjQ4127Gqa8X
+	
+
+
+business.support@safaricom.co.ke
+HkdX4bhgv6w7a4t
+
+pmoffice@gov.gd
+w275w2QE6dKRGTk
+
+
+656f795a-f71d-427b-b04b-f0126dd5a9ad
+656f795a-f71d-427b-b04b-f0126dd5a9ad
+
+359095
+
+
+
+q=plagiarism&utm_source=google&utm_medium=cpc&utm_campaign=SCM_CP&utm_content=53478663966&utm_term=apa%20style%20writing&matchtype=&placement=www.writerscafe.org&network=d&gclid=CMn5v5LCjsUCFfRr7Aoda3EAoA
+
+http://akilah.net/sign053115/recording-professionals.csv
+
+
+
+Alice Bain 405 2905
+
+
+Hello Eric, 
+
+Thanks again for the information at the CARCIP event last Tuesday. Would love to continue the conversation in the near future at your earliest convenience. 
+
+Until then, if you don’t mind, I’d like to hear your thoughts on one project that I am working on currently: http://www.muhimu.net. We’re still in the alpha phase so things are not as polished just yet but looking to launch within the next two month. 
+
+A quick summary of this is a resume builder, job board, an application management system with future plans to build out a career manager (company benefits, payroll, insurance, etc.) Our plan is to start rolling out this project in the Caribbean (Grenada, St. Lucia, Guyana, Trinidad, St. Kitts) along with some African countries (Morocco, Nigeria, Kenya, Ethiopia) while scaling up from there based on our learnings. 
+
+You can check both views using the test accounts below:
+
+Company
+company@muhimu.net
+c5h#3-8NeYYZxTW
+
+Individual
+individual@muhimu.net
+56byjQ4127Gqa8X
+
+Recruiter is in progress.
+
+Again, thanks for the time and look forward to your response. Let me know when you’re available to chat in the near future. 
+
+Cheers, 
+Kenroy
+
+
+
+http://www.muhimu.net/
+
+We connect individuals and companies with tools to simplify their lives and save time.
+
+We are a job board providing a résumé building tool and one-click application process for individuals. For companies we provide applicant management to speed up the decision-making process.
+
+
+
+
+
+http://tripper.pksh.net/wp-admin
+peakshift
+4302{pk!sh}
+
+User: admin
+Pass: 1D29VdcCCd
+
+
+Selimira
+Invoice
+Interface with clients
+Some design
+Non-urgent issues
+Research
+
+Early
+Communicating with some clients
+Project setup
+Not detail-oriented
+
+
+
+
+
+
+Ah, ok. Hope everything works out and the prime minister is able to step down. 
+
+As for muhimu and the reason behind the business: I wanted to offer a solution that I can use my skills to do because during my travels I've realized that in some countries most of the money made by business rarely stay in those countries. Along the way I also realized that there are no central job boards where you can go to look for jobs. This is what muhimu strives to solve. 
+
+Most of the money we make charging companies to post jobs on here will go towards find other ways we can help whether that includes scholarships, training programs, helping families provide for their children, etc. Before we can get there though we need to be able to reach out to companies in the countries we’re looking to work with and show them the benefits of using a site like this one. 
+
+Our initial target as I mentioned before are people looking for jobs. We want to help them prepare their resumes, cover letters, and be ready for interviews. Any way we can help them improve their chances of landing a job we’d like to find those methods. Whether we can do videos, audio explaining in local languages, training sessions, etc. For now we’d like to start with the resume building tool on the site to see how people interact with it. 
+
+The other target will be companies we can match with individuals who’ve signed up and completed their resumes. We need to make sure the candidates we send their way are top quality and reduce the time companies spend going over all the applicants. For this we provide an applicant management system where they can see everyone who applied to a position/job they posted with us. They can use this system to also contact individuals via email or sms in order to setup an interview all the way to making a final offer to the person they pick for the position. 
+
+We are located in New York and Grenada with a potential location in Morocco soon. I was born in Grenada but spend most of my time in New York. In NY, I work as a web design and developer where I travel around the globe working from various location. I will be in Morocco in September and want to spend some time on the continent in order to better understand it. 
+
+I hope this give you a better understanding of what our goals are. If you have any more questions please feel free to email me anytime at kenroy@garakami.com. 
+
+That being said, please tell me a bit more about your situation and what made you want to sign up with us. If there is anything in particular you think we should be doing let us know!
+
+Cheers, 
+Kenroy
+
+
+
+Sandbox accountinvoice-facilitator@peakshift.com
+Sandbox endpointapi.sandbox.paypal.com
+Credential Pairs
+Client ID Acg4bU_EQ_GODT5b1Ng6qk3cagmt6AdWnDPNLAtT44aDEgVs2NZ3HQ6Gi1znQGN8B4EybB-oGQTjhrG_
+Secret EKwbf-SLp7DC3jwU_2oAjKudqSnqfPLUNpeDDLgSMp81D79gM0vJJzrYpkVmeAjnVtZD3w-UOhCxo4R2
+
+paypal@tripper.net
+Tripper2015
+
+
+activity
+	passes description
+	package level + quantity
+
+checkout
+
+
+git remote add origin https://app.getmeat.io/garakami/muhimu
+
+
+git remote set-url --add --push origin https://app.getmeat.io/garakami/muhimu
+
+
+
+
+git remote set-url origin https://kengeo@bitbucket.org/garakami/muhimu.git
+
+Template setup
+	Based on template we need to populate fields
+	Education
+		Pull School names
+		Pull Degree type
+		Pull Study Area
+
+Create options table
+
+mongoimport --db muhimu_prd --collection degreetypes --file muhimu_dev_degreetypes_2206519.json
+mongoimport --db muhimu_prd --collection industries --file muhimu_dev_industries_2206512.json
+mongoimport --db muhimu_prd --collection languages --file muhimu_dev_languages_2206506.json
+mongoimport --db muhimu_prd --collection schools --file muhimu_dev_schools_2206497.json
+mongoimport --db muhimu_prd --collection skills --file muhimu_dev_skills_2206490.json
+mongoimport --db muhimu_prd --collection studyareas --file muhimu_dev_studyareas_2206448.json
+
+{ a: { $exists: true } }
+
+db.users.update( { email: “kenroy@garakami.com” }, { $set: { isAdmin: true } } )
+
+
+
+
+
+Grenada Informer
+1/8 $172
+1/4 $316.25
+
+Grenadian Voice
+1/4 $192 540
+1/8 $120+ VAT
+1/2 $450 vertical
+$10/column inch
+
+
+
+Esther,
+
+Sorry for the delay. Let me start off with your main concern: payment. Since this is a new company there is no salary yet but we will work on either a milestone-based and they are going to be stretched over a couple days. For now I’ll continue communicating with users because most of it might be pertaining to development but if it’s something you could handle I’ll assign it to you in Intercom. I’ll also create an email for you and send you details on how to set it up on your machine. 
+
+That being said, if we do change over to a salary in the future what would you be expecting in a weekly basis?
+
+To-Do 
+1. Compile list of both colleges and trade schools across the Caribbean. Check to make sure we do not have it in our list already. 
+
+2. Starting with Grenada, look for companies with websites that have open positions. Create a profile for them by signing up as a business using their details wherever possible. I can walk you through these while doing a screen-share if you need me to. The details are also below.
+
+
+More details about the company
+
+A quick summary of this is a resume builder, job board, an application management system with future plans to build out a career manager (company benefits, payroll, insurance, etc.) Our plan is to start rolling out this project in the Caribbean (Grenada, St. Lucia, Guyana, Trinidad, St. Kitts) along with some African countries (Morocco, Nigeria, Kenya, Ethiopia) while scaling up from there based on our learnings. 
+
+The goal is to increase the likelihood of individuals filling it out, therefore making the pool of talent higher quality. It’s a fine balance in the beginning because we need to get the individuals signing up but they are not willing to spend to much time if there aren’t many companies posting jobs. If we’re able to get enough people signed up then this will be a great selling-point for companies.  
+
+Now that the updates/future plans are done for now, let’s talk about the flow of individuals and companies. 
+
+Individuals
+	1	Sign up
+	2	Fill out the rest of the Settings
+	3	Fill out the resume
+	4	Apply to jobs that match their location and company preferences. 
+	5	If they are picked they will get a message from the companies interested in them to setup an interview, whether by phone or in person.
+	6	If they pass the interview they will be given the offer details. 
+
+Companies
+	1	Sign up
+	2	Fill out the rest of the Settings
+	3	Create new opportunity (job post) 
+	4	When people apply to the position they will see the number on their Dashboard. They can manage the applicants for each job they post.
+
+The workflow for Companies are not complete as we are focusing on that of the Individuals since they are easier to deal with because there is no money involved just yet. Once companies start paying you want to make sure you have the time to focus on them and deal with their issues. The main selling point for them is the ease of management because they do not have to track applicants via emails on their own. There is also the large pool to choose from in one please when a standard resume layout. Later on comes the payroll, benefits, etc. 
+
+You can check both views using the test accounts below:
+Company
+company@muhimu.net
+c5h#3-8NeYYZxTW
+
+Individual
+individual@muhimu.net
+56byjQ4127Gqa8X
+
+
+I’m sure you will have questions after reading this so feel free to contact me when you’ve taken a look at things. Looking forward to your feedback! :)
+
+Cheers, 
+Kenroy
+
+
+
+
+
+Local Market Specialist
+As a Local Market Specialist, your mission is to contact and engage companies in your target area in an effort to sell muhimu’s application management products.
+About the Role
+As a Local Market Specialist, you will be hitting the phones hard every day, and with gusto! You will be cold calling companies and introducing them to muhimu. Once connected you will build value in our application management products, designed to help them manage all aspects of the hiring process and grow their business.
+You will work with the Product Manager and leadership team to provide feedback regarding product, systems, or tools and how each can be improved to best meet and support the needs of the companies we wish to serve. You are at the ground level speaking with these businesses day in and day out; your input is truly valuable.
+We are not looking for you to just hit a revenue goal. We are looking for you to exceed goals and push your team to do the same. We showcase a “team over individual” culture and pride ourselves on selling with integrity and delighting customers. You will participate and engage in team activities and meetings that improve process and results while building a team culture of success and camaraderie.
+About You
+A Match-maker. You have the ability to consult and listen to the needs of your customers and match that with the muhimu product(s) that will best meet their needs and objectives.
+A Fighter. You have the desire and ability to achieve success in this revenue generating role. You don’t give up; you persevere and fight.
+A Learner. You have the curiosity and passion to continually grow and implement new techniques that allow you to achieve your personal best.
+A Communicator. You possess excellent written, verbal, and interpersonal communication skills to be the voice of muhimu.
+About muhimu
+We're a startup with a big vision. We're out to solve the pain that millions of business owners experience regularly as they try to hire professionals that they can trust. We strive not only to provide a job board and application management system but you help businesses save time and energy during the hiring process. We are focused on the Caribbean and African countries which means muhimu is built with mobile users in mind.
+We believe in Beautiful Products, Relentless Customer Focus and Team Before Individual. We practice the lean methodology and believe in data driven decision making. We're always looking for the right people to add to the team and thrive on diversity (of views, experiences, skills, passions, etc.).
+
+
+
+
+Denis,
+
+Hope all is well. As mentioned before I got your details from my dad (Kenrick) after talking to him about the project I’m currently working on along with the state of technology and politics on the island. He recommended you highly as a go-to person when it comes to tech and understanding who the influencers are.
+
+I’d love to hear your thoughts on afore mentioned project, which you can check out at https://www.muhimu.net, and hear your experience with trying to get projects rolling on the island. A quick summary of this is a resume builder, job board, an application management system with future plans to build out a career manager (company benefits, payroll, insurance, etc.) Our plan is to start rolling out this project in the Caribbean (Grenada, St. Lucia, Guyana, Trinidad, St. Kitts) along with some African countries (Morocco, Nigeria, Kenya, Ethiopia) while scaling up from there based on our learnings.
+
+I’m currently in NY but will be back on the island in the coming weeks. If we could grab a drink or two on me and discuss I would really appreciate it. 
+
+Looking forward to hearing back soon. 
+
+Cheers, 
+Kenroy
+
+
+

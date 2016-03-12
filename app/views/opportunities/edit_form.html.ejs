@@ -1,0 +1,1415 @@
+<% include ../partials/header.html.ejs %>
+
+	<div id="content" class="container">
+
+		<h1>Edit Opportunity</h1>
+		<hr class="divider">
+
+		<form class="form" role="form" method="post" enctype="multipart/form-data">
+			<div class="form-group">
+			    <label for="title" class="control-label">Title</label>
+			      <input type="text" class="form-control" name="title" placeholder="Title" value="<%= opportunity.title %>">
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+
+					<div class="form-group">
+                        <label for="status" class="control-label">Job Status</label>
+                        <select name="status" class="required form-control" id="status">
+                            <option value="<%= opportunity.status %>"><%= opportunity.status %></option>
+
+                            <option value="Draft">
+                                Draft
+                            </option>
+
+                            <option value="Open">
+                                Open
+                            </option>
+
+                            <option value="Closed">
+                                Closed
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobtype" class="control-label">Job Type</label>
+                        <select name="jobtype" class="required form-control" id="jobtype">
+                            <option value="<%= opportunity.type %>"><%= opportunity.type %></option>
+
+                            <option value="Full-Time">
+                                Full-Time
+                            </option>
+
+                            <option value="Part-Time">
+                                Part-Time
+                            </option>
+
+                            <option value="Internship">
+                                Internship
+                            </option>
+
+                            <option value="Contract">
+                                Contract
+                            </option>
+
+                            <option value="Freelance">
+                                Freelance
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category" class="control-label">Category</label>
+                        <select name="category" class="required form-control" id="category">
+                            <option value="<%= opportunity.category %>"><%= opportunity.category %></option>
+
+                            <option value="Accounting">
+                                Accounting
+                            </option>
+
+                            <option value="Airlines/Aviation">
+                                Airlines/Aviation
+                            </option>
+
+                            <option value="Alternative Dispute Resolution">
+                                Alternative Dispute Resolution
+                            </option>
+
+                            <option value="Alternative Medicine">
+                                Alternative Medicine
+                            </option>
+
+                            <option value="Animation">
+                                Animation
+                            </option>
+
+                            <option value="Apparel & Fashion">
+                                Apparel &amp; Fashion
+                            </option>
+
+                            <option value="Architecture & Planning">
+                                Architecture &amp; Planning
+                            </option>
+
+                            <option value="Arts & Crafts">
+                                Arts &amp; Crafts
+                            </option>
+
+                            <option value="Automotive">
+                                Automotive
+                            </option>
+
+                            <option value="Aviation & Aerospace">
+                                Aviation &amp; Aerospace
+                            </option>
+
+                            <option value="Banking">
+                                Banking
+                            </option>
+
+                            <option value="Biotechnology">
+                                Biotechnology
+                            </option>
+
+                            <option value="Broadcast Media">
+                                Broadcast Media
+                            </option>
+
+                            <option value="Building Materials">
+                                Building Materials
+                            </option>
+
+                            <option value="Business Supplies & Equipment">
+                                Business Supplies &amp; Equipment
+                            </option>
+
+                            <option value="Capital Markets">
+                                Capital Markets
+                            </option>
+
+                            <option value="Chemicals">
+                                Chemicals
+                            </option>
+
+                            <option value="Civic & Social Organization">
+                                Civic &amp; Social Organization
+                            </option>
+
+                            <option value="Civil Engineering">
+                                Civil Engineering
+                            </option>
+
+                            <option value="Commercial Real Estate">
+                                Commercial Real Estate
+                            </option>
+
+                            <option value="Computer & Network Security">
+                                Computer &amp; Network Security
+                            </option>
+
+                            <option value="Computer Games">
+                                Computer Games
+                            </option>
+
+                            <option value="Computer Hardware">
+                                Computer Hardware
+                            </option>
+
+                            <option value="Computer Networking">
+                                Computer Networking
+                            </option>
+
+                            <option value="Computer Software">
+                                Computer Software
+                            </option>
+
+                            <option value="Construction">
+                                Construction
+                            </option>
+
+                            <option value="Consumer Electronics">
+                                Consumer Electronics
+                            </option>
+
+                            <option value="Consumer Goods">
+                                Consumer Goods
+                            </option>
+
+                            <option value="Consumer Services">
+                                Consumer Services
+                            </option>
+
+                            <option value="Cosmetics">
+                                Cosmetics
+                            </option>
+
+                            <option value="Dairy">
+                                Dairy
+                            </option>
+
+                            <option value="Defense & Space">
+                                Defense &amp; Space
+                            </option>
+
+                            <option value="Design">
+                                Design
+                            </option>
+
+                            <option value="Education Management">
+                                Education Management
+                            </option>
+
+                            <option value="E-learning">
+                                E-learning
+                            </option>
+
+                            <option value="Electrical & Electronic Manufacturing">
+                                Electrical &amp; Electronic Manufacturing
+                            </option>
+
+                            <option value="Entertainment">
+                                Entertainment
+                            </option>
+
+                            <option value="Environmental Services">
+                                Environmental Services
+                            </option>
+
+                            <option value="Events Services">
+                                Events Services
+                            </option>
+
+                            <option value="Executive Office">
+                                Executive Office
+                            </option>
+
+                            <option value="Facilities Services">
+                                Facilities Services
+                            </option>
+
+                            <option value="Farming">
+                                Farming
+                            </option>
+
+                            <option value="Financial Services">
+                                Financial Services
+                            </option>
+
+                            <option value="Fine Art">
+                                Fine Art
+                            </option>
+
+                            <option value="Fishery">
+                                Fishery
+                            </option>
+
+                            <option value="Food & Beverages">
+                                Food &amp; Beverages
+                            </option>
+
+                            <option value="Food Production">
+                                Food Production
+                            </option>
+
+                            <option value="Fundraising">
+                                Fundraising
+                            </option>
+
+                            <option value="Furniture">
+                                Furniture
+                            </option>
+
+                            <option value="Gambling & Casinos">
+                                Gambling &amp; Casinos
+                            </option>
+
+                            <option value="Glass, Ceramics & Concrete">
+                                Glass, Ceramics &amp; Concrete
+                            </option>
+
+                            <option value="Government Administration">
+                                Government Administration
+                            </option>
+
+                            <option value="Government Relations">
+                                Government Relations
+                            </option>
+
+                            <option value="Graphic Design">
+                                Graphic Design
+                            </option>
+
+                            <option value="Health, Wellness & Fitness">
+                                Health, Wellness &amp; Fitness
+                            </option>
+
+                            <option value="Higher Education">
+                                Higher Education
+                            </option>
+
+                            <option value="Hospital & Health Care">
+                                Hospital &amp; Health Care
+                            </option>
+
+                            <option value="Hospitality">
+                                Hospitality
+                            </option>
+
+                            <option value="Human Resources">
+                                Human Resources
+                            </option>
+
+                            <option value="Import & Export">
+                                Import &amp; Export
+                            </option>
+
+                            <option value="Individual & Family Services">
+                                Individual &amp; Family Services
+                            </option>
+
+                            <option value="Industrial Automation">
+                                Industrial Automation
+                            </option>
+
+                            <option value="Information Services">
+                                Information Services
+                            </option>
+
+                            <option value="Information Technology & Services">
+                                Information Technology &amp; Services
+                            </option>
+
+                            <option value="Insurance">
+                                Insurance
+                            </option>
+
+                            <option value="International Affairs">
+                                International Affairs
+                            </option>
+
+                            <option value="International Trade & Development">
+                                International Trade &amp; Development
+                            </option>
+
+                            <option value="Internet">
+                                Internet
+                            </option>
+
+                            <option value="Investment Banking/Venture">
+                                Investment Banking/Venture
+                            </option>
+
+                            <option value="Investment Management">
+                                Investment Management
+                            </option>
+
+                            <option value="Judiciary">
+                                Judiciary
+                            </option>
+
+                            <option value="Law Enforcement">
+                                Law Enforcement
+                            </option>
+
+                            <option value="Law Practice">
+                                Law Practice
+                            </option>
+
+                            <option value="Legal Services">
+                                Legal Services
+                            </option>
+
+                            <option value="Legislative Office">
+                                Legislative Office
+                            </option>
+
+                            <option value="Leisure & Travel">
+                                Leisure &amp; Travel
+                            </option>
+
+                            <option value="Libraries">
+                                Libraries
+                            </option>
+
+                            <option value="Logistics & Supply Chain">
+                                Logistics &amp; Supply Chain
+                            </option>
+
+                            <option value="Luxury Goods & Jewelry">
+                                Luxury Goods &amp; Jewelry
+                            </option>
+
+                            <option value="Machinery">
+                                Machinery
+                            </option>
+
+                            <option value="Management Consulting">
+                                Management Consulting
+                            </option>
+
+                            <option value="Maritime">
+                                Maritime
+                            </option>
+
+                            <option value="Marketing & Advertising">
+                                Marketing &amp; Advertising
+                            </option>
+
+                            <option value="Market Research">
+                                Market Research
+                            </option>
+
+                            <option value="Mechanical or Industrial Engineering">
+                                Mechanical or Industrial Engineering
+                            </option>
+
+                            <option value="Media Production">
+                                Media Production
+                            </option>
+
+                            <option value="Medical Device">
+                                Medical Device
+                            </option>
+
+                            <option value="Medical Practice">
+                                Medical Practice
+                            </option>
+
+                            <option value="Mental Health Care">
+                                Mental Health Care
+                            </option>
+
+                            <option value="Military">
+                                Military
+                            </option>
+
+                            <option value="Mining & Metals">
+                                Mining &amp; Metals
+                            </option>
+
+                            <option value="Motion Pictures & Film">
+                                Motion Pictures &amp; Film
+                            </option>
+
+                            <option value="Museums & Institutions">
+                                Museums &amp; Institutions
+                            </option>
+
+                            <option value="Music">
+                                Music
+                            </option>
+
+                            <option value="Nanotechnology">
+                                Nanotechnology
+                            </option>
+
+                            <option value="Newspapers">
+                                Newspapers
+                            </option>
+
+                            <option value="Nonprofit Organization Management">
+                                Nonprofit Organization Management
+                            </option>
+
+                            <option value="Oil & Energy">
+                                Oil &amp; Energy
+                            </option>
+
+                            <option value="Online Publishing">
+                                Online Publishing
+                            </option>
+
+                            <option value="Outsourcing/Offshoring">
+                                Outsourcing/Offshoring
+                            </option>
+
+                            <option value="Package/Freight Delivery">
+                                Package/Freight Delivery
+                            </option>
+
+                            <option value="Packaging & Containers">
+                                Packaging &amp; Containers
+                            </option>
+
+                            <option value="Paper & Forest Products">
+                                Paper &amp; Forest Products
+                            </option>
+
+                            <option value="Performing Arts">
+                                Performing Arts
+                            </option>
+
+                            <option value="Pharmaceuticals">
+                                Pharmaceuticals
+                            </option>
+
+                            <option value="Philanthropy">
+                                Philanthropy
+                            </option>
+
+                            <option value="Photography">
+                                Photography
+                            </option>
+
+                            <option value="Plastics">
+                                Plastics
+                            </option>
+
+                            <option value="Political Organization">
+                                Political Organization
+                            </option>
+
+                            <option value="Primary/Secondary">
+                                Primary/Secondary
+                            </option>
+
+                            <option value="Printing">
+                                Printing
+                            </option>
+
+                            <option value="Professional Training">
+                                Professional Training
+                            </option>
+
+                            <option value="Program Development">
+                                Program Development
+                            </option>
+
+                            <option value="Public Policy">
+                                Public Policy
+                            </option>
+
+                            <option value="Public Relations">
+                                Public Relations
+                            </option>
+
+                            <option value="Public Safety">
+                                Public Safety
+                            </option>
+
+                            <option value="Publishing">
+                                Publishing
+                            </option>
+
+                            <option value="Railroad Manufacture">
+                                Railroad Manufacture
+                            </option>
+
+                            <option value="Ranching">
+                                Ranching
+                            </option>
+
+                            <option value="Real Estate">
+                                Real Estate
+                            </option>
+
+                            <option value="Recreational">
+                                Recreational
+                            </option>
+
+                            <option value="Facilities & Services">
+                                Facilities &amp; Services
+                            </option>
+
+                            <option value="Religious Institutions">
+                                Religious Institutions
+                            </option>
+
+                            <option value="Renewables & Environment">
+                                Renewables & Environment
+                            </option>
+
+                            <option value="Research">
+                                Research
+                            </option>
+
+                            <option value="Restaurants">
+                                Restaurants
+                            </option>
+
+                            <option value="Retail">
+                                Retail
+                            </option>
+
+                            <option value="Security & Investigations">
+                                Security &amp; Investigations
+                            </option>
+
+                            <option value="Semiconductors">
+                                Semiconductors
+                            </option>
+
+                            <option value="Shipbuilding">
+                                Shipbuilding
+                            </option>
+
+                            <option value="Sporting Goods">
+                                Sporting Goods
+                            </option>
+
+                            <option value="Sports">
+                                Sports
+                            </option>
+
+                            <option value="Staffing & Recruiting">
+                                Staffing &amp; Recruiting
+                            </option>
+
+                            <option value="Supermarkets">
+                                Supermarkets
+                            </option>
+
+                            <option value="Telecommunications">
+                                Telecommunications
+                            </option>
+
+                            <option value="Textiles">
+                                Textiles
+                            </option>
+
+                            <option value="Think Tanks">
+                                Think Tanks
+                            </option>
+
+                            <option value="Tobacco">
+                                Tobacco
+                            </option>
+
+                            <option value="Translation & Localization">
+                                Translation &amp; Localization
+                            </option>
+
+                            <option value="Transportation/Trucking/Railroad">
+                                Transportation/Trucking/Railroad
+                            </option>
+
+                            <option value="Utilities">
+                                Utilities
+                            </option>
+
+                            <option value="Venture Capital">
+                                Venture Capital
+                            </option>
+
+                            <option value="Veterinary">
+                                Veterinary
+                            </option>
+
+                            <option value="Warehousing">
+                                Warehousing
+                            </option>
+
+                            <option value="Wholesale">
+                                Wholesale
+                            </option>
+
+                            <option value="Wine & Spirits">
+                                Wine &amp; Spirits
+                            </option>
+
+                            <option value="Wireless">
+                                Wireless
+                            </option>
+
+                            <option value="Writing & Editing">
+                                Writing &amp; Editing
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="level" class="control-label">Level</label>
+                        <select name="level" class="required form-control" id="level">
+                            <option value="<%= opportunity.level %>"><%= opportunity.level %></option>
+
+                            <option value="Entry Level">
+                                Entry Level
+                            </option>
+
+                            <option value="Intermediate">
+                                Intermediate
+                            </option>
+
+                            <option value="Middle Management">
+                                Middle Management
+                            </option>
+
+                            <option value="Upper Management">
+                                Upper Management
+                            </option>
+
+                            <option value="Executive">
+                                Executive
+                            </option>
+                        </select>
+                    </div>
+
+
+
+				</div>
+
+				<div class="col-md-8">
+
+					<div class="form-group">
+					    <label for="problem" class="control-label">Description</label>
+					    <textarea class="form-control" id="description" name="description" rows="16"><%= opportunity.description %></textarea>
+					</div>
+
+					<div class="form-group">
+					    <label for="moredetails" class="control-label">More Details</label>
+					    <textarea class="form-control" id="moredetails" name="moredetails" rows="8"><%= opportunity.moredetails %></textarea>
+					</div>
+
+				</div>
+			</div>
+
+
+			<hr class="divider">
+		    <h3>Location Information</h3>
+		    <input type="hidden" value="<%= JSON.stringify(opportunity.location) %>" name="joblocation" id="joblocation" />
+		    <div class="checkbox">
+			  <label>
+			<% if (opportunity.relocation) { %>
+			    <input type="checkbox" id="relocationassist" name="relocationassist" value="1" checked>
+			<% } else { %>
+				<input type="checkbox" id="relocationassist" name="relocationassist" value="1">
+			<% } %>
+			    Relocation assistance offered for this position
+			  </label>
+			</div>
+			<div class="checkbox">
+			  <label>
+
+			  <% if (opportunity.remote) { %>
+			    <input type="checkbox" id="remoteworking" name="remoteworking" value="1" checked>
+			<% } else { %>
+				<input type="checkbox" id="remoteworking" name="remoteworking" value="1">
+			<% } %>
+
+			    Work can be done from anywhere (i.e. telecommuting)
+			  </label>
+			</div>
+
+		    <div class="row" >
+		        <div class="col-md-6" id="add-input-section">
+
+		            <h4>Add new address</h4>
+		            <div class="row">
+			            <div class="form-group col-md-10">
+				            <label for="street">Street</label>
+				            <input type="text" name="loc_street" id="loc_street" class="form-control">
+			            </div>
+
+			            <div class="form-group col-md-2">
+				            <label>Suite/Apt</label>
+				            <input type="text" name="loc_suite" id="loc_suite" class="form-control">
+			            </div>
+		            </div>
+
+		            <div class="row">
+			            <div class="form-group col-md-5">
+			            	<label>City</label>
+							<input type="text" name="loc_city" id="loc_city" class="form-control">
+			            </div>
+
+			            <div class="form-group col-md-7">
+			            	<label>Country</label>
+
+							<select name="loc_country" id="loc_country" class="form-control">
+								<option value="" selected="selected">Select Country</option>
+								<option value="Afghanistan">Afghanistan</option>
+								<option value="Albania">Albania</option>
+								<option value="Algeria">Algeria</option>
+								<option value="American Samoa">American Samoa</option>
+								<option value="Andorra">Andorra</option>
+								<option value="Angola">Angola</option>
+								<option value="Anguilla">Anguilla</option>
+								<option value="Antarctica">Antarctica</option>
+								<option value="Antigua and Barbuda">Antigua and Barbuda</option>
+								<option value="Argentina">Argentina</option>
+								<option value="Armenia">Armenia</option>
+								<option value="Aruba">Aruba</option>
+								<option value="Australia">Australia</option>
+								<option value="Austria">Austria</option>
+								<option value="Azerbaijan">Azerbaijan</option>
+								<option value="Bahamas">Bahamas</option>
+								<option value="Bahrain">Bahrain</option>
+								<option value="Bangladesh">Bangladesh</option>
+								<option value="Barbados">Barbados</option>
+								<option value="Belarus">Belarus</option>
+								<option value="Belgium">Belgium</option>
+								<option value="Belize">Belize</option>
+								<option value="Benin">Benin</option>
+								<option value="Bermuda">Bermuda</option>
+								<option value="Bhutan">Bhutan</option>
+								<option value="Bolivia">Bolivia</option>
+								<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+								<option value="Botswana">Botswana</option>
+								<option value="Bouvet Island">Bouvet Island</option>
+								<option value="Brazil">Brazil</option>
+								<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+								<option value="Brunei Darussalam">Brunei Darussalam</option>
+								<option value="Bulgaria">Bulgaria</option>
+								<option value="Burkina Faso">Burkina Faso</option>
+								<option value="Burundi">Burundi</option>
+								<option value="Cambodia">Cambodia</option>
+								<option value="Cameroon">Cameroon</option>
+								<option value="Canada">Canada</option>
+								<option value="Cape Verde">Cape Verde</option>
+								<option value="Cayman Islands">Cayman Islands</option>
+								<option value="Central African Republic">Central African Republic</option>
+								<option value="Chad">Chad</option>
+								<option value="Chile">Chile</option>
+								<option value="China">China</option>
+								<option value="Christmas Island">Christmas Island</option>
+								<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+								<option value="Colombia">Colombia</option>
+								<option value="Comoros">Comoros</option>
+								<option value="Congo">Congo</option>
+								<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+								<option value="Cook Islands">Cook Islands</option>
+								<option value="Costa Rica">Costa Rica</option>
+								<option value="Cote D'ivoire">Cote D'ivoire</option>
+								<option value="Croatia">Croatia</option>
+								<option value="Cuba">Cuba</option>
+								<option value="Cyprus">Cyprus</option>
+								<option value="Czech Republic">Czech Republic</option>
+								<option value="Denmark">Denmark</option>
+								<option value="Djibouti">Djibouti</option>
+								<option value="Dominica">Dominica</option>
+								<option value="Dominican Republic">Dominican Republic</option>
+								<option value="Ecuador">Ecuador</option>
+								<option value="Egypt">Egypt</option>
+								<option value="El Salvador">El Salvador</option>
+								<option value="Equatorial Guinea">Equatorial Guinea</option>
+								<option value="Eritrea">Eritrea</option>
+								<option value="Estonia">Estonia</option>
+								<option value="Ethiopia">Ethiopia</option>
+								<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+								<option value="Faroe Islands">Faroe Islands</option>
+								<option value="Fiji">Fiji</option>
+								<option value="Finland">Finland</option>
+								<option value="France">France</option>
+								<option value="French Guiana">French Guiana</option>
+								<option value="French Polynesia">French Polynesia</option>
+								<option value="French Southern Territories">French Southern Territories</option>
+								<option value="Gabon">Gabon</option>
+								<option value="Gambia">Gambia</option>
+								<option value="Georgia">Georgia</option>
+								<option value="Germany">Germany</option>
+								<option value="Ghana">Ghana</option>
+								<option value="Gibraltar">Gibraltar</option>
+								<option value="Greece">Greece</option>
+								<option value="Greenland">Greenland</option>
+								<option value="Grenada">Grenada</option>
+								<option value="Guadeloupe">Guadeloupe</option>
+								<option value="Guam">Guam</option>
+								<option value="Guatemala">Guatemala</option>
+								<option value="Guinea">Guinea</option>
+								<option value="Guinea-bissau">Guinea-bissau</option>
+								<option value="Guyana">Guyana</option>
+								<option value="Haiti">Haiti</option>
+								<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+								<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+								<option value="Honduras">Honduras</option>
+								<option value="Hong Kong">Hong Kong</option>
+								<option value="Hungary">Hungary</option>
+								<option value="Iceland">Iceland</option>
+								<option value="India">India</option>
+								<option value="Indonesia">Indonesia</option>
+								<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+								<option value="Iraq">Iraq</option>
+								<option value="Ireland">Ireland</option>
+								<option value="Israel">Israel</option>
+								<option value="Italy">Italy</option>
+								<option value="Jamaica">Jamaica</option>
+								<option value="Japan">Japan</option>
+								<option value="Jordan">Jordan</option>
+								<option value="Kazakhstan">Kazakhstan</option>
+								<option value="Kenya">Kenya</option>
+								<option value="Kiribati">Kiribati</option>
+								<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+								<option value="Korea, Republic of">Korea, Republic of</option>
+								<option value="Kuwait">Kuwait</option>
+								<option value="Kyrgyzstan">Kyrgyzstan</option>
+								<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+								<option value="Latvia">Latvia</option>
+								<option value="Lebanon">Lebanon</option>
+								<option value="Lesotho">Lesotho</option>
+								<option value="Liberia">Liberia</option>
+								<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+								<option value="Liechtenstein">Liechtenstein</option>
+								<option value="Lithuania">Lithuania</option>
+								<option value="Luxembourg">Luxembourg</option>
+								<option value="Macao">Macao</option>
+								<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+								<option value="Madagascar">Madagascar</option>
+								<option value="Malawi">Malawi</option>
+								<option value="Malaysia">Malaysia</option>
+								<option value="Maldives">Maldives</option>
+								<option value="Mali">Mali</option>
+								<option value="Malta">Malta</option>
+								<option value="Marshall Islands">Marshall Islands</option>
+								<option value="Martinique">Martinique</option>
+								<option value="Mauritania">Mauritania</option>
+								<option value="Mauritius">Mauritius</option>
+								<option value="Mayotte">Mayotte</option>
+								<option value="Mexico">Mexico</option>
+								<option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+								<option value="Moldova, Republic of">Moldova, Republic of</option>
+								<option value="Monaco">Monaco</option>
+								<option value="Mongolia">Mongolia</option>
+								<option value="Montserrat">Montserrat</option>
+								<option value="Morocco">Morocco</option>
+								<option value="Mozambique">Mozambique</option>
+								<option value="Myanmar">Myanmar</option>
+								<option value="Namibia">Namibia</option>
+								<option value="Nauru">Nauru</option>
+								<option value="Nepal">Nepal</option>
+								<option value="Netherlands">Netherlands</option>
+								<option value="Netherlands Antilles">Netherlands Antilles</option>
+								<option value="New Caledonia">New Caledonia</option>
+								<option value="New Zealand">New Zealand</option>
+								<option value="Nicaragua">Nicaragua</option>
+								<option value="Niger">Niger</option>
+								<option value="Nigeria">Nigeria</option>
+								<option value="Niue">Niue</option>
+								<option value="Norfolk Island">Norfolk Island</option>
+								<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+								<option value="Norway">Norway</option>
+								<option value="Oman">Oman</option>
+								<option value="Pakistan">Pakistan</option>
+								<option value="Palau">Palau</option>
+								<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+								<option value="Panama">Panama</option>
+								<option value="Papua New Guinea">Papua New Guinea</option>
+								<option value="Paraguay">Paraguay</option>
+								<option value="Peru">Peru</option>
+								<option value="Philippines">Philippines</option>
+								<option value="Pitcairn">Pitcairn</option>
+								<option value="Poland">Poland</option>
+								<option value="Portugal">Portugal</option>
+								<option value="Puerto Rico">Puerto Rico</option>
+								<option value="Qatar">Qatar</option>
+								<option value="Reunion">Reunion</option>
+								<option value="Romania">Romania</option>
+								<option value="Russian Federation">Russian Federation</option>
+								<option value="Rwanda">Rwanda</option>
+								<option value="Saint Helena">Saint Helena</option>
+								<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+								<option value="Saint Lucia">Saint Lucia</option>
+								<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+								<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+								<option value="Samoa">Samoa</option>
+								<option value="San Marino">San Marino</option>
+								<option value="Sao Tome and Principe">Sao Tome and Principe</option>
+								<option value="Saudi Arabia">Saudi Arabia</option>
+								<option value="Senegal">Senegal</option>
+								<option value="Serbia and Montenegro">Serbia and Montenegro</option>
+								<option value="Seychelles">Seychelles</option>
+								<option value="Sierra Leone">Sierra Leone</option>
+								<option value="Singapore">Singapore</option>
+								<option value="Slovakia">Slovakia</option>
+								<option value="Slovenia">Slovenia</option>
+								<option value="Solomon Islands">Solomon Islands</option>
+								<option value="Somalia">Somalia</option>
+								<option value="South Africa">South Africa</option>
+								<option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+								<option value="Spain">Spain</option>
+								<option value="Sri Lanka">Sri Lanka</option>
+								<option value="Sudan">Sudan</option>
+								<option value="Suriname">Suriname</option>
+								<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+								<option value="Swaziland">Swaziland</option>
+								<option value="Sweden">Sweden</option>
+								<option value="Switzerland">Switzerland</option>
+								<option value="Syrian Arab Republic">Syrian Arab Republic</option>
+								<option value="Taiwan, Province of China">Taiwan, Province of China</option>
+								<option value="Tajikistan">Tajikistan</option>
+								<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+								<option value="Thailand">Thailand</option>
+								<option value="Timor-leste">Timor-leste</option>
+								<option value="Togo">Togo</option>
+								<option value="Tokelau">Tokelau</option>
+								<option value="Tonga">Tonga</option>
+								<option value="Trinidad and Tobago">Trinidad and Tobago</option>
+								<option value="Tunisia">Tunisia</option>
+								<option value="Turkey">Turkey</option>
+								<option value="Turkmenistan">Turkmenistan</option>
+								<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+								<option value="Tuvalu">Tuvalu</option>
+								<option value="Uganda">Uganda</option>
+								<option value="Ukraine">Ukraine</option>
+								<option value="United Arab Emirates">United Arab Emirates</option>
+								<option value="United Kingdom">United Kingdom</option>
+								<option value="United States">United States</option>
+								<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+								<option value="Uruguay">Uruguay</option>
+								<option value="Uzbekistan">Uzbekistan</option>
+								<option value="Vanuatu">Vanuatu</option>
+								<option value="Venezuela">Venezuela</option>
+								<option value="Viet Nam">Viet Nam</option>
+								<option value="Virgin Islands, British">Virgin Islands, British</option>
+								<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+								<option value="Wallis and Futuna">Wallis and Futuna</option>
+								<option value="Western Sahara">Western Sahara</option>
+								<option value="Yemen">Yemen</option>
+								<option value="Zambia">Zambia</option>
+								<option value="Zimbabwe">Zimbabwe</option>
+							</select>
+			            </div>
+			            <!--<div class="form-group col-md-4">
+
+							<label>State</label>
+				            <input type="text" name="loc_state" id="loc_state" class="form-control">
+			            </div>-->
+			            <!--<div class="form-group col-md-3">
+				            <label>Zip Code</label>
+							<input type="text" name="loc_zip" id="loc_zip" class="form-control">
+			            </div>-->
+		            </div>
+
+		            <div class="row">
+						<div class="form-group col-md-4">
+				            <label>&nbsp;</label>
+				            <a class="form-control btn btn-success" id="btn-addaddr">
+								Verify Address <span class='glyphicon glyphicon-arrow-right'></span>
+				            </a>
+			            </div>
+			        </div>
+		        </div>
+
+				<div class="col-md-6">
+			        <div class="list-group suggested"></div>
+				</div>
+
+		        <div class="col-md-6">
+		            <h4>Saved addresses</h4>
+		            <div class="list-group" id="save_addr">
+						<%
+						var address_match = '';
+						console.log(user.locations);
+						if ((user.locations !== undefined) && (opportunity.location !== undefined)) {
+							user.locations.forEach(function(element, index, array) {
+								if (element.street === opportunity.location.street) { %>
+									<a class="list-group-item active">
+										<input type="hidden" name="locations" value="<%= JSON.stringify(element) %>"/>
+										<% if ((element.street === "") && (element.suite === "")) { %>
+
+										<% } else if ((element.street !== "") && (element.suite !== "")) { %>
+											<h4 class="list-group-item-heading"><%= element.street %><%= ", "+element.suite %></h4>
+										<% } else if ((element.street !== "") && (element.suite === "")) { %>
+											<h4 class="list-group-item-heading"><%= element.street %></h4>
+										<% } %>
+										<p class="list-group-item-text"><%= element.city %>, <!--<%= element.state %> <%= element.zip %>,--> <%= element.country %></p>
+										<!--<span onclick="onAddressRemove(this)" class="glyphicon glyphicon-remove-circle addr-remove"></span>-->
+									</a>
+								<%} else { %>
+									<a class="list-group-item">
+										<input type="hidden" name="locations" value="<%= JSON.stringify(element) %>"/>
+										<% if ((element.street === "") && (element.suite === "")) { %>
+
+										<% } else if ((element.street !== "") && (element.suite !== "")) { %>
+											<h4 class="list-group-item-heading"><%= element.street %><%= ", "+element.suite %></h4>
+										<% } else if ((element.street !== "") && (element.suite === "")) { %>
+											<h4 class="list-group-item-heading"><%= element.street %></h4>
+										<% } %>
+										<p class="list-group-item-text"><%= element.city %>, <!--<%= element.state %> <%= element.zip %>,--> <%= element.country %></p>
+										<!--<span onclick="onAddressRemove(this)" class="glyphicon glyphicon-remove-circle addr-remove"></span>-->
+									</a>
+								<%
+								address_match = false;
+								 }
+							 });
+						 }
+						 if (address_match === false) { %>
+							<a class="list-group-item active">
+								<input type="hidden" name="locations" value="<%= JSON.stringify(opportunity.location) %>"/>
+								<h4 class="list-group-item-heading"><%= opportunity.location.street %><%= ", "+opportunity.location.suite %></h4>
+								<p class="list-group-item-text"><%= opportunity.location.city %>, <!--<%= opportunity.location.state %> <%= opportunity.location.zip %>,--> <%= opportunity.location.country %></p>
+								<!--<span onclick="onAddressRemove(this)" class="glyphicon glyphicon-remove-circle addr-remove"></span>-->
+							</a>
+						 <% } %>
+					</div>
+		        </div>
+		    </div>
+
+
+			<hr class="divider">
+
+			<div class="row">
+				<div class="form-group">
+					<div class="col-sm-offset-8 col-sm-4">
+					  <button type="submit" class="btn btn-primary form-control input-lg">Update <span class="glyphicon glyphicon-chevron-right"></span></button>
+					</div>
+				</div>
+			</div>
+
+		</form>
+
+
+
+
+
+	</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+
+    <script src="/assets/javascript/redactor.js"></script>
+    <script src="/assets/components/handlebars/handlebars.min.js"></script>
+    <script src="/assets/javascript/formValidation.min.js" type="text/javascript"></script>
+    <script src="/assets/javascript/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var onAddressRemove = '';
+		$(function(){
+
+			$('#create_form').formValidation({
+		        framework: 'bootstrap',
+		        icon: {
+		            valid: 'glyphicon glyphicon-ok',
+		            invalid: 'glyphicon glyphicon-remove',
+		            validating: 'glyphicon glyphicon-refresh'
+		        },
+		        fields: {
+		            title: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A job title is required'
+		                    },
+		                    stringLength: {
+		                        min: 10,
+		                        max: 100,
+		                        message: 'The title must be more than 10 and less than 100 characters long'
+		                    }
+		                }
+		            },
+		            description: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A job description is required'
+		                    },
+		                    stringLength: {
+		                        min: 100,
+		                        max: 3000,
+		                        message: 'The description must be atleast 100 characters long'
+		                    }
+		                }
+		            },
+		            jobtype: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A job type is required'
+		                    }
+		                }
+		            },
+		            category: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A job category is required'
+		                    }
+		                }
+		            },
+		            PHONE: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'The phone number is required'
+		                    },
+		                    regexp: {
+		                        regexp: /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im,
+		                        message: 'The phone number you entered looks invalid'
+		                    }
+		                }
+		            },
+		            COMPANY: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'The company address is required'
+		                    }
+		                }
+		            },
+		            COUNTRY: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A country is required'
+		                    }
+		                }
+		            },
+		            CITY: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A city is required'
+		                    }
+		                }
+		            },
+		            INDUSTRY: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'An industry is required'
+		                    }
+		                }
+		            }
+		        }
+		    });
+
+
+	        $('#description, #moredetails').redactor({
+		        minHeight: 300 // pixels
+	        });
+
+
+	        //$('.redactor-toolbar').append('<li class="pull-right message" style="display: none;"><p><\/p><\/li>');
+
+	        $(document).on('click', '#save_addr a', {}, function (e) {
+	            e.preventDefault();
+	            $('#save_addr a').removeClass('active');
+	            $(this).tab('show').toggleClass('active');
+	            $('#joblocation').val($(this).find('input').val());
+	        });
+
+	        /*onAddressRemove = function(el){
+				$(el).parents('a.list-group-item').remove();
+			};*/
+
+			//suggested address clicked
+			onAddressAdd = function(el){
+				$selection = $(el).parent('a.list-group-item').children('input');
+				data = $selection.val();
+				//console.log(data);
+				obj = jQuery.parseJSON(data);
+				//console.log(obj);
+				obj.addr = data;
+				obj.country_text = $("#loc_country :selected").text();
+				$('#save_addr a').removeClass('active');
+				$('#joblocation').val(obj.addr);
+				$('#save_addr').append(template(obj));
+				$('#add-input-section input').val("");
+				$(el).parent().parent().empty('.suggested');
+
+			};
+
+			//var statedata = {{json_encode($state_list)}};
+			/*var states = new Bloodhound({
+			  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+			  queryTokenizer: Bloodhound.tokenizers.whitespace,
+			  // `states` is an array of state names defined in "The Basics"
+			  local: $.map(statedata, function(state) { return { value: state }; })
+			});
+
+			// kicks off the loading/processing of `local` and `prefetch`
+			states.initialize();
+
+			var makeAutoComplete = function(){
+				$('#loc_state').typeahead({
+					  hint: true,
+					  highlight: true,
+					  minLength: 1
+					},
+					{
+					  name: 'states',
+					  displayKey: 'value',
+					  // `ttAdapter` wraps the suggestion engine in an adapter that
+					  // is compatible with the typeahead jQuery plugin
+					  source: states.ttAdapter()
+					});
+			}
+
+
+			$('#loc_country').change(function(e){
+				$('#loc_state').typeahead('destroy');
+				$('#loc_state').val('');
+				if ( $(this).val() == "US"){
+					makeAutoComplete();
+				}else{
+
+				}
+			});
+
+			makeAutoComplete();*/
+
+			var template = Handlebars.compile($('#tmpl_save_addr').html());
+
+			$('#btn-addaddr').click(function(){
+				//User input address object
+				data = {
+					street: $('#loc_street').val().trim(),
+					suite: $('#loc_suite').val().trim(),
+					city: $('#loc_city').val().trim(),
+					/*zip: $('#loc_zip').val().trim(),
+					state: $('#loc_state').val().trim(),*/
+					country: $('#loc_country').val().trim()
+				}
+				data.addr = JSON.stringify(data);
+
+				data.country_text = $("#loc_country :selected").text();
+
+				//---------------------Address Verification via Google Maps API-------------------//
+				 street = data['street'].replace(/ /g, '+');
+				 suite = data['suite'].toLowerCase().replace(/\b[a-z]/g, function(letter) {
+				    		return letter.toUpperCase();
+						});
+				 city = data['city'].replace(/ /g, '+');
+				 //zip = data['zip'].replace(/ /g, '+');
+				 //state = data['state'].replace(/ /g, '+');
+				 country = data['country'].replace(/ /g, '+');
+				 address = street +  "+" +  city + "+"/* + state + "+" + zip +  "+"*/ +country;
+
+				var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&sensor=false";
+
+				//clean up suggested div
+				$('.suggested').empty();
+
+				//retrieve response
+				$.ajax({
+		        url: url,
+		            dataType: 'json',
+		            cache: false,
+			        success: function (data) {
+			        	suggested = '';
+			             for (i = 0; i < data.results.length; i++) {
+			            components =  data.results[i].address_components;
+			          //  alert(data.results[i].formatted_address);
+			            var street_num = '';
+			            var street_name = '';
+			            var city = '';
+			            var state = '';
+			            var country = '';
+			            var zip = '';
+			            var lat = '';
+			            var lng = '';
+						//console.log(data.status);
+						//console.log(data.results[i]);
+						if (data.status == 'OK') {
+							//go through data results to retrive address info for each match
+							$.each(data.results[i], function(index, value) {
+
+				            	if (jQuery.type(value) === "object" || $.isArray(value)) {
+					            	$.each(value, function(index2, value2){
+
+					            		if(jQuery.type(value2) === "object" || $.isArray(value2)){
+					            			$.each(value2, function(index3, val3) {
+
+							            		if (val3 == 'street_number') { street_num = data.results[i][index][index2]['long_name'];}
+							            		if (val3 == 'route') { street_name = data.results[i][index][index2]['long_name'];}
+							            		if (val3 == 'sublocality_level_1,sublocality,political') { city = data.results[i][index][index2]['long_name'];}
+							            		if (val3 == 'locality,political') { city = data.results[i][index][index2]['long_name'];}
+							            		if (val3 == 'administrative_area_level_1,political') { state = data.results[i][index][index2]['long_name'];}
+							            		if (val3 == 'country,political') {
+							            			country = data.results[i][index][index2]['short_name'];
+							            			country_long = data.results[i][index][index2]['long_name'];
+							            		}
+							            		if (val3 == 'postal_code') { zip = data.results[i][index][index2]['long_name'];}
+
+				            					if (index3 == 'lat') { lat = data.results[i][index][index2]['lat'];}
+				            					if (index3 == 'lng') { lng = data.results[i][index][index2]['lng'];}
+
+					            			});
+					            		}
+					            	});
+					            }
+							});
+							//match(es) address object
+							if (street_num && street_name) {
+								var street = street_num + " " + street_name;
+							} else {
+								var street = "";
+							}
+
+
+				            addr = {
+				            	street: street,
+								suite: suite,
+								city: city,
+								/*zip: zip,
+								state: state,*/
+								country: country_long,
+								lat: lat,
+								lng: lng
+				            }
+				            //List match(es) for user to select from
+				           	if ($.isEmptyObject(suite)) {} else{suite = " " + suite;}
+				           	suggested = suggested +  "<a class='list-group-item'><input type='hidden' name='temp_location[]' value='" + JSON.stringify(addr) + "' /><h4 class='list-group-item-heading'>"
+				           						+ street + suite + "</h4><p class='list-group-item-text'>"
+				           						+ city + ", "/* + state + " " + zip + ", "*/ + country_long
+				           						+ "</p><span class='addr-add' onclick='onAddressAdd(this)'><span class='glyphicon glyphicon-ok-circle'></span> Select</span></a>";
+
+						}//end if status code = OK
+						else{
+							suggested = 'No Matches found!';
+						}
+
+			        };
+			        $('div.suggested').append('<h4>Please choose your address</h4>' + suggested);
+			        },
+			        error: function (e) {
+			            //console.log(e.message);
+			             $('div.suggested').append('<h4>Suggested Address</h4>' + 'No Matches Found');
+			        }
+				});
+
+
+				//-----------------------------------------------------------//
+
+				isvalid = ""; // valid check
+				if ( true || isvalid)
+				{
+			      //$('div.list-group').append(template(data));
+			    }
+
+		    	//$('#add-input-section input').val("");
+			});
+
+	    });
+    </script>
+
+    <script type="text/x-hbs" id="tmpl_save_addr">
+		<a class="list-group-item active">
+			<input type="hidden" name="locations" value='{{addr}}'/>
+		    <h4 class="list-group-item-heading">{{street}} {{suite}}</h4>
+		    <p class="list-group-item-text">{{city}}, <!--{{state}} {{zip}},--> {{country_text}}</p>
+		    <!--<span class="glyphicon glyphicon-remove-circle addr-remove" onclick='onAddressRemove(this)'></span>-->
+		</a>
+	</script>
+
+<% include ../partials/footer.html.ejs %>

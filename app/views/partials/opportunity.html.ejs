@@ -1,0 +1,32 @@
+<div class="item thumbnail">
+    <div class="row">
+		<div class="col-md-1 col-sm-2 col-xs-4">
+			<a href="/opportunities/<%= opportunity._id %>"><% if (opportunity.createdBy.photo) { %><img src="<%= opportunity.createdBy.photo+'?dim=200x200' %>" class="img-responsive"><%} else {%><img src="/assets/images/kk-cover.png?dim=200x200" class="img-responsive" /><% } %></a>
+		</div>
+		<div class="col-md-11 col-sm-10 col-xs-8">
+			<% var applied = null;
+			if (opportunity.applications) {
+
+				//console.log(user._id);
+				opportunity.applications.forEach(function(item){
+					//console.log(item.user);
+					if (typeof user !== "undefined") {
+						if (item.user.toString() == user._id.toString()) {
+							applied = true;
+						}
+					}
+					//console.log(applied);
+				});
+
+			} %>
+
+			<h2 class="rs"><a href="/opportunities/<%= opportunity._id %>"><%= opportunity.title %></a></h2>
+			<p><% if (opportunity.remote) { %><%- "Work Remotely" %><% } else { %><%= opportunity.location.city %>, <%= opportunity.location.country %> <% } %> &middot; <strong>Added</strong> <%= moment(opportunity.createDate).fromNow() %></p>
+			<p></p>
+
+			<% if (applied == true) { %> <p><span id="options">You've already applied for this position.</span></p> <% } %>
+
+			<!--<p><a class="btn btn-primary btn-sm" href="/opportunities/apply/<%= opportunity._id %>"><strong>Apply</strong></a></p>-->
+		</div>
+	</div>
+</div>

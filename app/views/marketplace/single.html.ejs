@@ -1,0 +1,126 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container marketplace">
+	<div class="col-md-12">
+
+		<div class="row">
+
+			<!--<div id="sidebar" class="col-md-2">
+
+				<h4>Categories</h4>
+				<ul class="list-unstyled">
+					<li><input type="text" name="search" class="form-control" placeholder="Search Marketplace" /></li>
+					<li><hr class="divider"></li>
+					<li><a href="">Books</a></li>
+					<li><a href=""><strong>Inventions</strong></a>
+
+						<ul class="list-unstyled">
+							<li><a href=""><strong>Auto</strong></a></li>
+							<li><a href="">Agriculture</a></li>
+							<li><a href="">Architecture</a></li>
+							<li><a href="">Boating</a></li>
+							<li><a href="">Clothing</a></li>
+							<li><a href="">Electrical</a></li>
+							<li><a href="">Hardware</a></li>
+							<li><a href="">Heating</a></li>
+							<li><a href="">Health</a></li>
+							<li><a href="">Home Goods</a></li>
+							<li><a href="">Mechanical</a></li>
+							<li><a href="">Miscellaneous</a></li>
+							<li><a href="">Municipal</a></li>
+							<li><a href="">Music</a></li>
+							<li><a href="">Pet</a></li>
+							<li><a href="">Technology</a></li>
+							<li><a href="">Travel</a></li>
+							<li><a href="">Written</a></li>
+						</ul>
+
+					</li>
+					<li><a href="">Magazines</a></li>
+					<li><a href="">Playwrights</a></li>
+					<li><a href="">Research</a></li>
+					<li><a href="">Screenplays</a></li>
+
+				</ul>
+
+			</div>-->
+
+
+			<div class="col-md-12">
+
+				<h1 class="title"><%= marketplace.name %></h1>
+				<ul class="list-unstyled list-inline clearfix">
+					<li><strong>Created</strong> <%= moment(marketplace.createDate).fromNow() %></li>
+					<li class="divider"></li>
+					<li><strong><% /*marketplace.author*/ %></strong></li>
+					<li class="pull-right">
+						<div class="btn-group">
+							<input type="hidden" value="<%= marketplace.id %>" name="marketplace_id" />
+							<button type="button" class="btn btn-default">$<%= marketplace.price %></button><button type="button" class="btn btn-primary" name="buy">Buy</button>
+						</div>
+					</li>
+				</ul>
+
+				<hr class="divider">
+
+				<div id="books" class="row">
+
+					<div class="col-md-5">
+						<img id="cover-image" src="/assets/images/kk-cover.png" class="img-responsive" />
+
+					</div>
+
+					<div class="col-md-7">
+						<%= marketplace.description %>
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+
+<script>
+	$('[name="buy"]').click(function(){
+		$.post('/ajax/addtocart', {'marketplace_id': $('[name="marketplace_id"]').val()}).success(function(data){
+				data = JSON.parse(data);
+				var messages = $('#cart-right #cart-messages');
+				if (data.warning) {
+					$.sidr('open', 'cart-right');
+					messages.addClass('text-success').html(data.warning).fadeIn();
+					setTimeout(function(){
+						messages.fadeOut();
+						$.sidr('close', 'cart-right');
+					}, 3000);
+				} else if (data.error) {
+					$.sidr('open', 'cart-right');
+					messages.addClass('text-danger').html(data.error).fadeIn();
+					setTimeout(function(){
+						messages.fadeOut();
+						$.sidr('close', 'cart-right');
+					}, 3000);
+				} else {
+					var total = 0;
+					$('#cart-items').html(data.success);
+					$('#cart-right #cart-content').html("");
+					data.cart.forEach(function(item){
+						$('#cart-right #cart-content').append('<a href="/marketplace/'+item.id+'" class="list-group-item"><h4 class="list-group-item-heading">'+item.name+'</h4><p class="list-group-item-text">$'+item.price+'</p><span class="glyphicon glyphicon-remove-circle addr-remove" onclick=""></span></a>');
+						total += item.price;
+					});
+					//console.log(total);
+					$('span#cart-total').html(total);
+					$.sidr('open', 'cart-right');
+					setTimeout(function(){ $.sidr('close', 'cart-right'); }, 3000);
+				}
+
+		});
+	});
+</script>
+
+<% include ../partials/footer.html.ejs %>

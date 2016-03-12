@@ -1,0 +1,533 @@
+[
+  {
+    "name":"Universidad de Puerto Rico"
+  },
+  {
+    "name":"University of the West Indies"
+  },
+  {
+    "name":"Universidad de Puerto Rico Mayaguez"
+  },
+  {
+    "name":"Universidad de la Habana"
+  },
+  {
+    "name":"University of the West Indies at St Augustine"
+  },
+  {
+    "name":"Universidad de Puerto Rico Río Piedras"
+  },
+  {
+    "name":"University of the West Indies Cave Hill Campus Barbados"
+  },
+  {
+    "name":"Instituto Superior Politécnico José Antonio Echeverría"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Aguadilla"
+  },
+  {
+    "name":"University of the West Indies Mona Jamaica"
+  },
+  {
+    "name":"Sistema Universitario Ana G Mendez"
+  },
+  {
+    "name":"Universidad Interamericana de Puerto Rico"
+  },
+  {
+    "name":"Saint George's University"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Humacao"
+  },
+  {
+    "name":"Universidad de Oriente Santiago de Cuba"
+  },
+  {
+    "name":"Universidad de las Ciencias Informáticas"
+  },
+  {
+    "name":"University of the Virgin Islands"
+  },
+  {
+    "name":"Universidad Central Marta Abreu de la Villas"
+  },
+  {
+    "name":"Instituto Tecnológico de Santo Domingo"
+  },
+  {
+    "name":"Ross University"
+  },
+  {
+    "name":"Universidad Autónoma de Santo Domingo"
+  },
+  {
+    "name":"Pontificia Universidad Católica de Puerto Rico"
+  },
+  {
+    "name":"Pontificia Universidad Católica Madre y Maestra"
+  },
+  {
+    "name":"Universidad de Camaguey"
+  },
+  {
+    "name":"Conservatorio de Musica de Puerto Rico"
+  },
+  {
+    "name":"Universidad del Sagrado Corazón"
+  },
+  {
+    "name":"Universidad APEC"
+  },
+  {
+    "name":"Universidad Nacional Pedro Henríquez Ureña"
+  },
+  {
+    "name":"Escuela de Artes Plasticas de Puerto Rico"
+  },
+  {
+    "name":"Universidad de Cienfuegos Carlos Rafael Rodríguez"
+  },
+  {
+    "name":"Ponce School of Medicine"
+  },
+  {
+    "name":"Instituto Superior Minero Metalúrgico de Moa"
+  },
+  {
+    "name":"Polytechnic University of Puerto Rico San Juan"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Arecibo"
+  },
+  {
+    "name":"University of Trinidad and Tobago"
+  },
+  {
+    "name":"Universidad de Pinar del Rio"
+  },
+  {
+    "name":"University of Technology Jamaica"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Bayamón"
+  },
+  {
+    "name":"Universidad Central del Este"
+  },
+  {
+    "name":"College of the Bahamas"
+  },
+  {
+    "name":"Université d'Etat d'Haiti"
+  },
+  {
+    "name":"University of the West Indies Open Campus"
+  },
+  {
+    "name":"Universidad de Holguín Oscar Lucero Moya"
+  },
+  {
+    "name":"Universidad Iberoamericana Santo Domingo"
+  },
+  {
+    "name":"Universidad Central de Bayamón"
+  },
+  {
+    "name":"Instituto Tecnológico de las Américas"
+  },
+  {
+    "name":"Universidad Abierta para Adultos"
+  },
+  {
+    "name":"Universidad Central del Caribe"
+  },
+  {
+    "name":"Universidad Psicología Industrial Dominicana"
+  },
+  {
+    "name":"Northern Caribbean University"
+  },
+  {
+    "name":"Trinidad and Tobago Hospitality and Tourism Institute"
+  },
+  {
+    "name":"Sir Arthur Lewis Community College"
+  },
+  {
+    "name":"Centro Nacional de Sanidad Agropecuaria"
+  },
+  {
+    "name":"Caribbean University"
+  },
+  {
+    "name":"American University of Antigua College of Medicine"
+  },
+  {
+    "name":"Instituto Nacional de Ciencias Agrícolas"
+  },
+  {
+    "name":"Instituto Superior de Agricultura"
+  },
+  {
+    "name":"American University of Puerto Rico"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Ponce"
+  },
+  {
+    "name":"Universidad de Puerto Rico en Carolina"
+  },
+  {
+    "name":"University of the Southern Caribbean"
+  },
+  {
+    "name":"Saint Matthews School of Medicine"
+  },
+  {
+    "name":"Columbia Centro Universitario"
+  },
+  {
+    "name":"Universidad Católica Nordestana"
+  },
+  {
+    "name":"Universidad de Ciego de Ávila"
+  },
+  {
+    "name":"National University College"
+  },
+  {
+    "name":"Universidad de Puerto Rico Utuado"
+  },
+  {
+    "name":"Universidad Tecnológica de Santiago"
+  },
+  {
+    "name":"Antillean Adventist University"
+  },
+  {
+    "name":"University of the West Indies Arthur Lok Jack Graduate School of Business"
+  },
+  {
+    "name":"Universidad de Granma"
+  },
+  {
+    "name":"Instituto Superior de Tecnologias y Ciencias Aplicadas"
+  },
+  {
+    "name":"Universidad Agraria de La Habana Fructuoso Rodriguez Pérez"
+  },
+  {
+    "name":"Estación Experimental de Pastos y Forrajes Indio Hatuey"
+  },
+  {
+    "name":"Barbados Community College"
+  },
+  {
+    "name":"Facultad de Derecho Eugenio María de Hostos"
+  },
+  {
+    "name":"Instituto Politécnico Loyola"
+  },
+  {
+    "name":"Universidad del Caribe República Dominicana"
+  },
+  {
+    "name":"University College of the Caribbean"
+  },
+  {
+    "name":"University College Cayman Islands"
+  },
+  {
+    "name":"College of Science, Technology & Applied Arts of Trinidad & Tobago"
+  },
+  {
+    "name":"Windsor University School of Medicine"
+  },
+  {
+    "name":"Universidad Dominicana O&M"
+  },
+  {
+    "name":"University of Health Sciences Antigua West Indies"
+  },
+  {
+    "name":"Escuela de Medicina San Juan Bautista"
+  },
+  {
+    "name":"Universidad Católica Santo Domingo"
+  },
+  {
+    "name":"École Supérieure d'Infotronique d'Haiti"
+  },
+  {
+    "name":"Medical University of the Americas Nevis"
+  },
+  {
+    "name":"International University of Health Sciences"
+  },
+  {
+    "name":"Universidad Virtual de Salud"
+  },
+  {
+    "name":"ICPR Junior College"
+  },
+  {
+    "name":"Seminario Evangelico de Puerto Rico"
+  },
+  {
+    "name":"School of Business and Computer Science"
+  },
+  {
+    "name":"Universidad de la Tercera Edad"
+  },
+  {
+    "name":"H Lavity Stoutt Community College"
+  },
+  {
+    "name":"University of Aruba"
+  },
+  {
+    "name":"Universidad Jesús Montané Oropesa (Centro Universitario Isla de la Juventud)"
+  },
+  {
+    "name":"Université Quisqueya"
+  },
+  {
+    "name":"Huertas Junior College"
+  },
+  {
+    "name":"Colegio Universitario de San Juan"
+  },
+  {
+    "name":"Center for Advanced Studies on Puerto Rico & the Caribbean"
+  },
+  {
+    "name":"Universidad Católica Tecnológica del Cibao"
+  },
+  {
+    "name":"Universidad Adventista Dominicana"
+  },
+  {
+    "name":"Instituto de Ciencia Animal"
+  },
+  {
+    "name":"International American University College of Medicine"
+  },
+  {
+    "name":"Mico University College"
+  },
+  {
+    "name":"Caribbean School of Medicine"
+  },
+  {
+    "name":"College Of Agriculture, Science & Education"
+  },
+  {
+    "name":"Universidad Nacional Evangélica"
+  },
+  {
+    "name":"Centro de Estudios Multidisciplinarios"
+  },
+  {
+    "name":"Edna Manley College of the Visual and Performing Arts"
+  },
+  {
+    "name":"Ponce Paramedical College"
+  },
+  {
+    "name":"Excelsior Community College"
+  },
+  {
+    "name":"Université Caraibe Haiti"
+  },
+  {
+    "name":"Atlantic College Colegio Universitario de Guaynabo"
+  },
+  {
+    "name":"EDIC College"
+  },
+  {
+    "name":"Caribbean Maritime Institute"
+  },
+  {
+    "name":"Spartan Health Sciences University"
+  },
+  {
+    "name":"International University of Nursing"
+  },
+  {
+    "name":"Universidad Interamericana Unica"
+  },
+  {
+    "name":"International College of the Cayman Islands"
+  },
+  {
+    "name":"Universidad Federico Henríquez y Carvajal"
+  },
+  {
+    "name":"Management Institute for National Development"
+  },
+  {
+    "name":"T A Marryshow Community College"
+  },
+  {
+    "name":"Universidad Nacional Tecnológica"
+  },
+  {
+    "name":"Barna Business School"
+  },
+  {
+    "name":"International University for Graduate Studies"
+  },
+  {
+    "name":"Commonwealth Open University"
+  },
+  {
+    "name":"Universidad Experimental Félix Adam"
+  },
+  {
+    "name":"Université Autonome de Port-au-Prince"
+  },
+  {
+    "name":"Universidad Eugenio María de Hostos"
+  },
+  {
+    "name":"Aureus University School of Medicine (All Saints)"
+  },
+  {
+    "name":"Instituto Tecnológico del Cibao Oriental"
+  },
+  {
+    "name":"Centro Universitario de Las Tunas"
+  },
+  {
+    "name":"Colbourne College"
+  },
+  {
+    "name":"Bayamon Community College"
+  },
+  {
+    "name":"All Saints University"
+  },
+  {
+    "name":"United Theological College of the West Indies"
+  },
+  {
+    "name":"Shortwood Teachers' College"
+  },
+  {
+    "name":"Facultad Latinoamericana de Ciencias Sociales República Dominicana"
+  },
+  {
+    "name":"Centro Universitario de Guantánamo"
+  },
+  {
+    "name":"Université Chrétienne du Nord d’Haïti"
+  },
+  {
+    "name":"Ross University School of Medicine, Dominica"
+  },
+  {
+    "name":"Colegio de Cinematografia Artes y Television"
+  },
+  {
+    "name":"Universidad Agroforestal Fernando Arturo de Meriño"
+  },
+  {
+    "name":"Caribbean Nazarene College"
+  },
+  {
+    "name":"G C Foster College"
+  },
+  {
+    "name":"B&B University College"
+  },
+  {
+    "name":"International University of the Caribbean"
+  },
+  {
+    "name":"Centro de Cibernética Aplicada a la Medicina"
+  },
+  {
+    "name":"Universidad Tecnológica del Sur"
+  },
+  {
+    "name":"Universidad INCE (Instituto Nacional de Ciencias Exactas)"
+  },
+  {
+    "name":"Facultad de Estomatología Raúl González Sánchez"
+  },
+  {
+    "name":"Université Notre Dame d'Haiti"
+  },
+  {
+    "name":"Université Notre Dame d'Haïti Faculté de Médecine et des Sciences de la Santé"
+  },
+  {
+    "name":"Université GOC"
+  },
+  {
+    "name":"WHI Jamaica"
+  },
+  {
+    "name":"Clarence Fitzroy College"
+  },
+  {
+    "name":"University of the Nouvelle Grand Anse"
+  },
+  {
+    "name":"Sam Sharpe Teacher's College Jamaica"
+  },
+  {
+    "name":"Vector Technology Institute"
+  },
+  {
+    "name":"Caribbean Graduate School of Theology"
+  },
+  {
+    "name":"Université Publique du Nord au Cap-haïtien"
+  },
+  {
+    "name":"Université Roi Henri Christophe"
+  },
+  {
+    "name":"Bethlehem Moravian College"
+  },
+  {
+    "name":"Facultad de Ciencias Médicas Gral Calixto García"
+  },
+  {
+    "name":"Université de Port-au-Prince"
+  },
+  {
+    "name":"Eugene Dupuch Law School"
+  },
+  {
+    "name":"Universidad de Ciencias Pedagogicas Enrique Jose Varona"
+  },
+  {
+    "name":"University of Fondwa"
+  },
+  {
+    "name":"Université Episcopale d'Haïti"
+  },
+  {
+    "name":"Catholic College of Mandeville, Jamaica"
+  },
+  {
+    "name":"Universidad Médica de La Habana Facultad de Ciencias Médicas 10 de Octubre"
+  },
+  {
+    "name":"University College Cayman Islands Civil Service College"
+  },
+  {
+    "name":"Université Joseph Lafortune"
+  },
+  {
+    "name":"Facultad de Medicina Salvador Allende"
+  },
+  {
+    "name":"University of the West Indies Nassau Bahamas"
+  }
+]

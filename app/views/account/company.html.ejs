@@ -1,0 +1,152 @@
+<% include ../partials/header.html.ejs %>
+
+	<div id="content" class="container">
+        <div class="col-md-6 col-md-offset-3">
+
+            <div class="row">
+            	<div class="col-md-8 col-sm-8 col-xs-8"><h2>Company Sign up</h2></div>
+				<div class="col-md-4 col-sm-4 col-xs-4 text-right"><h3><a class="btn btn-default" href="/signup/individual">Individual</a></h3></div>
+			</div>
+            <hr>
+
+            <form method="post" id="signup">
+                <div style="color:red">
+                    <% if ( locals.message) {%><%= message%><%}%>
+                </div>
+
+                <input type="hidden" name="usertype" id="company" value="Company">
+
+				<div class="form-group">
+                    <label for="company" class="">Company Name</label>
+                    <input type="text" class="form-control" id="company" name="company" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname" class="">First Name</label>
+                    <input type="text" class="form-control" id="firstname" name="firstname" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="lastname" class="">Last Name</label>
+                    <input type="text" class="form-control" id="lastname" name="lastname" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="password" class="">Confirm Password</label>
+                    <input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p><a href="/account/login" class="btn btn-link">Login</a></p>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <input type="submit" class="btn btn-primary form-control" value="Get Started">
+                        </div>
+                    </div>
+                </div>
+            </form><br>
+        </div>
+    </div><!-- container -->
+<% include ../partials/footer-menu.html.ejs %>
+
+    <script src="/assets/javascript/formValidation.min.js" type="text/javascript"></script>
+    <script src="/assets/javascript/bootstrap.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var onAddressRemove = '';
+		$(function(){
+
+			$('#signup').formValidation({
+		        framework: 'bootstrap',
+		        icon: {
+		            valid: 'glyphicon glyphicon-ok',
+		            invalid: 'glyphicon glyphicon-remove',
+		            validating: 'glyphicon glyphicon-refresh'
+		        },
+		        fields: {
+		            firstname: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A first name is required'
+		                    },
+		                    stringLength: {
+		                        min: 3,
+		                        max: 100,
+		                        message: 'The firstn name must be more than 10 and less than 100 characters long'
+		                    }
+		                }
+		            },
+		            lastname: {
+		                validators: {
+		                    notEmpty: {
+		                        message: 'A last name is required'
+		                    },
+		                    stringLength: {
+		                        min: 3,
+		                        max: 100,
+		                        message: 'The last name must be more than 10 and less than 100 characters long'
+		                    }
+		                }
+		            },
+		            email:{
+			            validators: {
+				            notEmpty: {
+					            message:'An email address is required'
+					        },
+				            emailAddress: {
+					            message:'This is not a valid email address'
+					        }
+					    }
+					},
+					business: {
+	                    validators: {
+	                        notEmpty: {
+	                            message: 'A business name is required'
+	                        }/*,
+	                        regexp: {
+		                        regexp: /^(?=[^\d_].*?\d)\w(\w|[!@#$%]){6,20}/,
+		                        message: 'Password must contain at least one letter, at least one number, and be longer than six charaters.'
+		                    }*/
+	                    }
+	                },
+					password: {
+	                    validators: {
+	                        notEmpty: {
+	                            message: 'The password is required and cannot be empty'
+	                        }/*,
+	                        regexp: {
+		                        regexp: /^(?=[^\d_].*?\d)\w(\w|[!@#$%]){6,20}/,
+		                        message: 'Password must contain at least one letter, at least one number, and be longer than six charaters.'
+		                    }*/
+	                    }
+	                },
+	                confirmpassword: {
+	                    validators: {
+	                        notEmpty: {
+	                            message: 'The confirm password is required and cannot be empty'
+	                        },
+	                        identical: {
+	                            field: 'password',
+	                            message: 'The password and its confirm must be the same'
+	                        }
+	                    }
+	                }
+		        }
+		    });
+
+	    });
+    </script>
+
+<% include ../partials/footer.html.ejs %>

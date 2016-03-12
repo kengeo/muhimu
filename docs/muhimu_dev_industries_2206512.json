@@ -1,0 +1,94 @@
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a1" }, "name" : "Accounting/Auditing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a2" }, "name" : "Administration" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a3" }, "name" : "Advertising" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a4" }, "name" : "Aerospace and Defense" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a5" }, "name" : "Agriculture/Forestry/Fishing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a6" }, "name" : "Airlines/Aviation" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a7" }, "name" : "Architecture" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a8" }, "name" : "Arts/Entertainment/and Media" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63a9" }, "name" : "Automotive" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63aa" }, "name" : "Aviation/Marine Refueling" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ab" }, "name" : "Banking" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ac" }, "name" : "Biotechnology" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ad" }, "name" : "Business Support" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ae" }, "name" : "Catering/Food Services/Restaurants" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63af" }, "name" : "Community/Social Services/and Nonprofit" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b0" }, "name" : "Computer/Hardware" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b1" }, "name" : "Computer/Software" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b2" }, "name" : "Construction" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b3" }, "name" : "Construction/Civil Engineering" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b4" }, "name" : "Consulting Services" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b5" }, "name" : "Contracts/Purchasing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b6" }, "name" : "Customer Service" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b7" }, "name" : "Distributions and Logistics" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b8" }, "name" : "Education,  Training,  and Library" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63b9" }, "name" : "Employment Placement Agencies/Recruiting" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ba" }, "name" : "Energy" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63bb" }, "name" : "Engineering" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63bc" }, "name" : "Entertainment" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63bd" }, "name" : "Facilities Management" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63be" }, "name" : "Fashion Design" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63bf" }, "name" : "Finance/Economics" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c0" }, "name" : "Financial Services" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c1" }, "name" : "FMCG" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c2" }, "name" : "Government Sector" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c3" }, "name" : "Graphic Design" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c4" }, "name" : "Healthcare,  other" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c5" }, "name" : "Healthcare,  Practitioner and Technician" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c6" }, "name" : "Hospitality/Tourism/Travel" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c7" }, "name" : "Human Resources" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c8" }, "name" : "Industrial" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63c9" }, "name" : "Information Technology" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ca" }, "name" : "Installation,  Maintenance,  and Repair" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63cb" }, "name" : "Insurance" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63cc" }, "name" : "Interior design" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63cd" }, "name" : "Internet/E-commerce" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ce" }, "name" : "Islamic Banking" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63cf" }, "name" : "Journalism" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d0" }, "name" : "Laboratory/QC" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d1" }, "name" : "Law Enforcement/Security Services" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d2" }, "name" : "Legal" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d3" }, "name" : "LPG Bottling" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d4" }, "name" : "Lubricants/Greases Blending" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d5" }, "name" : "Management" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d6" }, "name" : "Manufacturing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d7" }, "name" : "Manufacturing and Production" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d8" }, "name" : "Marine Services" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63d9" }, "name" : "Marketing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63da" }, "name" : "Mechanical" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63db" }, "name" : "Medical/Hospital" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63dc" }, "name" : "Merchandising" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63dd" }, "name" : "Military" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63de" }, "name" : "Mining" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63df" }, "name" : "Modeling" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e0" }, "name" : "Natural Gas Distribution" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e1" }, "name" : "Nursing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e2" }, "name" : "Oil/Gas" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e3" }, "name" : "Other" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e4" }, "name" : "Personal Care and Service" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e5" }, "name" : "Petrochemicals" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e6" }, "name" : "Pharmaceutical" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e7" }, "name" : "Photography" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e8" }, "name" : "Planning" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63e9" }, "name" : "Public Relations" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ea" }, "name" : "Publishing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63eb" }, "name" : "Quantity Survey" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ec" }, "name" : "Real Estate" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ed" }, "name" : "Retail/Wholesale" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ee" }, "name" : "Safety/Environment" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63ef" }, "name" : "Sales" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f0" }, "name" : "Science" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f1" }, "name" : "Secretarial" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f2" }, "name" : "Security" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f3" }, "name" : "Shipping" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f4" }, "name" : "Sports and Recreation" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f5" }, "name" : "Support Services" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f8" }, "name" : "Telemarketing" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f6" }, "name" : "Technical/Maintenance" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f7" }, "name" : "Telecommunications" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63f9" }, "name" : "Textiles" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63fa" }, "name" : "Translation" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63fb" }, "name" : "Transportation" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63fc" }, "name" : "Utilities" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63fd" }, "name" : "Vehicle Inspection" }
+{ "_id" : { "$oid" : "5578e79bd7b4a3393e1d63fe" }, "name" : "Warehousing" }

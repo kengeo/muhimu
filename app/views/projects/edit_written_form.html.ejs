@@ -1,0 +1,198 @@
+<% include ../partials/header-no-menu.html.ejs %>
+
+	<div id="sidebar" class="hidden">
+		<h4>Table of Content</h4>
+		<ul class="list-unstyled" id="toc">
+			<% if (project.order) {
+				project.order.forEach(function(item){
+			%>
+				<li class=""><a href="" data-section="<%= item %>"><span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"></span> Section <%= item %></a></li>
+			<% })
+			} else {
+			%>
+				<li class=""><a href="" data-section="1"><span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"></span> Section 1</a></li>
+			<% } %>
+		</ul>
+		<button name="add-section" class="btn btn-default btn-sm">Add Section <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+		<hr>
+		<button name="generate" class="btn btn-default btn-sm">Generate <span class="glyphicon glyphicon-book" aria-hidden="true"></span></button>
+		<a href="<%= "/projects/publish/"+project._id %>"  class="btn btn-primary btn-sm">Publish <span class="glyphicon glyphicon-book" aria-hidden="true"></span></a>
+		<br><br>
+		<ul class="list-unstyled" id="files">
+			<% if (project.files) {
+				project.files.forEach(function(file){
+			%>
+				<li class=""><a target="_blank" href="//<%= hostname+'/'+file.location %>"><%= file.type %></a></li>
+			<% });} %>
+		</ul>
+	</div>
+
+	<input type="hidden" id="project_id" name="project_id" value="<%= project._id %>">
+	<input type="hidden" id="section_id" name="section_id" value="<%= project.order[0] %>">
+
+	<div id="content" class="container">
+
+		<div class="col-md-8 col-md-offset-2" id="content-body">
+			<textarea name="text-container" id="editable-container">
+				<% if (project.body[0]) {%>
+					<%= project.body[project.order[0]-1] %>
+				<% } %>
+			</textarea>
+		</div>
+	</div><!-- container -->
+
+<script src="/assets/components/jquery/dist/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/javascript/jquery.sidr.min.js"></script>
+<script src="/assets/javascript/redactor.js"></script>
+<script src="/assets/javascript/table.js"></script>
+<script src="/assets/javascript/fullscreen.js"></script>
+
+<script>
+	$(function(){
+
+		var delay = (function(){
+		  var timer = 0;
+		  return function(callback, ms){
+		    clearTimeout (timer);
+		    timer = setTimeout(callback, ms);
+		  };
+		})();
+
+		var kreateve = {
+		    init: function(){
+			    $('.cart').sidr({
+					name: 'cart-right',
+					side: 'right',
+					source: '#cart',
+					renaming: false,
+					onOpen: function(){
+					  $('#cart-text').html('Close Cart');
+					},
+					onClose: function(){
+					  $('#cart-text').html('View Cart');
+					}
+				});
+
+				$('.navbar-header span').sidr({
+					name: 'toc-left',
+					side: 'left',
+					source: '#sidebar',
+					body: 'body',
+					renaming: false ,
+					onOpen: function(){
+					  //$('#cart-text').html('Close Cart');
+					},
+					onClose: function(){
+					  //$('#cart-text').html('View Cart');
+					}
+				});
+
+				$('#toc-left #toc').sortable({
+					placeholder: "ui-state-highlight"
+				});
+
+				$('#toc').disableSelection();
+				$('#editable-container').redactor({
+					focus: true,
+					plugins: ['table', 'fullscreen'],
+				});
+
+				$('.redactor-toolbar').append('<li class="pull-right message" style="display: none;"><p></p></li>');
+
+		    },
+		    addsection: function(){
+			    var toclength = $('#toc-left #toc li').length +1;
+				$('#toc-left #toc').append('<li class=""><a href="" data-section="'+ toclength +'"><span class="glyphicon glyphicon-resize-vertical" aria-hidden="true"></span> Section ' + toclength +'</a></li>');
+				var sections = [];
+				$("#toc-left #toc li a").each(function(item, value) {
+					var current = $(this).attr("data-section");
+					sections.push(current);
+				});
+				$('#section_id').val(toclength);
+				$('.redactor-editor').html("");
+				$.post('/ajax/sectionadd', {'project_id': $('[name="project_id"]').val(), 'section_id': $('#section_id').val(), 'data': $('#editable-container').redactor('code.get'), 'order': sections}).success(function(data){
+					data = JSON.parse(data);
+					$('.redactor-toolbar .message p').html(data.success);
+					$('.redactor-toolbar .message').fadeIn();
+					setTimeout(function(){ $('.redactor-toolbar .message').fadeOut() }, 3000);
+				});
+		    },
+		    loadsection: function(){
+			    event.preventDefault();
+				var section_id = event.target.attributes["data-section"].value,
+				section = {};
+				section.count = section_id;
+				$.get('/ajax/sectionload',
+					{'project_id': $('[name="project_id"]').val(), 'section_id': section_id},
+					function(data, status){
+						data = JSON.parse(data);
+						section.data = data.data;
+						$('#section_id').val(section_id);
+						$('.redactor-editor').html(data.data);
+				});
+		    },
+		    reorder: function(){
+			    var sections = [];
+				$('#toc-left #toc li a').each(function(item, value) {
+					var current = $(this).attr("data-section");
+					sections.push(current);
+				});
+				$.post('/ajax/sectionorder', { 'project_id': $('[name="project_id"]').val(), 'order': sections }).success(function(data){});
+		    },
+		    editorsave: function(){
+			    $.post('/ajax/editorsave', {'project_id': $('[name="project_id"]').val(), 'section_id': $('[name="section_id"]').val(), 'data': $('#editable-container').redactor('code.get')}).success(function(data){
+					data = JSON.parse(data);
+					$('.redactor-toolbar .message p').html(data.success);
+					$('.redactor-toolbar .message').fadeIn();
+					setTimeout(function(){ $('.redactor-toolbar .message').fadeOut() }, 3000);
+				});
+		    },
+		    generate: function(){
+			    $.post('/ajax/generate', {'project_id': $('[name="project_id"]').val()}).success(function(data){
+					data = JSON.parse(data);
+					$('.redactor-toolbar .message p').html(data.success);
+					$('.redactor-toolbar .message').fadeIn();
+					setTimeout(function(){ $('.redactor-toolbar .message').fadeOut() }, 3000);
+					$('#toc-left #files').html("");
+
+					$.each(data.files, function(item, value) {
+						$('#toc-left #files').append('<li><a target="_blank" href=//'+window.location.host+'/'+value.location+'>'+ value.type +'</a></li>');
+					});
+
+					$('#toc-left #files').fadeIn();
+				});
+		    }
+
+	    }
+
+	    kreateve.init();
+
+		$('#toc-left #toc').on('sortstop', function(event, ui) {
+			kreateve.reorder();
+		});
+
+		$('.redactor-editor').keyup(function(){
+
+		    delay(function(){
+		    	kreateve.editorsave();
+		    }, 500 );
+
+	    });
+
+		$('[name="add-section"]').click(function(){
+			kreateve.addsection();
+		});
+
+		$('#toc-left #toc li a').click(function(event){
+			kreateve.loadsection();
+		});
+
+		$('[name="generate"]').click(function(){
+			kreateve.generate();
+		});
+	});
+</script>
+
+<% include ../partials/footer.html.ejs %>

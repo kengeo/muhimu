@@ -1,0 +1,16 @@
+	<% if (typeof user !== "undefined") { %>
+		<script type="text/javascript">
+		analytics.identify('<%= user.id %>', {
+		  email: '<%= user.email %>',
+		  name: '<%= user.name %>',
+		  company: '<%= user.company %>',
+		  createdAt: '<%= user.createDate %>'
+		});
+		</script>
+	<% } else { %>
+		<script type="text/javascript">
+		analytics.identify();
+		</script>
+	<% } %>
+	</body>
+</html>

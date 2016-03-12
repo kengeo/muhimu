@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>kreateve - your space for creative expression and connections</title>
+	<meta name="description" content="your space for creative expression and connections">
+	<meta name="keywords" content="">
+	<meta name="author" content="GARAKAMI LLC">
+	<meta name="company" content="GARAKAMI LLC">
+	<meta name="copyright" content="Copyright (c) 2014 GARAKAMI LLC">
+
+	<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+
+	<link rel="dns-prefetch" href="{PREFECT_THIS_HOST}">
+
+	<!--
+	<link rel="publisher" href="{SOCIAL_GOOGLEPLUS}">
+	<meta name="application-name" content="kreativekloud">
+	<meta name="msapplication-TileColor" content="{BASE_COLOR}">
+	<meta name="msapplication-TileImage" content="{FAVICON_144x144}">
+	<meta name="description" content="{DESCRIPTION}">
+
+	<meta property="og:site_name" content="kreativekloud">
+	<meta property="fb:app_id" content="{SOCIAL_FACEBOOK_APP_ID}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{SITE_URL}">
+	<meta property="twitter:site" content="@{SOCIAL_TWITTER}">
+	-->
+
+	<!-- CSS STYLES -->
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+    <link media="all" type="text/css" rel="stylesheet" href="/assets/components/chosen/chosen.css">
+	<link media="all" type="text/css" rel="stylesheet" href="/assets/components/chosen/chosen-styled.css">
+	<!--<link media="all" type="text/css" rel="stylesheet" href="/assets/stylesheets/redactor.css">-->
+	<link rel="stylesheet" href="/assets/stylesheets/jquery.sidr.light.css">
+	<link media="all" type="text/css" rel="stylesheet" href="/assets/stylesheets/redactor.css">
+
+</head>
+
+<body class="edit">
+
+	<header id="masthead" class="clearfix">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+				    <a class="navbar-brand tac" href="/dashboard">
+				      <img id="logo" src="/assets/images/logo-black.svg">
+				    </a>
+				    <span class="menu glyphicon glyphicon-th-list"></span>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <ul class="nav navbar-nav masthead-nav navbar-right">
+		      		<li class=""><a href="/dashboard">Dashboard</a></li>
+				<!--<li class=""><a href="/services">Services</a></li>-->
+				<!--<li class=""><a href="/opportunities">Opportunities</a></li>-->
+				<li class=""><a href="/library">Library</a></li>
+				<li class=""><a href="/marketplace">Marketplace</a></li>
+				<li><a href="/account/settings">Settings</a></li>
+				<li><a href="/account/logout">Logout</a></li>
+				<li class="divider"><a >&middot;</a></li>
+				<li><a class="cart" href="#cart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <spane id="cart-text">View Cart</spane> <sup><span id="cart-items" class="text-primary"><%  /*user.cart ? user.cart.length : '0' */ %></span></sup></a></li>
+		       </ul>
+			  </div><!-- /.navbar-collapse -->
+
+
+			</div><!-- /.container-fluid -->
+		</nav>
+
+	</header>
+	<div class="container"><p id="user-messages"></p></div>

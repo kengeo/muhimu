@@ -1,0 +1,37 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container solutions">
+
+		<!--<div id="sidebar" class="col-md-2">
+
+			<ul class="list-unstyled">
+				<li><input type="text" name="search" class="form-control" placeholder="Search Solutions" /></li>
+				<li><hr class="divider"></li>
+				<li><a href="">Conservation</a></li>
+				<li><a href="">Food and Agriculture</a></li>
+				<li><a href="">Global Warming</a></li>
+				<li><a href=""><strong>Infrastructure</strong></a></li>
+				<li><a href="">Surveillance</a></li>
+			</ul>
+
+		</div>-->
+
+		<% if ((list.length < 5) && (user.usertype === "Individual")) { %>
+			<div class="alert alert-info" role="alert">
+				<strong>Hello <%= user.firstname %></strong>! Thanks for signing up as an early user. We'll keep you updated on jobs around <%= country %> as soon as we find more.
+			</div>
+		<% } else if ((list.length < 1) && (user.usertype === "Company")) { %>
+			<div class="alert alert-info" role="alert">
+				<strong>Hello <%= user.firstname %></strong>! Thanks for signing up as an early user. Be the first to post a <a class="alert-link" href="/opportunities/new"><strong>new opportunity</strong></a> from <%= country %>.
+			</div>
+		<% } %>
+
+		<% list.forEach(function(opportunity){ %>
+		    <% include ../partials/opportunity.html.ejs %>
+		<%});%>
+
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

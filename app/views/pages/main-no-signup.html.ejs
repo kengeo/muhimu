@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<title>muhimu - connecting businesses and individuals across the caribbean and africa</title>
+	<meta name="description" content="Connecting businesses and individuals across the Caribbean and Africa">
+	<meta name="keywords" content="businesses people connection jobs career management ats caribbean africa job board jobboard">
+	<meta name="author" content="GARAKAMI LLC">
+	<meta name="company" content="GARAKAMI LLC">
+	<meta name="copyright" content="Copyright (c) 2014 GARAKAMI LLC">
+
+	<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico">
+
+	<link rel="dns-prefetch" href="//www.muhimu.net">
+
+	<link rel="publisher" href="{SOCIAL_GOOGLEPLUS}">
+	<meta name="application-name" content="muhimu">
+	<meta name="msapplication-TileColor" content="{BASE_COLOR}">
+	<meta name="msapplication-TileImage" content="{FAVICON_144x144}">
+
+	<meta property="og:site_name" content="muhimu">
+	<meta property="fb:app_id" content="{SOCIAL_FACEBOOK_APP_ID}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="//www.muhimu.net">
+	<meta property="twitter:site" content="@muhimu">
+
+	<!-- CSS STYLES -->
+	<link href='//fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+
+    <script type="text/javascript">
+	!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+	analytics.load("0K5A9NwbxulNQHMzT0Lu4MrkhdZcuGCM");
+	analytics.page()
+	}}();
+	</script>
+
+</head>
+
+<body>
+
+<div id="tour-header" class="content-block">
+	<header id="masthead" class="clearfix">
+		<div class="container-fluid">
+			<nav class="navbar navbar-default" role="navigation">
+
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				      <span class="sr-only">Toggle navigation</span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+				    <a class="navbar-brand tac" href="/"><p class="small text-right">alpha <span class="hidden-sm hidden-xs">version</span></p><img src="/assets/images/logo-white.svg" class="logo-full"></a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+			  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    <% if (typeof user !== "undefined") { %>
+			    <ul class="nav navbar-nav masthead-nav navbar-right">
+		      		<li class=""><a href="/dashboard">Dashboard <sup><span id="cart-items" class="text-primary"><% /* user.cart ? user.cart.length : '' */ %></span></sup></a></li>
+					<% if (typeof user !== "undefined") { if (user.usertype == "Individual") { %><li class=""><a href="/account/resume">R&eacute;sum&eacute;</a></li><% }} %>
+					<li class=""><a href="/opportunities">Opportunities</a></li>
+					<li class=""><a href="/account/settings">Settings</a></li>
+					<li class=""><a href="/account/logout">Logout</a></li>
+		       </ul>
+		       <% } else { %>
+		       <ul class="nav navbar-nav masthead-nav navbar-right">
+		      		<% /*<li class=""><a href="/tour" class="">Tour</a></li>
+		      		<li class="active"><a href="/pricing" class="">Pricing</a></li>*/ %>
+		      		<li class=""><a href="/account/login" class="">Login</a></li>
+					<li class=""><a href="/signup/individual">Sign up</a></li>
+		       </ul>
+		       <% } %>
+			  </div><!-- /.navbar-collapse -->
+
+			</nav>
+		</div><!-- /.container-fluid -->
+
+	</header>
+	<div class="container"><p id="user-messages"></p></div>
+
+	<div class="container" id="tour">
+		<div class="row tac">
+			<div class="col-md-12">
+				<h1 class="">Connecting businesses and individuals in <% if (country !== "N/A") { %><%= country %><% } else { %> Africa and the Caribbean<% } %> with jobs.</h1>
+				<p class="lead "><strong>muhimu</strong> offers tools to simplify your life, save time and improve the decision-making process.</p>
+
+			</div>
+		</div>
+
+		<div class="row tac">
+			<div class="col-md-4">
+				<h1><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></h1>
+				<h4 class="">Résumé Builder</h4>
+			</div>
+
+			<div class="col-md-4">
+				<h1><span class="glyphicon glyphicon-send" aria-hidden="true"></span></h1>
+				<h4 class="">One-Click Apply</h4>
+			</div>
+
+			<div class="col-md-4">
+				<h1><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h1>
+				<h4 class="">Personalized Experience</h4>
+			</div>
+			<div class="col-md-12">
+				<br>
+				<a href="/signup/individual" class="btn btn-success btn-lg"><strong>Add Your R&eacute;sum&eacute;</strong> <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+			</div>
+		</div>
+		<br><br>
+	</div>
+</div>
+
+	<div id="content" class="container">
+
+
+	<% if (list.length > 0) { %>
+
+		<% list.forEach(function(opportunity){ %>
+		    <% include ../partials/opportunity.html.ejs %>
+		<%});%>
+
+	<% } else if (user === undefined) { %>
+		<div class="alert alert-info" role="alert">
+			<strong>Thank you for visiting!</strong> We are working hard to get jobs in <%= country %> so please <a href="/signup/individual" class="alert-link">sign up</a> and we'll keep you updated as soon as we find more.
+		</div>
+
+	<% } else if ((list.length < 1) && (user.usertype === "Company")) { %>
+		<div class="alert alert-info" role="alert">
+			<strong>Hello <%= user.firstname %></strong>! Thanks for signing up as an early user. Be the first to post a <a class="alert-link" href="/opportunities/new"><strong>new opportunity</strong></a> from <%= country %>.
+		</div>
+	<% } %>
+
+	</div>
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

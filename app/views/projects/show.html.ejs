@@ -1,0 +1,13 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+
+	<h1><%= project.name %><small><a href="<%= "/projects/edit/"+project._id %>" class="pull-right"><span class="glyphicon glyphicon-pencil"></span></a></small></h1>
+	<hr class="divider">
+
+	<%= project %>
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

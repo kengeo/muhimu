@@ -1,0 +1,87 @@
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2681" }, "name" : "Associate's degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2682" }, "name" : "Associate of Arts (A.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2683" }, "name" : "Associate of Arts (AA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2684" }, "name" : "Associate of Arts and Sciences (A.A.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2685" }, "name" : "Associate of Arts and Sciences (AAS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2686" }, "name" : "Associate of Science (A.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2687" }, "name" : "Associate of Science (AS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2688" }, "name" : "Bachelor's degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2689" }, "name" : "Bachelor of Applied Science (B.A.Sc.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268a" }, "name" : "Bachelor of Applied Science (BASc)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268b" }, "name" : "Bachelor of Architecture (B.Arch.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268c" }, "name" : "Bachelor of Architecture (BArch)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268d" }, "name" : "Bachelor of Arts (B.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268e" }, "name" : "Bachelor of Arts (BA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d268f" }, "name" : "Bachelor of Business Administration (B.B.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2690" }, "name" : "Bachelor of Business Administration (BBA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2691" }, "name" : "Bachelor of Commerce (B.Com.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2692" }, "name" : "Bachelor of Commerce (BCom)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2693" }, "name" : "Bachelor of Education (B.Ed.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2694" }, "name" : "Bachelor of Education (BEd)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2695" }, "name" : "Bachelor of Engineering (B.E.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2696" }, "name" : "Bachelor of Engineering (B.Eng.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2697" }, "name" : "Bachelor of Engineering (BE)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2698" }, "name" : "Bachelor of Engineering (BEng)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d2699" }, "name" : "Bachelor of Fine Arts (B.F.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269a" }, "name" : "Bachelor of Fine Arts (BFA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269b" }, "name" : "Bachelor of Laws (LL.B.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269c" }, "name" : "Bachelor of Laws (LLB)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269d" }, "name" : "Bachelor of Medicine,  Bachelor of Surgery (M.B.B.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269e" }, "name" : "Bachelor of Medicine,  Bachelor of Surgery (MBBS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d269f" }, "name" : "Bachelor of Pharmacy (B.Pharm.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a0" }, "name" : "Bachelor of Pharmacy (BPharm)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a1" }, "name" : "Bachelor of Science (B.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a2" }, "name" : "Bachelor of Science (B.Sc.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a3" }, "name" : "Bachelor of Science (BS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a4" }, "name" : "Bachelor of Science (BSc)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a5" }, "name" : "Bachelor of Technology (B.Tech.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a6" }, "name" : "Bachelor of Technology (BTech)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a7" }, "name" : "Doctor of Education (Ed.D.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a8" }, "name" : "Doctor of Education (EdD)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26a9" }, "name" : "Doctor of Law (J.D.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26aa" }, "name" : "Doctor of Law (JD)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ab" }, "name" : "Doctor of Medicine (M.D.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ac" }, "name" : "Doctor of Medicine (MD)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ad" }, "name" : "Doctor of Pharmacy (Pharm.D.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ae" }, "name" : "Doctor of Pharmacy (PharmD)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26af" }, "name" : "Doctor of Philosophy (Ph.D.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b0" }, "name" : "Doctor of Philosophy (PhD)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b1" }, "name" : "Engineer's degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b2" }, "name" : "Foundation degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b3" }, "name" : "Licentiate degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b4" }, "name" : "Master's degree" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b5" }, "name" : "Master of Architecture (M.Arch.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b6" }, "name" : "Master of Architecture (MArch)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b7" }, "name" : "Master of Arts (M.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b8" }, "name" : "Master of Arts (MA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26b9" }, "name" : "Master of Business Administration (M.B.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ba" }, "name" : "Master of Business Administration (MBA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26bb" }, "name" : "Master of Computer Applications (M.C.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26bc" }, "name" : "Master of Computer Applications (MCA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26bd" }, "name" : "Master of Divinity (M.Div.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26be" }, "name" : "Master of Divinity (MDiv)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26bf" }, "name" : "Master of Education (M.Ed.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c0" }, "name" : "Master of Education (MEd)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c1" }, "name" : "Master of Engineering (M.Eng.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c2" }, "name" : "Master of Engineering (MEng)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c3" }, "name" : "Master of Fine Arts (M.F.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c4" }, "name" : "Master of Fine Arts (MFA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c5" }, "name" : "Master of Laws (LL.M.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c6" }, "name" : "Master of Laws (LLM)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c7" }, "name" : "Master of Library & Information Science (M.L.I.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c8" }, "name" : "Master of Library & Information Science (MLIS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26c9" }, "name" : "Master of Philosophy (M.Phil.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ca" }, "name" : "Master of Philosophy (MPhil)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26cb" }, "name" : "Master of Public Administration (M.P.A.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26cc" }, "name" : "Master of Public Administration (MPA)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26cd" }, "name" : "Master of Public Health (M.P.H.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26ce" }, "name" : "Master of Public Health (MPH)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26cf" }, "name" : "Master of Science (M.S.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d0" }, "name" : "Master of Science (M.Sc.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d1" }, "name" : "Master of Science (MS)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d2" }, "name" : "Master of Science (MSc)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d3" }, "name" : "Master of Social Work (M.S.W.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d4" }, "name" : "Master of Social Work (MSW)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d5" }, "name" : "Master of Technology (M.Tech.)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d6" }, "name" : "Master of Technology (MTech)" }
+{ "_id" : { "$oid" : "5578e51fd7b4a3393e1d26d7" }, "name" : "Research Doctorate" }

@@ -1,0 +1,20 @@
+
+
+<script src="/assets/components/jquery/dist/jquery.min.js"></script>
+<script src="/assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/assets/components/handlebars/handlebars.min.js"></script>
+<script src="/assets/components/chosen/chosen.jquery.min.js"></script>
+<script src="/assets/javascript/jquery.sidr.min.js"></script>
+<script src="/assets/javascript/script.js"></script>
+
+<!--<script src="/assets/components/typeahead.js/dist/bloodhound.min.js"></script>
+<script src="/assets/components/typeahead.js/dist/typeahead.jquery.js"></script>-->
+
+<script type="text/x-hbs" id="tmpl_save_addr">
+	<a class="list-group-item">
+		<input type="hidden" name="locations" value='{{addr}}'/>
+	    <h4 class="list-group-item-heading">{{street}} {{suite}}</h4>
+	    <p class="list-group-item-text">{{city}}, {{state}} {{zip}}, {{country_text}}</p>
+	    <span class="glyphicon glyphicon-remove-circle addr-remove" onclick='onAddressRemove(this)'></span>
+	</a>
+</script>

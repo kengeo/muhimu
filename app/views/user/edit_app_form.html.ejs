@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create a new App</title>
+</head>
+<body>
+    <h1>Create a new App</h1>
+<hr/>
+
+<form method="post">
+    Name: <input name="app_name" value="<%= client.name%>"/>
+    <br/> client_id    <input disabled name="client_id" value="<%= client._id%>"/>
+    <br/> client_secret: <input name="client_secret" value="<%= client.client_secret%>"/>
+    <br/> callback_uri : <input name="callback_uri" value="<%= client.callback_uri%>"/>
+
+    <br/> <input type="submit" value="Create"/>
+</form>
+
+</body>
+</html>

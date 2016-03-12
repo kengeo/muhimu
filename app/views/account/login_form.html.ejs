@@ -1,0 +1,38 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+
+	<div class="col-md-6 col-md-offset-3">
+
+	    <h1>Login</h1>
+	    <hr>
+	    <form method="post" >
+	        <div class="form-group">
+			    <label for="email" class="">Email</label>
+			    <input type="email" class="form-control" id="email" name="email" placeholder="" value="">
+			  </div>
+
+			  <div class="form-group">
+			    <label for="password" class="">Password</label>
+			    <input type="password" class="form-control" id="password" name="password" placeholder="" value="">
+			  </div>
+
+			<div class="form-group">
+				<div class="row">
+					<div class="col-sm-6">
+						<p><a href="/signup/individual" class="btn btn-link">Sign up</a></p>
+					</div>
+					<div class="col-sm-6">
+						<button type="submit" class="btn btn-primary form-control">Login <span class="glyphicon glyphicon-chevron-right"></span></button>
+					</div>
+				</div>
+			</div>
+	    </form>
+	    <br/>
+
+
+   </div>
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>

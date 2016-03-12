@@ -1,0 +1,12 @@
+<p>Hi <%= data.user.name %>!</p>
+<p><b><%= data.client.name %></b> is requesting access to your account.</p>
+<p>Do you approve?</p>
+
+<form action="/dialog/authorize/decision" method="post">
+    <input name="transaction_id" type="hidden" value="<%= data.transactionID %>">
+    <input name="response_type" type="text" value="assdf">
+    <div>
+        <input type="submit" value="Allow" id="allow">
+        <input type="submit" value="Deny" name="cancel" id="deny">
+    </div>
+</form>

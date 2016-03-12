@@ -1,0 +1,950 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container">
+
+	<% if ( locals.message) {%><div style="color:red"><%= message%></div><%}%>
+
+	<div class="row">
+		<div class="col-md-8 col-sm-8 col-xs-8">
+			<h1 class="rs">R&eacute;sum&eacute;</h1>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4 text-right">
+			<a href="/profile/<%= user._id %>" class="btn btn-primary">Preview</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<br>
+
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="alert alert-info" role="alert">
+				<strong><%= user.firstname %></strong>, everything here is automatically saved so don't worry. The more details you provide the higher your chances of getting a response from the companies you apply to!
+			</div>
+		</div>
+	</div>
+
+
+	<form role="form" id="resume">
+	<h3>Work Experience</h3>
+	<div class="row"><!-- start of work experience section -->
+		<div class="col-md-12 col-sm-12 col-xs-12" id="work">
+
+			<%
+			if (user.resume !== undefined) {
+				user.resume.work.forEach(function(item){
+			%>
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="company" class="">Company</label>
+						    <input type="text" class="form-control" name="company" placeholder="" value="<%= item.company %>">
+						</div>
+						<div class="form-group">
+						    <label for="position" class="">Position</label>
+						    <input type="text" class="form-control" name="position" placeholder="" value="<%= item.position %>">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="startdate" class="">Start Date</label>
+						<div class="input-group">
+						  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2" value="<%= item.startdate %>">
+						  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+							<label for="enddate" class="">End Date</label>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2" value="<%= item.enddate %>">
+								<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="description" class="">Description</label>
+						    <textarea class="form-control" name="description" rows="10"><%= item.description %></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<%
+				});
+
+			} else {
+
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="company" class="">Company</label>
+						    <input type="text" class="form-control" name="company" placeholder="" value="">
+						</div>
+						<div class="form-group">
+						    <label for="position" class="">Position</label>
+						    <input type="text" class="form-control" name="position" placeholder="" value="">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="startdate" class="">Start Date</label>
+						<div class="input-group">
+						  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2">
+						  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+							<label for="enddate" class="">End Date</label>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2">
+								<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="description" class="">Description</label>
+						    <textarea class="form-control" name="description" rows="10"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<% } %>
+
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<button id="addwork" class="form-control btn btn-link" data-add="work">+ Add Work Experience</button>
+		</div>
+	</div><!-- end of work experience section -->
+
+	<hr>
+
+	<h3>Skills</h3>
+	<div class="row"><!-- start of skills section -->
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<div class="form-group">
+			    <label for="skills" class="">Pick as many skills that apply to you.</label>
+			    <select class="form-control" name="skills" multiple>
+				    <option></option>
+				    <% if (user.resume !== undefined) {
+						user.resume.skills.forEach(function(item){
+					%>
+					<option value="<%= item.value %>" selected="selected"><%= item.text %></option>
+					<%
+						});
+					}
+					%>
+			    </select>
+			</div>
+		</div>
+	</div><!-- end of skills section -->
+
+	<hr>
+
+	<h3>Education</h3>
+	<div class="row"><!-- start of education section -->
+		<div class="col-md-12 col-sm-12 col-xs-12" id="education">
+			<% if (user.resume !== undefined) {
+				user.resume.education.forEach(function(item){
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="schoolname" class="">School Name</label>
+						    <select class="form-control" name="school">
+							    <option value="<%= item.school.value %>" selected="selected"><%= item.school.name %></option>
+						    </select>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+						    <label for="degreetype" class="">Degree Type</label>
+						    <select class="form-control" name="degreetype">
+							    <option value="<%= item.degreetype.value %>" selected="selected"><%= item.degreetype.name %></option>
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+						    <label for="studyarea" class="">Study Area</label>
+						    <select class="form-control" name="studyarea">
+							    <option value="<%= item.studyarea.value %>" selected="selected"><%= item.studyarea.name %></option>
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="startdate" class="">Start Date</label>
+						<div class="input-group">
+						  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2" value="<%= item.startdate %>">
+						  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="enddate" class="">End Date</label>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2" value="<%= item.enddate %>">
+							<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<%
+				});
+
+			} else {
+
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="form-group">
+						    <label for="schoolname" class="">School Name</label>
+						    <select class="form-control" name="school">
+						    </select>
+						</div>
+
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+						    <label for="degreetype" class="">Degree Type</label>
+						    <select class="form-control" name="degreetype">
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="form-group">
+						    <label for="studyarea" class="">Study Area</label>
+						    <select class="form-control" name="studyarea">
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="startdate" class="">Start Date</label>
+						<div class="input-group">
+						  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2">
+						  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<label for="enddate" class="">End Date</label>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2">
+							<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<% } %>
+
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<button id="addeducation" class="form-control btn btn-link" data-add="education">+ Add School</button>
+		</div>
+	</div><!-- end of education section -->
+
+	<hr>
+
+	<h3>Language</h3>
+	<div class="row"><!-- start of language section -->
+		<div class="col-md-12 col-sm-12 col-xs-12" id="language">
+			<% if (user.resume !== undefined) {
+				user.resume.language.forEach(function(item){
+			%>
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<br>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <select class="form-control" name="language">
+							    <option value="<%= item.language.value %>"><%= item.language.name %></option>
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <select class="form-control" name="proficiency">
+							    <option value="<%= item.proficiency.value %>"><%= item.proficiency.name %></option>
+						    </select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<%
+				});
+
+			} else {
+
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<br>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <select class="form-control" name="language">
+						    </select>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <select class="form-control" name="proficiency">
+						    </select>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<% } %>
+
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<button id="addlanguage" class="form-control btn btn-link" data-add="language">+ Add Language</button>
+		</div>
+	</div><!-- end of language section -->
+
+	<hr>
+
+	<h3>References</h3>
+	<div class="row"><!-- start of references section -->
+		<div class="col-md-12 col-sm-12 col-xs-12" id="reference">
+
+			<% if (user.resume !== undefined) {
+				user.resume.reference.forEach(function(item){
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="form-group">
+						    <label for="name" class="">Name</label>
+						    <input type="text" class="form-control" name="name" placeholder="" value="<%= item.name %>">
+						</div>
+
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="form-group">
+						    <label for="position" class="">Position</label>
+						    <input type="text" class="form-control" name="position" placeholder="" value="<%= item.position %>">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <label for="phone" class="">Phone</label>
+						    <input type="text" class="form-control" name="phone" placeholder="" value="<%= item.phone %>">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <label for="email" class="">Email</label>
+						    <input type="text" class="form-control" name="email" placeholder="" value="<%= item.email %>">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<%
+				});
+
+			} else {
+
+			%>
+
+			<div class="well item">
+				<button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+				<div class="row">
+					<div class="col-md-8 col-sm-8 col-xs-12">
+						<div class="form-group">
+						    <label for="name" class="">Name</label>
+						    <input type="text" class="form-control" name="name" placeholder="" value="">
+						</div>
+
+					</div>
+
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div class="form-group">
+						    <label for="position" class="">Position</label>
+						    <input type="text" class="form-control" name="position" placeholder="" value="">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <label for="phone" class="">Phone</label>
+						    <input type="text" class="form-control" name="phone" placeholder="" value="">
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<div class="form-group">
+						    <label for="email" class="">Email</label>
+						    <input type="text" class="form-control" name="email" placeholder="" value="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<% } %>
+
+		</div>
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<a id="addreference" class="form-control btn btn-link" data-add="reference">+ Add Reference</a>
+		</div>
+	</div><!-- end of references section -->
+</form>
+
+
+
+	<!--<div id="wrap">
+		<textarea id="result" style="width: 100%; height: 500px;"></textarea>
+		<form id="form"></form>
+		<textarea id="output"></textarea>
+	</div>-->
+
+</div>
+
+<% include ../partials/footer-menu.html.ejs %>
+
+	<!--<script src="/assets/javascript/handlebars.runtime.js"></script>-->
+	<script src="/assets/components/handlebars/handlebars.js"></script>
+	<script src="/assets/javascript/bootstrap-datepicker.min.js"></script>
+	<script src="/assets/javascript/select2.min.js"></script>
+	<!--<script src="/assets/javascript/redactor.js"></script>-->
+	<script src="//imperavi.com/js/redactor/redactor.js"></script>
+
+	<script>
+	$(document).on('click', '.item .close', {}, function () {
+        $(this).parent().remove();
+		$('#resume').trigger("change");
+    });
+	$(function() {
+
+		function formatRepo (item) {
+			if (item.text) return item.text;
+
+		var markup = '<div class="clearfix">' +
+			'<div class="col-sm-12">' + item.text + '</div>'+
+			'</div>';
+
+			/*if (item.name) {
+				markup += '<div>' + item.name + '</div>';
+			}*/
+
+			//markup += '</div></div>';
+
+			return markup;
+		}
+
+		function formatRepoSelection (item) {
+			return item.text;
+		}
+
+		/*function workDescription() {
+			//$('[name="description"]').redactor('core.destroy');
+			$('[name="description"]').redactor({
+				minHeight: 300
+			});
+		}
+		workDescription();*/
+
+		function skillsOptions(){
+			$('[name="skills"]').select2({
+				placeholder: "Welding, Servers, Tailoring, Acting, etc.",
+				ajax: {
+				    url: "/ajax/options",
+				    dataType: 'json',
+				    delay: 250,
+				    data: function (params) {
+				      return {
+				        q: params.term, // search term
+				        option: 'skill'
+				      };
+				    },
+				    processResults: function (data, page) {
+				      // parse the results into the format expected by Select2.
+				      // since we are using custom formatting functions we do not need to
+				      // alter the remote JSON data
+				      return {
+				        results: data
+				      };
+				    },
+				    cache: true
+				  },
+				  id: function(item){
+					    return item.id;
+					},
+				  escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+				  minimumInputLength: 1,
+				  templateResult: formatRepo, // omitted for brevity, see the source of this page
+				  templateSelection: formatRepoSelection, // omitted for brevity, see the source of this page
+				  tokenSeparators: [',']
+			});
+		};
+		skillsOptions();
+
+		function studyareaOptions(){
+			$('[name="studyarea"]').select2({
+				placeholder: "Psychology, Mechanical Engineering, Fashion, etc.",
+				ajax: {
+				    url: "/ajax/options",
+				    dataType: 'json',
+				    delay: 250,
+				    data: function (params) {
+				      return {
+				        q: params.term, // search term
+				        option: 'studyarea'
+				      };
+				    },
+				    processResults: function (data, page) {
+				      // parse the results into the format expected by Select2.
+				      // since we are using custom formatting functions we do not need to
+				      // alter the remote JSON data
+				      return {
+				        results: data
+				      };
+				    },
+				    cache: true
+				  },
+				  id: function(item){
+					    return item.id;
+					},
+				  escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+				  minimumInputLength: 1,
+				  templateResult: formatRepo, // omitted for brevity, see the source of this page
+				  templateSelection: formatRepoSelection // omitted for brevity, see the source of this page
+			});
+		};
+		studyareaOptions();
+
+		function languageOptions(){
+			$('[name="language"]').select2({
+				placeholder: "English, French, etc.",
+				ajax: {
+				    url: "/ajax/options",
+				    dataType: 'json',
+				    delay: 250,
+				    data: function (params) {
+				      return {
+				        q: params.term, // search term
+				        option: 'language'
+				      };
+				    },
+				    processResults: function (data, page) {
+				      // parse the results into the format expected by Select2.
+				      // since we are using custom formatting functions we do not need to
+				      // alter the remote JSON data
+				      return {
+				        results: data
+				      };
+				    },
+				    cache: true
+				  },
+				  id: function(item){
+					    return item.id;
+					},
+				  escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+				  minimumInputLength: 1,
+				  templateResult: formatRepo, // omitted for brevity, see the source of this page
+				  templateSelection: formatRepoSelection // omitted for brevity, see the source of this page
+			});
+		};
+		languageOptions();
+
+		function degreetypeOptions(){
+			$('[name="degreetype"]').select2({
+				placeholder: "Bachelors, Doctorate, etc.",
+				ajax: {
+				    url: "/ajax/options",
+				    dataType: 'json',
+				    delay: 250,
+				    data: function (params) {
+				      return {
+				        q: params.term, // search term
+				        option: 'degreetype'
+				      };
+				    },
+				    processResults: function (data, page) {
+				      // parse the results into the format expected by Select2.
+				      // since we are using custom formatting functions we do not need to
+				      // alter the remote JSON data
+				      return {
+				        results: data
+				      };
+				    },
+				    cache: true
+				  },
+				  id: function(item){
+					    return item.id;
+					},
+				  escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+				  minimumInputLength: 1,
+				  templateResult: formatRepo, // omitted for brevity, see the source of this page
+				  templateSelection: formatRepoSelection // omitted for brevity, see the source of this page
+			});
+		};
+		degreetypeOptions();
+
+		function schoolOptions(){
+			$('[name="school"]').select2({
+				placeholder: "Harvard, Yale, etc.",
+				ajax: {
+				    url: "/ajax/options",
+				    dataType: 'json',
+				    delay: 250,
+				    data: function (params) {
+				      return {
+				        q: params.term, // search term
+				        option: 'school'
+				      };
+				    },
+				    processResults: function (data, page) {
+				      // parse the results into the format expected by Select2.
+				      // since we are using custom formatting functions we do not need to
+				      // alter the remote JSON data
+				      return {
+				        results: data
+				      };
+				    },
+				    cache: true
+				  },
+				  id: function(item){
+					    return item.id;
+					},
+				  escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+				  minimumInputLength: 1,
+				  templateResult: formatRepo, // omitted for brevity, see the source of this page
+				  templateSelection: formatRepoSelection, // omitted for brevity, see the source of this page
+				  tokenSeparators: [',']
+			});
+		};
+		schoolOptions();
+
+		var proficiency = [{ id: 0, text: 'Elementary' }, { id: 1, text: 'Limited Working' }, { id: 2, text: 'Professional Working' }, { id: 3, text: 'Full Professional' }, { id: 4, text: 'Native or Bilingual' }];
+		function proficiencyOptions(){
+			$('[name="proficiency"]').select2({
+				data: proficiency,
+				placeholder: "Select proficiency"
+			});
+		};
+		proficiencyOptions();
+
+		/*<option value="Elementary">Elementary</option>
+	    <option value="Limited Working">Limited Working</option>
+	    <option value="Professional Working">Professional Working</option>
+	    <option value="Full Professional">Full Professional</option>
+	    <option value="Native or Bilingual">Native or Bilingual</option>*/
+
+		function dates(){
+			$('[name="startdate"], [name="enddate"]').datepicker({
+				format: 'yyyy-mm-dd'
+			});
+		};
+		dates();
+
+		/*$('.item .close').on('click', function(e){
+			$(this).parent().fadeOut().remove();
+			$('#resume').trigger("change");
+		});*/
+
+		$('#addreference, #addwork, #addeducation, #addlanguage').on('click', function(e){
+			e.preventDefault();
+			var context = e.target.attributes["data-add"].value,
+			template = Handlebars.compile($('#tmpl_'+context).html());
+			$(this).parent().siblings('#'+context).append(template);
+			if (context === "work") { dates(); workDescription(); }
+			if (context === "education") { dates(); schoolOptions(); degreetypeOptions(); studyareaOptions(); }
+			if (context === "language") { languageOptions(); proficiencyOptions(); }
+		});
+
+		/*
+		$(document).on('change', '#save_addr a', {}, function (e) {
+            e.preventDefault();
+            $('#save_addr a').removeClass('active');
+            $(this).tab('show').toggleClass('active');
+            $('#joblocation').val($(this).find('input').val());
+        });
+        */
+
+		var resumedata = {};
+
+		var timer = null;
+		$(document).on('change', '#resume', {}, function () {
+
+			clearTimeout(timer);
+			timer = setTimeout(function() {
+				try {
+
+					resumedata.work = [];
+					resumedata.education = [];
+					resumedata.language = [];
+					resumedata.skills = [];
+					resumedata.reference = [];
+
+					$('#resume #work .item').each(function(){
+						var workitem = {};
+
+						$.each($(this).find('input, textarea'), function(){
+							var name = $(this).attr('name'),
+							value = $(this).val();
+							workitem[name] = value;
+						});
+						resumedata.work.push(workitem);
+					});
+
+					$('#resume #language .item').each(function(){
+						var languageitem = {};
+
+						$.each($(this).find('select'), function(){
+							var name = $(this).attr('name'),
+							value = $(this).val(),
+							text = $(this).select2('data')[0] ? $(this).select2('data')[0].text : "" ;
+							languageitem[name] = {};
+							languageitem[name]["name"] = text;
+							languageitem[name]["value"] = value;
+						});
+						resumedata.language.push(languageitem);
+					});
+
+
+					$.each($('[name="skills"] :selected'),function(){
+						var skillitem = {};
+
+						skillitem.value = $(this).val(),
+						skillitem.text = $(this).text().trim();
+
+						resumedata.skills.push(skillitem);
+					});
+
+
+					$('#resume #education .item').each(function(){
+						var educationitem = {};
+
+						$.each($(this).find('input'), function(){
+							var name = $(this).attr('name'),
+							value = $(this).val();
+							educationitem[name] = value;
+						});
+
+						$.each($(this).find('select'), function(){
+							var name = $(this).attr('name'),
+							value = $(this).val(),
+							text = $(this).select2('data')[0] ? $(this).select2('data')[0].text : "";
+							educationitem[name] = {};
+							educationitem[name]["name"] = text;
+							educationitem[name]["value"] = value;
+						});
+						resumedata.education.push(educationitem);
+					});
+
+					$('#resume #reference .item').each(function(){
+						var referenceitem = {};
+
+						$.each($(this).find('input'), function(){
+							var name = $(this).attr('name'),
+							value = $(this).val();
+							referenceitem[name] = value;
+						});
+						resumedata.reference.push(referenceitem);
+					});
+
+					console.log(resumedata);
+
+					//$('#result').text(JSON.stringify(resumedata));
+			        $.post('/ajax/resumesave', {'data': JSON.stringify(resumedata)});
+
+				} catch(e) {
+					console.log(e);
+				}
+			}, 2000);
+		});
+	});
+	</script>
+
+	<script id="tmpl_work" type="text/templates">
+	    <div class="well item">
+		    <button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="form-group">
+					    <label for="company" class="">Company</label>
+					    <input type="text" class="form-control" name="company" placeholder="" value="">
+					</div>
+					<div class="form-group">
+					    <label for="position" class="">Position</label>
+					    <input type="text" class="form-control" name="position" placeholder="" value="">
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<label for="startdate" class="">Start Date</label>
+					<div class="input-group">
+					  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2">
+					  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="form-group">
+						<label for="enddate" class="">End Date</label>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2">
+							<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="form-group">
+					    <label for="description" class="">Description</label>
+					    <textarea class="form-control" name="description" rows="10"></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<script id="tmpl_education" type="text/templates">
+	    <div class="well item">
+		    <button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="form-group">
+					    <label for="schoolname" class="">School Name</label>
+					    <select class="form-control" name="school">
+						</select>
+					</div>
+
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="form-group">
+					    <label for="degreetype" class="">Degree Type</label>
+					    <select class="form-control" name="degreetype">
+					    </select>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="form-group">
+					    <label for="studyarea" class="">Study Area</label>
+					    <select class="form-control" name="studyarea">
+					    </select>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<label for="startdate" class="">Start Date</label>
+					<div class="input-group">
+					  	<input type="text" class="form-control" placeholder="" name="startdate" aria-describedby="basic-addon2">
+					  	<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<label for="enddate" class="">End Date</label>
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="" name="enddate" aria-describedby="basic-addon2">
+						<span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-calendar"></span></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</script>
+
+	<script id="tmpl_language" type="text/templates">
+	    <div class="well item">
+		    <button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+			<br>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="form-group">
+					    <select class="form-control" name="language">
+						    <option></option>
+					    </select>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="form-group">
+					    <select class="form-control" name="proficiency">
+					    </select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+	<script id="tmpl_reference" type="text/templates">
+	    <div class="well item">
+		    <button type="button" class="close" aria-label="Close"><small>Remove</small> <span aria-hidden="true">&times;</span></button>
+			<div class="row">
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<div class="form-group">
+					    <label for="name" class="">Name</label>
+					    <input type="text" class="form-control" name="name" placeholder="" value="">
+					</div>
+
+				</div>
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="form-group">
+					    <label for="position" class="">Position</label>
+					    <input type="text" class="form-control" name="position" placeholder="" value="">
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="form-group">
+					    <label for="phone" class="">Phone</label>
+					    <input type="text" class="form-control" name="phone" placeholder="" value="">
+					</div>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="form-group">
+					    <label for="email" class="">Email</label>
+					    <input type="text" class="form-control" name="email" placeholder="" value="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</script>
+
+<% include ../partials/footer.html.ejs %>

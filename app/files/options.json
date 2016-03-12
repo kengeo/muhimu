@@ -1,0 +1,853 @@
+{
+   "professions":[
+      {
+         "id":1,
+         "name":"Creator",
+         "specialization":[
+            "Author",
+            "Innovator",
+            "Educator",
+            "Researcher"
+         ],
+         "skillset":[
+
+         ]
+      },
+      {
+         "id":2,
+         "name":"Attorney",
+         "specialization":[
+
+         ],
+         "skillset":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+         ]
+      },
+      {
+         "id":3,
+         "name":"Institution",
+         "specialization":[
+            "Publisher",
+            "Studio",
+            "School",
+            "Government",
+            "Companies"
+         ],
+         "skillset":[
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+         ]
+      },
+      {
+         "id": 4,
+         "name":"Designer",
+         "specialization":[
+            "Industrial Designer",
+            "Graphic Designer",
+            "Textile Designer",
+            "Fashion Designer"
+         ],
+         "skillset":[
+		 	31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+         ]
+      },
+      {
+         "id":5,
+         "name":"Editor",
+         "specialization":[
+
+         ],
+         "skillset":[
+
+         ]
+      },
+      {
+         "id":6,
+         "name":"Engineer",
+         "specialization":[
+            "Chemical Engineer",
+            "Civil Engineer",
+            "Electrical Engineer",
+            "Mechanical Engineer",
+            "Systems Engineer",
+            "Interdisciplinary"
+         ],
+         "skillset":[
+	        51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+         ]
+      },
+      {
+         "id":7,
+         "name":"Investor",
+         "specialization":[
+            "Angel Investor",
+            "Venture Capital"
+         ],
+         "skillset":[
+	        111,
+            112,
+            113,
+            114,
+            115
+         ]
+      },
+      {
+         "id":8,
+         "name":"Manufacturer",
+         "specialization":[],
+         "skillset":[
+		 	116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132
+         ]
+      },
+      {
+         "id":9,
+         "name":"Prototyping Facility",
+         "specialization":[
+
+         ],
+         "skillset":[
+		 	133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146
+         ]
+      }
+   ],
+   "skills":[
+      {
+         "id":1,
+         "name":"Biology"
+      },
+      {
+         "id":2,
+         "name":"Computer Science"
+      },
+      {
+         "id":3,
+         "name":"Chemistry"
+      },
+      {
+         "id":4,
+         "name":"Biochemistry"
+      },
+      {
+         "id":5,
+         "name":"Microbiology"
+      },
+      {
+         "id":6,
+         "name":"Physics"
+      },
+      {
+         "id":7,
+         "name":"Biomedical Engineering"
+      },
+      {
+         "id":8,
+         "name":"Chemical Engineering"
+      },
+      {
+         "id":9,
+         "name":"Civil Engineering"
+      },
+      {
+         "id":10,
+         "name":"Electrical Engineering"
+      },
+      {
+         "id":11,
+         "name":"Mechanical Engineering"
+      },
+      {
+         "id":12,
+         "name":"Literature"
+      },
+      {
+         "id":13,
+         "name":"Instrumental"
+      },
+      {
+         "id":14,
+         "name":"Trademark"
+      },
+      {
+         "id":15,
+         "name":"Copyright"
+      },
+      {
+         "id":16,
+         "name":"European Patent Institute"
+      },
+      {
+         "id":17,
+         "name":"FICPI"
+      },
+      {
+         "id":18,
+         "name":"Patent Engineer"
+      },
+      {
+         "id":19,
+         "name":"Patent Examiner"
+      },
+      {
+         "id":20,
+         "name":"Power of Attorney"
+      },
+      {
+         "id":21,
+         "name":"Children"
+      },
+      {
+         "id":22,
+         "name":"Music"
+      },
+      {
+         "id":23,
+         "name":"Movie"
+      },
+      {
+         "id":24,
+         "name":"TV"
+      },
+      {
+         "id":25,
+         "name":"Distributer"
+      },
+      {
+         "id":26,
+         "name":"Importer"
+      },
+      {
+         "id":27,
+         "name":"Exporter"
+      },
+      {
+         "id":28,
+         "name":"Retail"
+      },
+      {
+         "id":29,
+         "name":"Online Retail"
+      },
+      {
+         "id":30,
+         "name":"Producer"
+      },
+      {
+         "id":31,
+         "name":"Usability"
+      },
+      {
+         "id":32,
+         "name":"Ergonomics"
+      },
+      {
+         "id":33,
+         "name":"Marketing"
+      },
+      {
+         "id":34,
+         "name":"Brand Development"
+      },
+      {
+         "id":35,
+         "name":"Sales"
+      },
+      {
+         "id":36,
+         "name":"CAD"
+      },
+      {
+         "id":37,
+         "name":"Solidworks"
+      },
+      {
+         "id":38,
+         "name":"InDesign"
+      },
+      {
+         "id":39,
+         "name":"CorelDRAW"
+      },
+      {
+         "id":40,
+         "name":"QuarkXPress"
+      },
+      {
+         "id":41,
+         "name":"Typography"
+      },
+      {
+         "id":42,
+         "name":"Motion Graphics"
+      },
+      {
+         "id":43,
+         "name":"Graphics"
+      },
+      {
+         "id":44,
+         "name":"Print"
+      },
+      {
+         "id":45,
+         "name":"Typesetting"
+      },
+      {
+         "id":46,
+         "name":"User Interface"
+      },
+      {
+         "id":47,
+         "name":"Web Design"
+      },
+      {
+         "id":48,
+         "name":"Pattern Making"
+      },
+      {
+         "id":49,
+         "name":"Fabrics Specialty"
+      },
+      {
+         "id":50,
+         "name":"Brand Specialty"
+      },
+      {
+         "id":51,
+         "name":"Industrial Chemicals"
+      },
+      {
+         "id":52,
+         "name":"Chemical Process"
+      },
+      {
+         "id":53,
+         "name":"Food and Beverage"
+      },
+      {
+         "id":54,
+         "name":"Cosmetics"
+      },
+      {
+         "id":55,
+         "name":"Pharmaceutical Ingredients"
+      },
+      {
+         "id":56,
+         "name":"Fuel Cells"
+      },
+      {
+         "id":57,
+         "name":"Hydrogen Power"
+      },
+      {
+         "id":58,
+         "name":"Nanotechnology"
+      },
+      {
+         "id":59,
+         "name":"Material Engineering"
+      },
+      {
+         "id":60,
+         "name":"Polymer Engineering"
+      },
+      {
+         "id":61,
+         "name":"Bridges"
+      },
+      {
+         "id":62,
+         "name":"Tunnels"
+      },
+      {
+         "id":63,
+         "name":"Building"
+      },
+      {
+         "id":64,
+         "name":"Architectural Engineering"
+      },
+      {
+         "id":65,
+         "name":"Environmental Engineering"
+      },
+      {
+         "id":66,
+         "name":"Geotechnical Engineering"
+      },
+      {
+         "id":67,
+         "name":"Geophysics"
+      },
+      {
+         "id":68,
+         "name":"Geodesy"
+      },
+      {
+         "id":69,
+         "name":"Control Engineering"
+      },
+      {
+         "id":70,
+         "name":"Structural Engineering"
+      },
+      {
+         "id":71,
+         "name":"Earthquake Engineering"
+      },
+      {
+         "id":72,
+         "name":"Transportation Engineering"
+      },
+      {
+         "id":73,
+         "name":"Earth Science"
+      },
+      {
+         "id":74,
+         "name":"Atmospheric Science"
+      },
+      {
+         "id":75,
+         "name":"Forensic Engineering"
+      },
+      {
+         "id":76,
+         "name":"Municipal Engineering"
+      },
+      {
+         "id":77,
+         "name":"Urban Engineering"
+      },
+      {
+         "id":78,
+         "name":"Water"
+      },
+      {
+         "id":79,
+         "name":"Resources Engineering"
+      },
+      {
+         "id":80,
+         "name":"Offshore Engineering"
+      },
+      {
+         "id":81,
+         "name":"Aerospace Engineering"
+      },
+      {
+         "id":82,
+         "name":"Quantity Surveying"
+      },
+      {
+         "id":83,
+         "name":"Coastal Engineering"
+      },
+      {
+         "id":84,
+         "name":"Surveying"
+      },
+      {
+         "id":85,
+         "name":"Construction Engineering"
+      },
+      {
+         "id":86,
+         "name":"Electronics"
+      },
+      {
+         "id":87,
+         "name":"Power Engineering"
+      },
+      {
+         "id":88,
+         "name":"Telecommunications"
+      },
+      {
+         "id":89,
+         "name":"Control Systems"
+      },
+      {
+         "id":90,
+         "name":"RF Engineering"
+      },
+      {
+         "id":91,
+         "name":"Signal Processing"
+      },
+      {
+         "id":92,
+         "name":"Instrumentation"
+      },
+      {
+         "id":93,
+         "name":"Microelectronics"
+      },
+      {
+         "id":94,
+         "name":"Composites"
+      },
+      {
+         "id":95,
+         "name":"Mechatronics"
+      },
+      {
+         "id":96,
+         "name":"Aerospace"
+      },
+      {
+         "id":97,
+         "name":"Metallurgical"
+      },
+      {
+         "id":98,
+         "name":"Petroleum Engineering"
+      },
+      {
+         "id":99,
+         "name":"Manufacturing Engineering"
+      },
+      {
+         "id":100,
+         "name":"Biomechanics"
+      },
+      {
+         "id":101,
+         "name":"Transport Phenomena"
+      },
+      {
+         "id":102,
+         "name":"Biomechatronics"
+      },
+      {
+         "id":103,
+         "name":"Bionanotechnology"
+      },
+      {
+         "id":104,
+         "name":"Modeling of Biological Systems"
+      },
+      {
+         "id":105,
+         "name":"Supply Chain"
+      },
+      {
+         "id":106,
+         "name":"Optimization Methods"
+      },
+      {
+         "id":107,
+         "name":"Risk Management"
+      },
+      {
+         "id":108,
+         "name":"Industrial Engineering"
+      },
+      {
+         "id":109,
+         "name":"Organizational Management"
+      },
+      {
+         "id":110,
+         "name":"Project Management"
+      },
+      {
+         "id":111,
+         "name":"Business To Business"
+      },
+      {
+         "id":112,
+         "name":"Individual Investor"
+      },
+      {
+         "id":113,
+         "name":"Investment Fund"
+      },
+      {
+         "id":114,
+         "name":"Hedge Fund"
+      },
+      {
+         "id":115,
+         "name":"Sovereign Wealth Trust"
+      },
+      {
+         "id":116,
+         "name":"Assembler"
+      },
+      {
+         "id":117,
+         "name":"Craft or Guild System"
+      },
+      {
+         "id":118,
+         "name":"Agile Manufacturing"
+      },
+      {
+         "id":119,
+         "name":"American System of Manufacturing"
+      },
+      {
+         "id":120,
+         "name":"English System of Manufacturing"
+      },
+      {
+         "id":121,
+         "name":"Fabrication"
+      },
+      {
+         "id":122,
+         "name":"Flexible Manufacturing"
+      },
+      {
+         "id":123,
+         "name":"Just-in-time Manufacturing"
+      },
+      {
+         "id":124,
+         "name":"Lean Manufacturing"
+      },
+      {
+         "id":125,
+         "name":"Mass Customization"
+      },
+      {
+         "id":126,
+         "name":"Mass Production"
+      },
+      {
+         "id":127,
+         "name":"Ownership"
+      },
+      {
+         "id":128,
+         "name":"Packaging and Labeling"
+      },
+      {
+         "id":129,
+         "name":"Prefabrication"
+      },
+      {
+         "id":130,
+         "name":"Putting-out System"
+      },
+      {
+         "id":131,
+         "name":"Rapid Manufacturing"
+      },
+      {
+         "id":132,
+         "name":"Reconfigurable Manufacturing System"
+      },
+      {
+         "id":133,
+         "name":"3D Printing"
+      },
+      {
+         "id":134,
+         "name":"Modelling"
+      },
+      {
+         "id":135,
+         "name":"Rapid Prototype"
+      },
+      {
+         "id":136,
+         "name":"Proof Of Concept"
+      },
+      {
+         "id":137,
+         "name":"Mockup"
+      },
+      {
+         "id":138,
+         "name":"Working Prototype"
+      },
+      {
+         "id":139,
+         "name":"Black Box Prototype"
+      },
+      {
+         "id":140,
+         "name":"Virtual Prototype"
+      },
+      {
+         "id":141,
+         "name":"Pre-production"
+      },
+      {
+         "id":142,
+         "name":"Presentation"
+      },
+      {
+         "id":143,
+         "name":"Raw Material"
+      },
+      {
+         "id":144,
+         "name":"Textiles"
+      },
+      {
+         "id":145,
+         "name":"Biotechnologies"
+      },
+      {
+         "id":146,
+         "name":"Chemical Prototype"
+      }
+   ]
+}

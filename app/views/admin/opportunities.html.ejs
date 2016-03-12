@@ -1,0 +1,31 @@
+<% include ../partials/header.html.ejs %>
+
+<div id="content" class="container solutions">
+
+		<p><%= list.length %> opportunities</p>
+		<% list.forEach(function(opportunity){ %>
+		    <div class="item thumbnail">
+			    <div class="row">
+					<div class="col-md-2">
+						<a href="/opportunities/<%= opportunity._id %>"><% if (opportunity.createdBy.photo) { %><img src="<%= opportunity.createdBy.photo+'?dim=600x600' %>" class="img-responsive"><%} else {%><img src="/assets/images/kk-cover.png?dim=600x600" class="img-responsive" /><% } %></a>
+					</div>
+					<div class="col-md-10">
+						<h4><a href="/opportunities/<%= opportunity._id %>"><%= opportunity.title %></a></h4>
+
+						<ul class="list-unstyled list-inline">
+							<li><strong>Status</strong> <%= opportunity.status %></li>
+							<li><strong>Applications</strong> <%= opportunity.applications.length %></li>
+							<li><strong>Added</strong> <%= moment(opportunity.createDate).fromNow() %></li>
+
+						</ul>
+						<p><a class="btn btn-primary btn-sm" href="/opportunities/edit/<%= opportunity._id %>"><strong>Edit</strong></a> <% if (opportunity.applications.length > 0) { %><a class="btn btn-primary btn-sm" href="/opportunities/manage/<%= opportunity._id %>"><strong>Manage</strong></a><% } %></p>
+					</div>
+				</div>
+			</div>
+		<%});%>
+
+
+</div><!-- container -->
+
+<% include ../partials/footer-menu.html.ejs %>
+<% include ../partials/footer.html.ejs %>
